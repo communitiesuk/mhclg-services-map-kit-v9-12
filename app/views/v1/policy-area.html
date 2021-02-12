@@ -1,0 +1,167 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+{% block beforeContent %}
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.go(-1)"
+}) }}
+
+
+{% endblock%}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <span class="govuk-caption-xl">
+        Policy area
+      </span>
+      <h1 class="govuk-heading-xl">
+        Homelessness and rough sleeping
+      </h1>
+
+      <p>
+        Total number of services: 7
+      </p>
+
+
+      {{ govukTable({
+        firstCellIsHeader: true,
+        head: [
+          {
+            text: "Name of service"
+          },
+          {
+            text: "Policy team"
+          },
+          {
+            text: "Staff commitment"
+          },
+          {
+            text: "Funding from MHCLG"
+          }
+        ],
+        rows: [
+          [
+            {
+              html: "<a href=\"service-info?numberOfService=1\">Local lettings</a>"
+            },
+            {
+              text: "Rough Sleeping"
+            },
+            {
+              text: "3 FTE"
+            },
+            {
+              text: "£25,000,000"
+            }
+          ],
+          [
+          {
+            html: "<a href=\"service-info?numberOfService=2\">Move on fund</a>"
+          },
+          {
+            text: "Homelessness"
+          },
+          {
+            text: "4.5 FTE"
+          },
+          {
+            text: "£50,000,000"
+          }
+          ],
+          [
+          {
+            html: "<a href=\"service-info?numberOfService=3\">Next steps accommodation</a>"
+          },
+          {
+            text: "Rough Sleeping"
+          },
+          {
+            text: "6 FTE"
+          },
+          {
+            text: "£289,000,000"
+          }
+          ],
+          [
+          {
+            html: "<a href=\"service-info?numberOfService=3\">Offenders accommodation</a>"
+          },
+          {
+            text: "Rough Sleeping"
+          },
+          {
+            text: "1 FTE"
+          },
+          {
+            text: "£6,4000,000"
+          }
+          ],
+          [
+          {
+            html: "<a href=\"service-info?numberOfService=3\">Rough sleeping accommodation programme</a>"
+          },
+          {
+            text: "Rough Sleeping"
+          },
+          {
+            text: "5 FTE"
+          },
+          {
+            text: "£433,000,000"
+          }
+          ],
+          [
+          {
+            html: "<a href=\"service-info?numberOfService=3\">Rough sleeping navigators</a>"
+          },
+          {
+            text: "Rough Sleeping"
+          },
+          {
+            text: "0.5 FTE"
+          },
+          {
+            text: "£5,000,000"
+          }
+          ],
+          [
+          {
+            html: "<a href=\"service-info?numberOfService=3\">Somewhere safe to stay</a>"
+          },
+          {
+            text: "Rough Sleeping"
+          },
+          {
+            text: "0.5 FTE"
+          },
+          {
+            text: "£7,500,000"
+          }
+          ]
+        ]
+      }) }}
+
+      <p>
+        Total staff commitment: 20.5 FTE<br />
+        Total funding: £815,900,000
+      </p>
+
+
+
+<div class="govuk-inset-text">
+      <p>
+        <a href="feedback-for-service">Is something wrong with this information?</a>.
+        </p>
+</div>
+    </div>
+  </div>
+
+{% endblock %}

@@ -1,0 +1,64 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+{% block beforeContent %}
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.go(-1)"
+}) }}
+
+
+{% endblock%}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        Service providers
+      </h1>
+
+
+  <p>
+BRE<br>
+British Business Bank<br>
+DEFRA<br>
+DfT<br>
+DHSC<br>
+DWP<br>
+GDS<br>
+GLA<br>
+HMT<br>
+Homes England<br>
+investment managers, ARA Venn<br>
+Local authorities<br>
+Local authorities (local ratings list) and MHCLG (central list)<br>
+MHCLG<br>
+NHS<br>
+Old Oak Park Royal Development Corporation <br>
+PHE<br>
+PINS<br>
+The Planning Inspectorate<br>
+Prison Service<br>
+Regulator of Social Housing<br>
+VOA
+
+  </p>
+
+
+
+<div class="govuk-inset-text">
+      <p>
+        <a href="feedback-for-service">Is something wrong with this information?</a>.
+        </p>
+</div>
+    </div>
+  </div>
+
+{% endblock %}

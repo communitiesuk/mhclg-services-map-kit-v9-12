@@ -1,0 +1,110 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+{% block beforeContent %}
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.go(-1)"
+}) }}
+
+
+{% endblock%}
+
+{% block content %}
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+
+        Home page
+
+      </h1>
+
+      <p class="govuk-body-l">Need any intro content?</p>
+
+    </div>
+
+  </div>
+
+    <div class="govuk-grid-row">
+
+
+      <div class="govuk-grid-column-one-third">
+
+
+        <!--<p>
+          x <a href="">MHCLG only does policy X</a>
+        </p>-->
+
+        <p>
+          x <a href="">Policy with a service</a>
+        </p>
+
+        <p>
+          x <a href="">3 policy + service with money/commissioning (ldcu)</a>
+        </p>
+
+        <p>
+          x <a href="">4. policy + service + oversight (shielding, H2B)</a>
+        </p>
+
+        <p>
+          <a href="service-list-policy-delivery">MHCLG does policy and also delivers a service end users interact with (EPC)</a>
+        </p>
+        
+        <p>
+          <a href="service-list">All services MHCLG is involved with, somehow</a>
+        </p>
+
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+
+      <p>
+        <a href="end-users">All service end users
+      </p>
+
+      <p>
+        <a href="end-user-needs-list">All user needs</a>
+      </p>
+
+      <p>
+        <a href="service-providers">Service delivery partners</a>
+      </p>
+
+
+  </div>
+  <div class="govuk-grid-column-one-third">
+
+    <p>
+      <a href="ministerial-priorities">Ministerial priorities</a>
+    </p>
+
+    <p>
+      <a href="policy-objectives">Policy objectives</a>
+    </p>
+
+    <p>
+      <a href="all-policy-groups">Policy areas</a>
+    </p>
+
+    <p>
+      <a href="policy-teams">Policy teams</a>
+    </p>
+
+
+
+</div>
+
+
+  </div>
+
+{% endblock %}

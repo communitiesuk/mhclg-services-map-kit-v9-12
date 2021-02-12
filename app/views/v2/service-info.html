@@ -1,0 +1,238 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+{% block beforeContent %}
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.go(-1)"
+}) }}
+
+
+{% endblock%}
+
+{% block content %}
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <span class="govuk-caption-xl">
+        Service detail
+      </span>
+      <h1 class="govuk-heading-xl">
+
+        {{ nameOfService }}
+
+      </h1>
+    </div>
+
+
+      <div class="govuk-grid-column-two-thirds">
+
+      <h3 class="govuk-heading-m">Service description</h3>
+      <p>
+        {% if serviceDescription.length > 0 %}
+        {{ serviceDescription }}
+        {% else %}
+
+          {% if MHCLGInputDescription.length > 0 %}
+
+          {{ MHCLGInputDescription }}
+
+          {% else %}
+
+          No service description recorded
+
+          {% endif %}
+
+        {% endif %}
+      </p>
+
+
+      <h3 class="govuk-heading-m">Overview</h3>
+
+      <dl class="govuk-summary-list">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Delivered by
+          </dt>
+          <dd class="govuk-summary-list__value">
+            {{ serviceProvider }}
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            MHCLG’s role
+          </dt>
+          <dd class="govuk-summary-list__value">
+            {{ roleOfMHCLG }}
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Service type
+          </dt>
+          <dd class="govuk-summary-list__value">
+            {% if serviceType.length > 0 %}
+            {{ serviceType }}
+            {% else %}
+            No service type recorded
+            {% endif %}
+
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Service maturity
+          </dt>
+          <dd class="govuk-summary-list__value">
+          {{ serviceMaturity }}
+
+          {% if serviceMaturity == "BAU" %}
+          <br>
+          Start date:
+          {% if serviceStartDate.length > 0 %}
+            {{ serviceStartDate }}
+          {% else %}
+            No start date recorded
+          {% endif %}
+          <br>
+
+          End date:
+          {% if serviceEndDate.length > 0 %}
+            {{ serviceEndDate }}
+          {% else %}
+            No end date recorded
+          {% endif %}
+
+          {% endif %}
+
+
+          </dd>
+        </div>
+      </dl>
+
+
+
+<h3 class="govuk-heading-m">Users</h3>
+
+      <dl class="govuk-summary-list">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            End user
+          </dt>
+          <dd class="govuk-summary-list__value">
+            <!-- endUser --> Interested party
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            End user need
+          </dt>
+          <dd class="govuk-summary-list__value">
+            {{ endUserNeeds }}
+          </dd>
+        </div>
+      </dl>
+
+
+<h3 class="govuk-heading-m">Policy</h3>
+
+<dl class="govuk-summary-list">
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      Policy objective
+    </dt>
+    <dd class="govuk-summary-list__value">
+      {{ policyObjective }}
+    </dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      Policy team
+    </dt>
+    <dd class="govuk-summary-list__value">
+      {{ policyTeam }}
+    </dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      Policy area
+    </dt>
+    <dd class="govuk-summary-list__value">
+      <!-- policyGroup --> Local government
+    </dd>
+  </div>
+</dl>
+
+
+<h3 class="govuk-heading-m">Resources</h3>
+
+<dl class="govuk-summary-list">
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      Staff commitment
+    </dt>
+    <dd class="govuk-summary-list__value">
+
+      {% if FTE.length > 0 %}
+      {{ FTE }} FTE
+      {% else %}
+      No FTE recorded
+      {% endif %}
+    </dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      Funding from MHCLG
+    </dt>
+    <dd class="govuk-summary-list__value">
+      {% if levelOfFunding.length > 0 %}
+      {{ levelOfFunding }}
+      {% else %}
+      No level of funding recorded
+      {% endif %}
+    </dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      Fund name
+    </dt>
+    <dd class="govuk-summary-list__value">
+      {% if fundName.length > 0 %}
+      {{ fundName }}
+      {% else %}
+      No fund associated
+      {% endif %}
+    </dd>
+  </div>
+</dl>
+
+
+
+      <p>
+        Last updated: 7 January 2020
+        </p>
+
+<div class="govuk-inset-text">
+      <p>
+        <a href="feedback-for-service">Is something wrong with this information?</a>.
+        </p>
+</div>
+    </div>
+
+        <div class="govuk-grid-column-one-third">
+
+          <h2 class="govuk-heading-m">Related documents</h2>
+
+          <p>
+            <a href="/public/downloads/v1/service-map-example.pdf">{{ nameOfService }} service map (PDF)</a>
+
+          </div>
+  </div>
+
+{% endblock %}

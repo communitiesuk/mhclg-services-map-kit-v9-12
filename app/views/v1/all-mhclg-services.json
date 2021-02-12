@@ -1,0 +1,5114 @@
+{
+   "@lang": "en-US",
+   "id": "tag:www.gov.uk,2005:/search/services",
+   "link":
+   [
+      {
+         "@rel": "alternate",
+         "@type": "text/html",
+         "@href": "https://www.gov.uk"
+      },
+      {
+         "@rel": "self",
+         "@type": "application/atom+xml",
+         "@href": "https://www.gov.uk/search/services.atom?organisations%5B%5D=ministry-of-housing-communities-and-local-government&page=14"
+      }
+   ],
+   "title": "Services from Ministry of Housing, Communities &amp; Local Government (MHCLG)",
+   "updated": "2012-05-02T16:27:22Z",
+   "author":
+   {
+      "name": "HM Government"
+   },
+   "entry":
+   [
+      {
+         "id": "tag:www.gov.uk,2005:/prove-right-to-rent",
+         "updated": "2021-01-06T16:11:42Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/prove-right-to-rent"
+         },
+         "title": "Prove your right to rent in England",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Prove and share details of your right to rent in England if you have a biometric residence card or permit, settled or pre-settled status, or you applied for a visa and used the ‘UK Immigration: ID Check’ app to scan your ide…"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/view-right-to-rent",
+         "updated": "2021-01-06T16:08:02Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/view-right-to-rent"
+         },
+         "title": "View a tenant's right to rent in England",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "View a tenant&#x27;s right to rent if they have a biometric residence card, biometric residence permit, settled or pre-settled status, or applied for a visa and used the ‘UK Immigration: ID Check’ app to scan their identity …"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/green-social-prescribing-call-for-expressions-of-interest",
+         "updated": "2021-01-06T12:29:42Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/green-social-prescribing-call-for-expressions-of-interest"
+         },
+         "title": "Green social prescribing: call for expressions of interest",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Expressions of interest for a project which aims to improve people’s mental health through green social prescribing."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/landlord-immigration-check",
+         "updated": "2020-12-31T23:23:25Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/landlord-immigration-check"
+         },
+         "title": "Check if someone can rent your residential property",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need to check if a tenant is allowed to rent private residential property in England"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/monthly-borrowing-and-lending-inquiry",
+         "updated": "2020-12-21T10:44:43Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/monthly-borrowing-and-lending-inquiry"
+         },
+         "title": "Monthly borrowing and lending inquiry",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form and guidance notes for the local authority monthly borrowing and lending inquiry (MB)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/quarterly-borrowing-and-lending-inquiry",
+         "updated": "2020-12-21T10:44:13Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/quarterly-borrowing-and-lending-inquiry"
+         },
+         "title": "Quarterly borrowing and lending inquiry",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form and guidance notes for the local authority quarterly borrowing and lending inquiry (QB)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/national-non-domestic-rates-return",
+         "updated": "2020-12-21T10:27:51Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/national-non-domestic-rates-return"
+         },
+         "title": "National non-domestic rates return",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Forms and guidance notes for the national non-domestic rates return (NNDR)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/english-housing-survey-2019-to-2020-questionnaire-and-physical-survey-form",
+         "updated": "2020-12-17T09:30:10Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/english-housing-survey-2019-to-2020-questionnaire-and-physical-survey-form"
+         },
+         "title": "English Housing Survey 2019 to 2020: questionnaire and physical survey form",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Questionnaire and physical survey form used on the English Housing Survey in 2019 to 2020."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/pet-shop-licence-wales-scotland",
+         "updated": "2020-11-25T10:19:20Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/pet-shop-licence-wales-scotland"
+         },
+         "title": "Pet shop licence (Wales and Scotland)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to get a pet shop licence in Wales or Scotland, when you need to get one, how long it&#x27;s valid for and what conditions you need to follow"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/performing-animals-registration-wales-scotland",
+         "updated": "2020-11-25T10:05:49Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/performing-animals-registration-wales-scotland"
+         },
+         "title": "Performing animals registration (Wales and Scotland)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need to register with your local council if you want to exhibit, use or train performing animals in Wales or Scotland."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/riding-establishment-licence-wales-scotland",
+         "updated": "2020-11-25T09:54:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/riding-establishment-licence-wales-scotland"
+         },
+         "title": "Riding establishment licence (Wales and Scotland)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply for a riding establishment licence if you want to run a business where horses or ponies are hired out for riding or used for riding instruction in Wales or Scotland"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/apply-for-full-community-sponsorship",
+         "updated": "2020-11-04T11:35:12Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/apply-for-full-community-sponsorship"
+         },
+         "title": "Apply for community sponsorship",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Community sponsorship is a way that community groups can be involved in supporting the resettlement of vulnerable people fleeing conflict."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/caravan-site-licence",
+         "updated": "2020-10-15T13:16:04Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/caravan-site-licence"
+         },
+         "title": "Caravan site licence",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You usually need a licence from your local council to have a caravan site on your land"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/camping-licence-wales",
+         "updated": "2020-10-15T11:05:25Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/camping-licence-wales"
+         },
+         "title": "Camping licence (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "What is a campsite licence and applying to get one"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/get-your-air-conditioning-system-inspected",
+         "updated": "2020-09-30T11:03:14Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/get-your-air-conditioning-system-inspected"
+         },
+         "title": "Get your air conditioning system inspected",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Get your air conditioning system inspected by an accredited energy assessor"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/council-tax-base-calculation",
+         "updated": "2020-09-28T09:54:32Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/council-tax-base-calculation"
+         },
+         "title": "Council Tax base calculation",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Forms and guidance notes for the calculation of Council Tax base (CTB)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/local-government-pension-scheme-funds-account-return",
+         "updated": "2020-08-13T10:33:24Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/local-government-pension-scheme-funds-account-return"
+         },
+         "title": "Local government pension scheme funds account return",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form and guidance notes for the local government pension scheme funds account return (SF3)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/quarterly-revenue-outturn",
+         "updated": "2020-07-22T10:07:44Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/quarterly-revenue-outturn"
+         },
+         "title": "Quarterly revenue outturn",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Guidance notes for completing the quarterly revenue outturn (QRO)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/your-rights-to-housing-if-youre-under-18",
+         "updated": "2020-07-13T15:33:27Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/your-rights-to-housing-if-youre-under-18"
+         },
+         "title": "Your rights to housing if you're under 18",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "If you&#x27;re under 18, you cannot usually rent your own home, but you&#x27;ll be on the priority list for council housing - your rights and what happens if you want to leave home"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/renewing-your-commercial-property-lease",
+         "updated": "2020-06-17T08:58:52Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/renewing-your-commercial-property-lease"
+         },
+         "title": "Renewing your commercial property lease",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Most tenants have the right to renew a lease - exceptions and landlord&#x27;s rights to refuse a renewal of a lease"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/capital-outturn-return",
+         "updated": "2020-05-29T11:17:01Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/capital-outturn-return"
+         },
+         "title": "Capital outturn return",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form and guidance for capital outturn return (COR)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/general-fund-revenue-account-outturn",
+         "updated": "2020-05-28T10:11:47Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/general-fund-revenue-account-outturn"
+         },
+         "title": "General fund revenue account outturn",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Forms and guidance notes for the general fund revenue account outturn (RO)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/quarterly-return-of-council-taxes-and-non-domestic-rates",
+         "updated": "2020-04-23T14:09:13Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/quarterly-return-of-council-taxes-and-non-domestic-rates"
+         },
+         "title": "Quarterly return of Council Taxes and non-domestic rates",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form and guidance notes for the quarterly return of Council Taxes and non-domestic rates (QRC)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/coronavirus-volunteer-local",
+         "updated": "2020-04-21T13:57:20Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/coronavirus-volunteer-local"
+         },
+         "title": "Volunteer locally during coronavirus (COVID-19)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Visit your council&#x27;s website to find volunteer groups helping with coronavirus in your area."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/capital-payments-and-receipts-return",
+         "updated": "2020-04-15T15:05:27Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/capital-payments-and-receipts-return"
+         },
+         "title": "Capital payments and receipts return",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form and guidance for capital payments and receipts return (CPR)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/replace-lost-stolen-blue-badge",
+         "updated": "2020-04-08T08:00:04Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/replace-lost-stolen-blue-badge"
+         },
+         "title": "Replace a lost, stolen or damaged Blue Badge",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report your lost, stolen or damaged Blue Badge and get a replacement."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/check-school-closure",
+         "updated": "2020-03-20T19:24:28Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/check-school-closure"
+         },
+         "title": "School closures",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "School closures happen because of an emergency like severe weather - check whether your child&#x27;s school is closed on your local council website"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/general-fund-revenue-account-budget",
+         "updated": "2020-03-09T13:51:40Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/general-fund-revenue-account-budget"
+         },
+         "title": "General fund revenue account budget",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Template and guidance notes for the general fund revenue account budget (RA)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/right-to-buy-landlords-counter-notice-rtb7",
+         "updated": "2020-02-28T14:08:17Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/right-to-buy-landlords-counter-notice-rtb7"
+         },
+         "title": "Right to buy: landlord’s counter notice (RTB7)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form for landlords on whom an initial notice of delay has been served in which the tenant has stated that delays on the part of the landlord are holding up the sale or grant of the lease."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/capital-estimates-return",
+         "updated": "2020-02-28T11:00:05Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/capital-estimates-return"
+         },
+         "title": "Capital estimates return",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form and guidance for capital estimates return."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/council-tax-requirement-return",
+         "updated": "2020-02-13T16:22:41Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/council-tax-requirement-return"
+         },
+         "title": "Council Tax requirement return",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Forms and guidance notes for the Council Tax requirement return (CTR)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/district-planning-matters-return-ps1-and-ps2",
+         "updated": "2020-01-24T12:18:56Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/district-planning-matters-return-ps1-and-ps2"
+         },
+         "title": "'District' planning matters return (PS1 and PS2)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Forms and guidance notes for &#x27;district&#x27; planning matters return (PS1 and PS2)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/county-planning-matters-return-cps1-and-cps2",
+         "updated": "2020-01-24T12:18:17Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/county-planning-matters-return-cps1-and-cps2"
+         },
+         "title": "'County' planning matters return (CPS1 and CPS2)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Forms and guidance notes for &#x27;county&#x27; planning matters return (CPS1 and CPS2)."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/english-housing-survey-2018-to-2019-questionnaire-and-physical-survey-form",
+         "updated": "2020-01-23T09:30:04Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/english-housing-survey-2018-to-2019-questionnaire-and-physical-survey-form"
+         },
+         "title": "English Housing Survey 2018 to 2019: questionnaire and physical survey form",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Questionnaire and physical survey form used for the English Housing Survey in 2018 to 2019."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/architect",
+         "updated": "2020-01-03T15:05:48Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/architect"
+         },
+         "title": "Register as an architect",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Register with the Architects Registration Board before working as an architect in the UK - temporary register, fines, penalties, qualifications"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/dog-breeding-licence-wales",
+         "updated": "2019-11-22T13:59:20Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/dog-breeding-licence-wales"
+         },
+         "title": "Dog breeding licence (Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You may need a licence to breed dogs from your local council in Wales"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-for-council-housing",
+         "updated": "2019-10-02T12:53:39Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-for-council-housing"
+         },
+         "title": "Apply for council housing",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply for council housing through your local council - you&#x27;ll usually have to join a waiting list"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/council-housing",
+         "updated": "2019-05-31T10:33:05Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/council-housing"
+         },
+         "title": "Council housing",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to apply for a council house or flat - housing waiting lists, types of tenancies, the Right to Buy scheme and repairs, complaining about the council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/client-money-protection-scheme-property-agents",
+         "updated": "2019-04-24T10:40:35Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/client-money-protection-scheme-property-agents"
+         },
+         "title": "Protecting clients' money if you're a property agent",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You must join a client money protection scheme if you&#x27;re a property agent in the private rented sector in England and you hold clients&#x27; money."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/help-home-school-transport",
+         "updated": "2019-04-09T10:43:51Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/help-home-school-transport"
+         },
+         "title": "Help with home to school transport",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find out if your child is eligible for help with the cost of home to school transport"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/english-housing-survey-2017-to-2018-questionnaire-and-physical-survey-form",
+         "updated": "2019-02-21T09:56:34Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/english-housing-survey-2017-to-2018-questionnaire-and-physical-survey-form"
+         },
+         "title": "English Housing Survey 2017 to 2018: questionnaire and physical survey form",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Questionnaire and physical survey form used for the English Housing Survey in 2017 to 2018."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-foster-child-council",
+         "updated": "2019-02-15T15:46:57Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-foster-child-council"
+         },
+         "title": "Apply to foster a child through your council",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply to foster a child through the social services department of your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/change-blue-badge-details",
+         "updated": "2019-01-24T14:05:48Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/change-blue-badge-details"
+         },
+         "title": "Change the details on your Blue Badge",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Change the details on your Blue Badge and get a replacement if your name has changed"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-needs-assessment-social-services",
+         "updated": "2019-01-16T15:16:32Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-needs-assessment-social-services"
+         },
+         "title": "Apply for a needs assessment by social services",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply for a needs assessment by social services through your local council - support, home care help, disability equipment, day centres, care homes"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/innovation-in-democracy-programme-expression-of-interest-eoi",
+         "updated": "2018-12-06T13:57:23Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/innovation-in-democracy-programme-expression-of-interest-eoi"
+         },
+         "title": "Innovation in Democracy Programme: Expression of Interest (EoI)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Information for local authorities on how to submit an Expression of Interest (EoI) to take part in the Innovation in Democracy Programme."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/food-premises-approval",
+         "updated": "2018-11-14T16:18:17Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/food-premises-approval"
+         },
+         "title": "Food premises approval (England)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need a licence for handling meat, fish, egg or dairy products unless you sell these direct to the public"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/food-premises-approval-wales",
+         "updated": "2018-11-14T16:14:54Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/food-premises-approval-wales"
+         },
+         "title": "Food premises approval (Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Get a licence for handling meat, fish, egg or dairy products."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/garden-bonfires-rules",
+         "updated": "2018-07-12T14:20:10Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/garden-bonfires-rules"
+         },
+         "title": "Garden bonfires: the rules",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "The rules about having garden bonfires, burning domestic waste, complaining about a neighbour&#x27;s bonfire, fines"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/request-clinical-waste-collection",
+         "updated": "2018-06-29T15:43:01Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/request-clinical-waste-collection"
+         },
+         "title": "Request clinical waste collection",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Arrange for a collection of clinical waste - for items like used syringes, drugs, pharmaceuticals and surgical waste"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/adult-placement-services-registration-england",
+         "updated": "2018-06-15T16:00:51Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/adult-placement-services-registration-england"
+         },
+         "title": "Adult placement services registration (England)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Register with the Care Quality Commission (CQC) if you run an adult placement service in England"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/english-private-landlord-survey-2018-questionnaire",
+         "updated": "2018-03-13T15:05:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/english-private-landlord-survey-2018-questionnaire"
+         },
+         "title": "English Private Landlord Survey 2018: questionnaire",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Questionnaire used for the English Private Landlord Survey 2018."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/planning-permissions-for-farms",
+         "updated": "2018-02-12T10:53:40Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/planning-permissions-for-farms"
+         },
+         "title": "Planning permission for farms",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "When you need planning permission, where to apply, what counts as permitted development and how to appeal a planning permission decision"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/right-to-manage-a-guide-for-landlords",
+         "updated": "2017-12-05T17:30:36Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/right-to-manage-a-guide-for-landlords"
+         },
+         "title": "Right to Manage: a guide for landlords",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "As a landlord, find out if the leaseholders in your block have the right to take over management of your building, and the process they must go through to do this"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/english-housing-survey-2016-to-2017-questionnaire-and-physical-survey-form",
+         "updated": "2017-11-09T16:32:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/english-housing-survey-2016-to-2017-questionnaire-and-physical-survey-form"
+         },
+         "title": "English Housing Survey 2016 to 2017: questionnaire and physical survey form",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Questionnaire and physical survey form used for the English Housing Survey in 2016 to 2017."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/understand-how-your-council-works",
+         "updated": "2017-10-24T15:39:31Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/understand-how-your-council-works"
+         },
+         "title": "Understand how your council works",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How local councils work in England - types of council, decision-making, council finances, local councillors and making complaints"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/energy-performance-certificate-commercial-property",
+         "updated": "2017-08-17T16:24:43Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/energy-performance-certificate-commercial-property"
+         },
+         "title": "Energy Performance Certificates for your business premises",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Energy Performance Certificates (EPC) for business properties - apply, exemptions, displaying a certificate, fines and penalties"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/pleasure-boats-licence",
+         "updated": "2017-07-26T14:10:27Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/pleasure-boats-licence"
+         },
+         "title": "Pleasure boats licence (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "A pleasure boat licence allows you to hire out pleasure boats for personal use or use them to carry up to 12 passengers"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/become-approved-building-inspector-england-and-wales",
+         "updated": "2017-06-27T13:35:04Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/become-approved-building-inspector-england-and-wales"
+         },
+         "title": "Become an approved building inspector (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to become an individual or corporate approved building inspector"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/licence-finder",
+         "updated": "2017-06-20T10:59:06Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/licence-finder"
+         },
+         "title": "Licence finder",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find out which licences you might need for your activity or business"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/contact-electoral-registration-office",
+         "updated": "2017-05-31T14:39:44Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/contact-electoral-registration-office"
+         },
+         "title": "Contact your local Electoral Registration Office",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Contact your local council&#x27;s Electoral Registration Office if you have a question about registering to vote"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/appeal-against-a-penalty-charge-notice",
+         "updated": "2017-05-19T16:28:37Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/appeal-against-a-penalty-charge-notice"
+         },
+         "title": "Appeal against a penalty charge notice",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to appeal against a parking ticket, bus lane fine or other penalty charge notice (PCN) - and what happens if you get a charge certificate or order of recovery"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/education-attendance-council",
+         "updated": "2017-05-19T15:57:30Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/education-attendance-council"
+         },
+         "title": "Education and attendance information from your council",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How your council encourages attendance at school - truancy, unauthorised absences, education welfare officer"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/deposit-protection-schemes-and-landlords",
+         "updated": "2017-05-12T09:10:25Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/deposit-protection-schemes-and-landlords"
+         },
+         "title": "Deposit protection schemes and landlords",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Using deposit protection schemes - the official schemes, information you must give tenants, what happens if you do not protect a deposit, disputes and advice"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/find-weighbridge",
+         "updated": "2017-04-13T12:23:52Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/find-weighbridge"
+         },
+         "title": "Find a weighbridge",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find your nearest weighbridge if you need to weigh your van, lorry, trailer, tractor or other vehicle"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/missed-bin-collection",
+         "updated": "2017-04-13T12:23:51Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/missed-bin-collection"
+         },
+         "title": "Report a missed bin collection",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check your council&#x27;s website to report a missed bin collection"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/find-your-local-councillors",
+         "updated": "2017-04-13T12:23:50Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/find-your-local-councillors"
+         },
+         "title": "Find your local councillors",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find out who your local councillor is"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/right-to-contest-answer",
+         "updated": "2017-04-02T23:01:10Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/right-to-contest-answer"
+         },
+         "title": "Ask the government to sell property: right to contest",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Ask for underused or vacant property owned by the government, agencies, local councils or local public bodies to be sold - Right to Contest."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/english-housing-survey-2015-to-2016-questionnaire-and-physical-survey-form",
+         "updated": "2017-03-02T09:30:31Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/english-housing-survey-2015-to-2016-questionnaire-and-physical-survey-form"
+         },
+         "title": "English housing survey 2015 to 2016: questionnaire and physical survey form",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Questionnaire and physical survey form used for the English housing survey in 2015 to 2016."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/find-bereavement-services-from-council",
+         "updated": "2017-02-15T17:03:13Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/find-bereavement-services-from-council"
+         },
+         "title": "Find bereavement services from your council",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Contact your council to find resources and support to help when you have to cope with a death"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/notice-of-eviction-and-end-of-tenancy",
+         "updated": "2016-12-01T00:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/notice-of-eviction-and-end-of-tenancy"
+         },
+         "title": "Notice of eviction and end of tenancy",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Notice used by landlords to end a tenancy under section 33D(3) of the Immigration Act 2014."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/taxi-driver-licence",
+         "updated": "2016-09-15T09:57:29Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/taxi-driver-licence"
+         },
+         "title": "Driving licences for taxis and private hire vehicles",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to apply for a taxi or private hire vehicle (PHV) driving licences inside and outside London"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/water-and-sewerage-rates-for-businesses",
+         "updated": "2016-09-14T10:52:58Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/water-and-sewerage-rates-for-businesses"
+         },
+         "title": "Water and sewerage rates for businesses",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "As a business, you&#x27;ll have to pay for any water you use, and for the drainage of water and any effluent (liquid waste) you produce"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-problem-street-light",
+         "updated": "2016-08-31T14:08:02Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-problem-street-light"
+         },
+         "title": "Report a problem with a street light",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report a street light problem to the local council - they are responsible for installation and maintenance of street lighting"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/register-as-a-firearms-dealer",
+         "updated": "2016-08-24T13:56:21Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/register-as-a-firearms-dealer"
+         },
+         "title": "Register as a firearms dealer",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You must register with the police if you manufacture, sell or transfer shotguns, firearms or ammunition or are involved in the repairing, testing or proving of them"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-for-sheltered-housing",
+         "updated": "2016-07-20T11:06:55Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-for-sheltered-housing"
+         },
+         "title": "Apply for sheltered housing",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find sheltered or supported housing from your council with facilities such as alarms or wardens: for elderly, disabled or vulnerable people"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/tenancy-deposit-protection",
+         "updated": "2016-07-18T16:40:01Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/tenancy-deposit-protection"
+         },
+         "title": "Tenancy deposit protection",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Tenant&#x27;s guide to deposit protection schemes - your deposit, information landlords must provide, disputes and advice"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/registration-to-carry-out-gas-work",
+         "updated": "2016-07-14T11:17:58Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/registration-to-carry-out-gas-work"
+         },
+         "title": "Register to carry out gas work",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need to be registered on the Gas Safe Register to work on gas fittings or gas storage vessels in the UK"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/help-refugees",
+         "updated": "2016-07-11T11:59:38Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/help-refugees"
+         },
+         "title": "Help refugees who have come to the UK",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to offer help to refugees in your area: helping them settle in, running activities or offering career advice"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/help-care-support",
+         "updated": "2016-06-30T11:18:55Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/help-care-support"
+         },
+         "title": "Find out about changes to care and support",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find out about changes to care and support from your local council."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/coastal-community-teams-2016-bidding-prospectus",
+         "updated": "2016-06-30T09:30:08Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/coastal-community-teams-2016-bidding-prospectus"
+         },
+         "title": "Coastal Community Teams: 2016 bidding prospectus",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "This prospectus outlines a further opportunity for coastal areas in England to apply to establish a Coastal Community Team."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-school-transport-for-child-with-special-educational-needs-sen",
+         "updated": "2016-06-24T09:05:54Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-school-transport-for-child-with-special-educational-needs-sen"
+         },
+         "title": "Apply for school transport for a child with special educational needs and disabilities",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "If your child cannot walk to school because of their special educational needs and disabilities (SEND) your local council must provide transport"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/disabled-facilities-grants",
+         "updated": "2016-06-16T13:58:16Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/disabled-facilities-grants"
+         },
+         "title": "Disabled Facilities Grants",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Disabled Facilities Grants help towards the costs of making changes to your home so you can continue to live there"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/house-in-multiple-occupation-licence",
+         "updated": "2016-06-09T10:55:44Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/house-in-multiple-occupation-licence"
+         },
+         "title": "House in multiple occupation licence",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Get a licence to rent out your property as a house in multiple occupation (HMO) in England or Wales - local authority, private renting, landlords, houseshare"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/new-burdens-community-governance-review-fund",
+         "updated": "2016-06-01T10:00:33Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/new-burdens-community-governance-review-fund"
+         },
+         "title": "New Burdens Community Governance Review Fund",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Application form and guidance note for local authorities required to undertake a Community Governance Review in 2016 to 2017."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/blue-badge-scheme-information-council",
+         "updated": "2016-05-06T11:14:45Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/blue-badge-scheme-information-council"
+         },
+         "title": "Blue Badge scheme: information from your council",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Blue Badge parking permits let disabled drivers and passengers park nearer to where they&#x27;re going - find out more about Blue Badges from your council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/benefits-and-prison",
+         "updated": "2016-05-06T10:16:22Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/benefits-and-prison"
+         },
+         "title": "Benefits and prison",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "What happens to benefits if you or someone in your family goes to prison or on remand"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/scheduled-monument-consent-england-scotland-wales",
+         "updated": "2016-04-27T15:45:34Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/scheduled-monument-consent-england-scotland-wales"
+         },
+         "title": "Scheduled monument consent (England, Scotland and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need a licence to carry out work that would demolish, damage, remove, repair, alter or add to a scheduled monument, or to carry out any flooding or tipping operations on land in, on, or under a monument"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/police-and-crime-commissioners",
+         "updated": "2016-04-08T14:58:17Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/police-and-crime-commissioners"
+         },
+         "title": "Police and crime commissioners",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Contact your police and crime commissioner (PCC) to make a suggestion or a complaint on how your local area is policed - become a PCC election candidate, complain about your PCC"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-blue-badge",
+         "updated": "2016-04-06T15:38:36Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-blue-badge"
+         },
+         "title": "Apply for or renew a Blue Badge",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check if you&#x27;re eligible for a Blue Badge and apply or renew"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/pedlars-certificate",
+         "updated": "2016-03-24T11:51:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/pedlars-certificate"
+         },
+         "title": "How to apply for a pedlar's certificate",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Sell door to door or in the street without a stall, eligibility, how to apply, penalties"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/find-out-about-right-to-buy-from-your-council",
+         "updated": "2016-03-23T17:19:21Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/find-out-about-right-to-buy-from-your-council"
+         },
+         "title": "Find out about Right to Buy from your council",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Get information from your local council about the right to buy your council house or flat, including where to send the application form"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-child-abuse-to-local-council",
+         "updated": "2016-02-24T18:07:40Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-child-abuse-to-local-council"
+         },
+         "title": "Report child abuse to a local council",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "If you think a child or young person is at risk or being abused or neglected, contact the children’s social care team at their local council."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/english-housing-survey-2014-to-2015-questionnaire-and-physical-survey-form",
+         "updated": "2016-02-18T00:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/english-housing-survey-2014-to-2015-questionnaire-and-physical-survey-form"
+         },
+         "title": "English housing survey 2014 to 2015: questionnaire and physical survey form",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Questionnaire and physical survey form used for the English housing survey."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/storm-desmond-flood-relief-appeals-government-match-funding-prospectus",
+         "updated": "2016-01-11T14:32:28Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/storm-desmond-flood-relief-appeals-government-match-funding-prospectus"
+         },
+         "title": "Storm Desmond flood relief appeals: government match-funding prospectus",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Sets out how to access flood relief match funding available to match donations by the public in response to damage caused by Storm Desmond."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/storm-eva-flood-relief-appeals-match-funding-prospectus",
+         "updated": "2016-01-11T14:31:56Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/storm-eva-flood-relief-appeals-match-funding-prospectus"
+         },
+         "title": "Storm Eva flood relief appeals: match-funding prospectus",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How charities can access flood relief match-funding in response to damage caused by Storm Eva."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/taxi-vehicle-licence",
+         "updated": "2015-12-23T11:59:48Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/taxi-vehicle-licence"
+         },
+         "title": "Vehicle licences for taxis or private hire vehicles",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to apply for taxi and private hire vehicle (PHV) licences inside and outside London."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-short-term-care-for-child",
+         "updated": "2015-12-23T10:53:16Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-short-term-care-for-child"
+         },
+         "title": "Apply for short-term care for your child",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply through your local council for short-term (&#x27;respite&#x27;) care for your sick or disabled child to enable you to have a break from caring"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-work-home-conservation-area",
+         "updated": "2015-12-11T16:14:37Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-work-home-conservation-area"
+         },
+         "title": "Apply to do work on your home if you're in a conservation area",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check with your local council before doing building work on your home if you live in a conservation area"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/fireworks-the-law",
+         "updated": "2015-12-11T12:01:12Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/fireworks-the-law"
+         },
+         "title": "Fireworks: the law",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You cannot buy or use fireworks if you&#x27;re under 18, and you must not set off fireworks between 11pm and 7am, except on certain occasions"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/homelessness-help-from-council",
+         "updated": "2015-12-02T10:39:10Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/homelessness-help-from-council"
+         },
+         "title": "Help from your council if you’re homeless or at risk of homelessness",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Get help and advice from your local council if you&#x27;re homeless or about to lose your home."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/workplace-fire-safety-your-responsibilities",
+         "updated": "2015-11-24T15:03:33Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/workplace-fire-safety-your-responsibilities"
+         },
+         "title": "Fire safety in the workplace",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Fire safety in business and non-domestic premises: the responsible person, fire risk assessments, shared premises, new buildings, enforcement, appeals and penalties"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/fireworks-manufacture-registration",
+         "updated": "2015-11-20T08:53:50Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/fireworks-manufacture-registration"
+         },
+         "title": "Fireworks manufacture and storage licences",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "To sell fireworks (wholesale or retail up to 2 tonnes net explosive content) you must be registered or licensed with the local authority Trading Standards office"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/recycling-bin",
+         "updated": "2015-11-11T16:51:19Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/recycling-bin"
+         },
+         "title": "Get a recycling bin",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find out how to get a recycling bin from your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/search-library-catalogue",
+         "updated": "2015-11-09T15:55:21Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/search-library-catalogue"
+         },
+         "title": "Search the local library catalogue",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "The library catalogue allows you to search all the titles in a public library - many councils offer online access to their library catalogue"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/reserve-library-item",
+         "updated": "2015-11-09T15:55:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/reserve-library-item"
+         },
+         "title": "Reserve a library item",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You can reserve books and other items such as DVDs at your local library - contact your council for more information"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/local-street-cleaning",
+         "updated": "2015-11-09T15:53:56Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/local-street-cleaning"
+         },
+         "title": "Find out when your council cleans your street",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Your local council is responsible for sweeping streets and removing litter - report any problems to your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-litter",
+         "updated": "2015-11-09T15:53:35Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-litter"
+         },
+         "title": "Report a litter problem",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report litter to your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/check-council-missing-dog",
+         "updated": "2015-11-09T15:52:33Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/check-council-missing-dog"
+         },
+         "title": "Check if the council has your missing dog",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report your missing or lost dog to the council&#x27;s dog warden service"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/recycling-collections",
+         "updated": "2015-11-09T15:50:54Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/recycling-collections"
+         },
+         "title": "Recycling collections",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find out if your council collects recycling, how to recycle household waste such as mobile phones, computers, packaging and green waste"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/pest-control",
+         "updated": "2015-11-09T15:49:44Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/pest-control"
+         },
+         "title": "Find out about pest control",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Your local council may help you get rid of common pests in your property like mice, wasps and bedbugs with pest control services"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/if-your-child-is-taken-into-care",
+         "updated": "2015-11-09T14:20:14Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/if-your-child-is-taken-into-care"
+         },
+         "title": "If your child is taken into care",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "What happens when a child is taken into care - who is responsible for what, care proceedings, care orders, going to court and the role of Cafcass"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/who-is-responsible-for-asbestos-found-in-my-commercial-property",
+         "updated": "2015-11-03T13:47:08Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/who-is-responsible-for-asbestos-found-in-my-commercial-property"
+         },
+         "title": "Asbestos regulations for your commercial property",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Managing asbestos for your premises, your responsibilities, asbestos regulations, keeping records, health and safety, finding accredited surveyors, penalties"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/private-renting-evictions",
+         "updated": "2015-10-23T09:52:48Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/private-renting-evictions"
+         },
+         "title": "Private renting for tenants: evictions",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Landlords need to follow certain procedures when evicting tenants - find out about eviction notices, harassment and illegal evictions, and going to court"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-unlicenced-taxi",
+         "updated": "2015-10-21T14:53:28Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-unlicenced-taxi"
+         },
+         "title": "Report unlicensed taxi or minicab drivers",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report an unlicensed private hire vehicle (PHV) or taxi driver to the local council or Transport for London (TfL)"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/pay-parking-fine",
+         "updated": "2015-10-20T14:01:05Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/pay-parking-fine"
+         },
+         "title": "Pay a parking fine",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find out how to pay a local council for a parking fine or parking ticket - if it’s a penalty charge notice (PCN)"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/find-an-energy-assessor",
+         "updated": "2015-10-16T16:52:06Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/find-an-energy-assessor"
+         },
+         "title": "Find an energy assessor",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Get an energy performance certificate (EPC) - domestic, non-domestic, accreditation, local assessors"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/private-renting-tenancy-agreements",
+         "updated": "2015-09-30T23:02:04Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/private-renting-tenancy-agreements"
+         },
+         "title": "Private renting for tenants: tenancy agreements",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "A tenancy agreement is a contract between you and a landlord - ending a tenancy, changing a tenancy, tenancy types and assured shorthold tenancies"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/calculate-your-business-rates",
+         "updated": "2015-09-28T17:51:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/calculate-your-business-rates"
+         },
+         "title": "Estimate your business rates",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Estimate your business rates by multiplying the rateable value of your business by a multiplier value set by the government"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/planning-permission-england-wales",
+         "updated": "2015-09-28T13:15:25Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/planning-permission-england-wales"
+         },
+         "title": "Planning permission",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "When you need planning permission, where to apply, what counts as permitted development and how to appeal a planning permission decision"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/english-housing-survey-2013-to-2014-questionnaire-and-physical-survey-form",
+         "updated": "2015-09-26T23:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/english-housing-survey-2013-to-2014-questionnaire-and-physical-survey-form"
+         },
+         "title": "English housing survey 2013 to 2014: questionnaire and physical survey form",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Questionnaire and physical survey form used for the English housing survey."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/check-hs2-route",
+         "updated": "2015-09-24T10:20:48Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/check-hs2-route"
+         },
+         "title": "Check the HS2 route",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check maps to find out the proposed routes of the High Speed 2 (HS2) rail network - Phase 1, Phase 2a and 2b"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/claim-for-damage-to-your-vehicle",
+         "updated": "2015-09-23T12:42:52Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/claim-for-damage-to-your-vehicle"
+         },
+         "title": "Claim for damage to your vehicle",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply for compensation for damage to your vehicle - report the damage, fill in the damage report form, provide evidence"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-direct-payments",
+         "updated": "2015-09-21T11:40:59Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-direct-payments"
+         },
+         "title": "Apply for direct payments",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "If you get help from social services, direct payments let you choose and buy the services you need yourself, instead of getting them from your council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/street-trading-licence",
+         "updated": "2015-09-16T08:29:19Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/street-trading-licence"
+         },
+         "title": "Street trading licence (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You may need to get a licence to trade in the street in England and Wales - restrictions, fines, penalties"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/check-energy-performance-public-building",
+         "updated": "2015-08-12T14:28:04Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/check-energy-performance-public-building"
+         },
+         "title": "Check a public building's Display Energy Certificate",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Buildings occupied by a public service organisation, eg council, libraries, education buildings etc need a Display Energy Certificate (DEC)"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/asbestos-in-home",
+         "updated": "2015-08-05T18:09:37Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/asbestos-in-home"
+         },
+         "title": "Asbestos in your home",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Get information from your local council about asbestos in your home and how to dispose of it safely"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/search-register-planning-decisions",
+         "updated": "2015-08-04T16:18:16Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/search-register-planning-decisions"
+         },
+         "title": "Search the register of planning decisions",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check out how you can view proposed building plans or developments and object or comment on them through the local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/how-to-resolve-neighbour-disputes",
+         "updated": "2015-07-24T15:57:03Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/how-to-resolve-neighbour-disputes"
+         },
+         "title": "Resolving neighbour disputes",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Disputes with neighbours - noisy neighbours, barking dogs, statutory nuisances, high hedges, mediation and when your council can step in"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-for-disabled-bus-pass",
+         "updated": "2015-07-21T16:59:38Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-for-disabled-bus-pass"
+         },
+         "title": "Apply for a disabled person's bus pass",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Contact your local council to find out who issues disabled bus passes in your area as part of the English National Concessionary Travel Scheme"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-flytipping",
+         "updated": "2015-07-10T15:35:56Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-flytipping"
+         },
+         "title": "Report fly-tipping or illegal waste dumping",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Fly-tipping is the illegal dumping of waste or rubbish - report it to the local council or to Crimestoppers"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/common-land-village-greens",
+         "updated": "2015-07-10T15:13:53Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/common-land-village-greens"
+         },
+         "title": "Common land and village greens",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Common land, village greens and right to roam - find out your rights"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/right-of-way-open-access-land",
+         "updated": "2015-06-16T09:59:12Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/right-of-way-open-access-land"
+         },
+         "title": "Rights of way and accessing land",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Rights of way and right to roam - access rights of way, open access and permissive access land, use common lands, the Countryside Code, report problems"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/chaperone-child-performers",
+         "updated": "2015-06-05T14:45:04Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/chaperone-child-performers"
+         },
+         "title": "Become a licensed chaperone for child performers",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check your local council for advice on becoming a licensed chaperone for children in the entertainment, modelling or sports"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/queens-award-for-voluntary-service",
+         "updated": "2015-06-02T14:33:25Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/queens-award-for-voluntary-service"
+         },
+         "title": "The Queen's Award for Voluntary Service",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Nominate a group of volunteers for The Queen&#x27;s Award for Voluntary Service including eligibility and supporting a nomination"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-dead-animal",
+         "updated": "2015-06-01T08:11:13Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-dead-animal"
+         },
+         "title": "Report a dead or injured animal",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report a dead or injured animal such as a badger, fox or domestic pet found on the road"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/right-to-acquire-buying-housing-association-home",
+         "updated": "2015-05-27T14:26:13Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/right-to-acquire-buying-housing-association-home"
+         },
+         "title": "Right to Acquire: buying your housing association home",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Buy your housing association home - including how to apply, who is eligible, discounts available and where to get help and advice"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/volunteering",
+         "updated": "2015-05-27T12:50:11Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/volunteering"
+         },
+         "title": "Volunteer placements, rights and expenses",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find volunteering opportunities, and volunteer rights, pay, expenses, age limits, criminal record checks."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/subsidised-college-transport-16-19",
+         "updated": "2015-05-19T13:26:24Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/subsidised-college-transport-16-19"
+         },
+         "title": "Subsidised transport for 16 to 19 year olds in education",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find the discounts and concessions that are available in your area for travel to school sixth form or college through your local council website"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-to-adopt-child-through-council",
+         "updated": "2015-05-12T18:03:14Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-to-adopt-child-through-council"
+         },
+         "title": "Apply to adopt a child through your council",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply to adopt a child through your local council if you are 21 or over and can offer a stable home to a child"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/pest-control-on-your-property",
+         "updated": "2015-04-29T13:54:06Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/pest-control-on-your-property"
+         },
+         "title": "Pest control on your property",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find out how you can control pests on your property - help from professionals, methods you can and cannot use, protecting wildlife, getting a wildlife licence"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/personal-licence-to-sell-alcohol",
+         "updated": "2015-04-27T14:40:34Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/personal-licence-to-sell-alcohol"
+         },
+         "title": "Personal licence to sell alcohol (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need a licence to sell alcohol from a licensed premises"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/find-nature-reserves-national-parks-and-greenspaces",
+         "updated": "2015-04-17T10:02:30Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/find-nature-reserves-national-parks-and-greenspaces"
+         },
+         "title": "Visit national parks, nature reserves and green spaces",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find nature reserves, national parks and Areas of Outstanding Natural Beauty and green spaces"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-pothole",
+         "updated": "2015-04-01T00:01:06Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-pothole"
+         },
+         "title": "Report a pothole",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report potholes on A roads, motorways and local roads to the council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-road-spillage",
+         "updated": "2015-04-01T00:01:04Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-road-spillage"
+         },
+         "title": "Report a road spillage",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report an incident of spillage on the road such as oil, mud, sand or dropped cargo to the local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-obstruction-road",
+         "updated": "2015-04-01T00:01:02Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-obstruction-road"
+         },
+         "title": "Report an obstruction on the road",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You can report obstructions on the road such as illegal signs, hedges, builders skips and scaffolding to the local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/alcohol-licence-your-area",
+         "updated": "2015-03-30T11:23:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/alcohol-licence-your-area"
+         },
+         "title": "Alcohol licensing in your area",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Rules for alcohol licensing in your area, apply for a licence or have your say about a licence application"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/permission-to-distribute-leaflets",
+         "updated": "2015-03-25T00:01:01Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/permission-to-distribute-leaflets"
+         },
+         "title": "Permission to distribute leaflets (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You may need to get permission to distribute free printed material in certain areas controlled by the local council."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/appeal-parking-fine",
+         "updated": "2015-03-24T13:22:23Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/appeal-parking-fine"
+         },
+         "title": "Challenge a parking fine",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Contact a local council to challenge a parking fine or parking ticket - if it’s a penalty charge notice (PCN)"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/mortgage-rescue-scheme",
+         "updated": "2015-03-24T13:17:08Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/mortgage-rescue-scheme"
+         },
+         "title": "Mortgage Rescue Scheme",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "The Mortgage Rescue Scheme has closed. Find out what other support you can get."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/repossession",
+         "updated": "2015-03-17T12:17:58Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/repossession"
+         },
+         "title": "Repossession",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "The legal process of repossession, including what your mortgage lender must do, repossession hearings, possession orders and help with legal costs"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/if-youre-homeless-at-risk-of-homelessness",
+         "updated": "2015-03-12T17:04:50Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/if-youre-homeless-at-risk-of-homelessness"
+         },
+         "title": "Help if you’re homeless or about to become homeless",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Your council must help if you’re legally homeless or will become homeless within 8 weeks. Help may include advice, emergency housing or longer-term housing."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/council-housing-association-evictions",
+         "updated": "2015-03-12T09:58:02Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/council-housing-association-evictions"
+         },
+         "title": "Council and housing association evictions",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Eviction of council or housing association tenants: grounds for eviction, notice period, and what a court can decide"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/zoo-licence",
+         "updated": "2015-03-11T13:45:43Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/zoo-licence"
+         },
+         "title": "Zoo licence (England, Scotland and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply for a licence to run a Zoo in England, Scotland or Wales; health and safety, animal well-being, inspections, renewals"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/redress-scheme-estate-agencies",
+         "updated": "2015-03-02T17:47:26Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/redress-scheme-estate-agencies"
+         },
+         "title": "Registering with a redress scheme as a property agent",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You must join a redress scheme if you operate as as a residential estate agent, letting agent or in property management."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/leasehold-property",
+         "updated": "2015-02-25T12:36:41Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/leasehold-property"
+         },
+         "title": "Leasehold property",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Leasehold property - leasehold disputes, buying the freehold, service charges, lease extensions and Right to Manage"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/right-to-buy-buying-your-council-home",
+         "updated": "2015-02-25T12:35:20Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/right-to-buy-buying-your-council-home"
+         },
+         "title": "Right to Buy: buying your council home",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Your right to buy your council home - including how to apply, who is eligible, discounts available and where to get help and advice"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/housing-tribunals",
+         "updated": "2015-02-25T12:33:34Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/housing-tribunals"
+         },
+         "title": "Solve a residential property dispute",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply to the tribunal about a rent increase decision, changes to a lease or a decision about a council house, park home or caravan, in England"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/rent-room-in-your-home",
+         "updated": "2015-02-23T15:31:11Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/rent-room-in-your-home"
+         },
+         "title": "Rent a room in your home",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Renting a room in your home out - Rent a Room Scheme, types of tenancy or licence, rent, bills, tax and ending a letting"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/squatting-law",
+         "updated": "2015-02-02T10:00:06Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/squatting-law"
+         },
+         "title": "Squatting and the law",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "The law on squatting - what squatting is, squatters&#x27; rights, removing squatters, getting your property back from squatters and adverse possession. Includes information from the withdrawn EX332 and EX333 guidance."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/rubbish-collection-day",
+         "updated": "2015-01-30T15:24:31Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/rubbish-collection-day"
+         },
+         "title": "Find out your rubbish collection day",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check your council&#x27;s website to find out when your rubbish will be collected"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-for-business-rate-relief",
+         "updated": "2015-01-21T14:13:54Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-for-business-rate-relief"
+         },
+         "title": "Business rates relief",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You may be eligible for discounts on your business rates - business rates relief, how to apply"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/renting-business-property-tenant-responsibilities",
+         "updated": "2015-01-21T14:12:16Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/renting-business-property-tenant-responsibilities"
+         },
+         "title": "Renting a business property: tenant responsibilities",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "As a tenant renting out a commercial property, you have certain responsibilities including maintenance, health and safety, and making provisions for your staff and visitors"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/organise-street-party",
+         "updated": "2015-01-21T11:39:10Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/organise-street-party"
+         },
+         "title": "Organising a street party",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "A guide to organising a street party - telling your council, closing roads, getting insurance and licences"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/council-tax-bands",
+         "updated": "2015-01-14T13:47:41Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/council-tax-bands"
+         },
+         "title": "Check your Council Tax band",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find out the Council Tax band for a property in England, Scotland or Wales by looking up the property&#x27;s postcode online"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/park-mobile-homes",
+         "updated": "2015-01-06T10:51:15Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/park-mobile-homes"
+         },
+         "title": "Park (mobile) homes",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Park (mobile) home owner rights and responsibilities - fees and repairs, selling or giving away a home and residents&#x27; associations, settling disputes"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/showing-films-in-public",
+         "updated": "2015-01-05T17:42:43Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/showing-films-in-public"
+         },
+         "title": "Showing films in public",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find out if you need a licence to show films - public screenings, using film in schools, choosing a licence, penalties for breaching copyright"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/claim-compensation-if-affected-by-hs2",
+         "updated": "2014-12-22T22:56:51Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/claim-compensation-if-affected-by-hs2"
+         },
+         "title": "Claim compensation if your property is affected by HS2",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply for compensation if you own property near the proposed High Speed 2 route, Phase 1 or 2 - what you can claim for, eligibility, how to apply"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/dog-breeding-licence-england-scotland-wales",
+         "updated": "2014-12-22T15:06:43Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/dog-breeding-licence-england-scotland-wales"
+         },
+         "title": "Dog breeding licence (England, Scotland and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You may need a licence to breed dogs from your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/affordable-home-ownership-schemes",
+         "updated": "2014-12-18T11:03:12Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/affordable-home-ownership-schemes"
+         },
+         "title": "Affordable home ownership schemes",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Help to Buy and affordable home ownership schemes to help first-time buyers and home movers - equity loan, mortgage guarantee and ISA, shared ownership"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/where-registered-disabled-drivers-can-park",
+         "updated": "2014-12-16T16:38:23Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/where-registered-disabled-drivers-can-park"
+         },
+         "title": "Find out where Blue Badge holders can park",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "If you&#x27;re a Blue Badge holder, find out if your council provides parking spaces for you and where you can park"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/track-your-part-1-compensation-claim",
+         "updated": "2014-12-12T13:35:33Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/track-your-part-1-compensation-claim"
+         },
+         "title": "Track your Part I compensation claim",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check progress of your Part 1, Part I compensation claim if your property&#x27;s value has reduced because of new or altered roads including Connect Plus claims"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/skin-piercing-and-tattooing",
+         "updated": "2014-12-11T16:39:43Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/skin-piercing-and-tattooing"
+         },
+         "title": "Tattoo, piercing and electrolysis licence (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need to register with the relevant local council to get a tattoo, piercing and electrolysis licence in England and Wales"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/party-walls-building-works",
+         "updated": "2014-12-11T16:10:56Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/party-walls-building-works"
+         },
+         "title": "Party walls and building work",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "When and how to tell neighbours about building works on party walls, what to do if you&#x27;ve been notified of works, how to come to an agreement"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/parking-tickets",
+         "updated": "2014-12-11T15:42:13Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/parking-tickets"
+         },
+         "title": "Parking fines and penalty charge notices",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to pay or challenge a penalty charge notice (PCN) or parking ticket - fixed penalty notice (FPN), standard or excess charge notice"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/private-renting",
+         "updated": "2014-12-10T11:51:20Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/private-renting"
+         },
+         "title": "Private renting",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Private renting as a tenant - repairs, rent increases and arrears, settling disputes, deposits and your rights and responsibilities"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/donating-to-charity",
+         "updated": "2014-12-08T15:01:35Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/donating-to-charity"
+         },
+         "title": "Tax relief when you donate to a charity",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Tax relief on donations, Gift Aid, payroll giving, leaving a gift in your will, keeping tax records; find a charity; donating land, property or shares"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/possession-claim-online-recover-property",
+         "updated": "2014-12-04T14:08:52Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/possession-claim-online-recover-property"
+         },
+         "title": "Possession Claim Online: recover property",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to take court action to repossess a property or evict a tenant if you&#x27;re owed money for rent or a mortgage"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/buy-sell-your-home",
+         "updated": "2014-12-03T13:31:13Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/buy-sell-your-home"
+         },
+         "title": "Buying or selling your home",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Energy Performance Certificates (EPCs), using estate agents, making and getting offers, conveyancing and paying Stamp Duty Land Tax"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/delivering-differently-in-neighbourhoods",
+         "updated": "2014-12-02T13:28:38Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/delivering-differently-in-neighbourhoods"
+         },
+         "title": "Delivering Differently in Neighbourhoods",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Programme supporting local authorities to redesign services to deliver at neighbourhood level – prospectus and expression of interest form."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/introduction-to-business-rates",
+         "updated": "2014-12-01T16:16:08Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/introduction-to-business-rates"
+         },
+         "title": "Business rates",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Business rates are charged on most non-domestic properties - who has to pay, how your rates are calculated, getting a revaluation, what to do if your premises change"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-for-elderly-person-bus-pass",
+         "updated": "2014-11-28T16:43:01Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-for-elderly-person-bus-pass"
+         },
+         "title": "Apply for an older person's bus pass",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Some older people can get free travel on local buses - contact your council to check your eligibility and apply for a bus pass"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/tenancy-agreements-a-guide-for-landlords",
+         "updated": "2014-11-26T11:59:26Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/tenancy-agreements-a-guide-for-landlords"
+         },
+         "title": "Tenancy agreements: a guide for landlords (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "What to include in a tenancy agreement, different types of tenancy (including assured shorthold tenancy) and how to end a tenancy"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/evicting-tenants",
+         "updated": "2014-11-26T10:40:42Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/evicting-tenants"
+         },
+         "title": "Evicting tenants (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Information for landlords on tenant eviction: assured shorthold tenancies, including eviction notices, Section 21, Section 8, accelerated possession, possession orders, bailiffs"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/compensation-road-property-value",
+         "updated": "2014-11-25T14:30:46Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/compensation-road-property-value"
+         },
+         "title": "Compensation when a road affects your property's value",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Make a &#x27;Part I claim&#x27; when your property depreciates because of the use of a new or altered highway - eligibility and where to send your claim"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/council-tax-appeals",
+         "updated": "2014-11-25T12:33:59Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/council-tax-appeals"
+         },
+         "title": "Appeal a Council Tax bill or fine",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to appeal to your council or the Valuation Tribunal about a Council Tax bill, fine or completion notice"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/council-tax-arrears",
+         "updated": "2014-11-25T12:31:22Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/council-tax-arrears"
+         },
+         "title": "Pay Council Tax arrears",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How your local council can help if you&#x27;re struggling to pay Council Tax - and what action they can take to get any money you owe from you"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/renting-out-a-property",
+         "updated": "2014-11-24T08:06:35Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/renting-out-a-property"
+         },
+         "title": "Renting out your property",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Landlord responsibilities when renting out your property, including making repairs, health and safety, increasing the rent and changing regulated tenancies."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/council-tax",
+         "updated": "2014-11-21T15:54:42Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/council-tax"
+         },
+         "title": "Council Tax",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Your Council Tax bill - how to work it out, who has to pay, discounts and exemptions for students and disabled people, second homes, empty properties, paying the bill"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/club-premises-certificate",
+         "updated": "2014-11-19T15:12:40Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/club-premises-certificate"
+         },
+         "title": "Club premises certificate",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply for a club premises certificate through your council if you&#x27;re a social, sporting or political members club and you want to do activities that need one"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/premises-licence",
+         "updated": "2014-11-19T14:41:33Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/premises-licence"
+         },
+         "title": "Premises licence (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You&#x27;ll need a premises licence if you want to sell alcohol or offer entertainment from a particular venue"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/plug-in-car-van-grants",
+         "updated": "2014-11-18T17:11:50Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/plug-in-car-van-grants"
+         },
+         "title": "Low-emission vehicles eligible for a plug-in grant",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check which electric (plug-in) and hybrid cars, vans and motorbikes are available for a grant."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/building-regulations-approval",
+         "updated": "2014-11-17T18:09:40Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/building-regulations-approval"
+         },
+         "title": "Building regulations approval",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "When you need building regs approval, how to apply, using a competent person scheme, and determinations and appeals"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/licence-wild-animal",
+         "updated": "2014-11-12T12:26:02Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/licence-wild-animal"
+         },
+         "title": "Apply for a licence to keep a wild animal",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need a licence to keep certain kinds of wild or dangerous animals: contact your council for more information"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/clear-snow-road-path-cycleway",
+         "updated": "2014-11-12T12:26:02Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/clear-snow-road-path-cycleway"
+         },
+         "title": "Clear snow from a road, path or cycleway",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "What you can do to clear snow and ice from pavements and roads, using salt and sand"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/terminating-a-commercial-property-lease-early",
+         "updated": "2014-11-12T12:25:58Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/terminating-a-commercial-property-lease-early"
+         },
+         "title": "Ending a commercial property lease early",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to end a commercial lease early, what happens if you break the terms of your lease, use a clause in your agreement"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/licence-projection-over-highway-england-wales",
+         "updated": "2014-11-12T12:25:42Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/licence-projection-over-highway-england-wales"
+         },
+         "title": "Licence for projections over a highway (England & Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need a licence to build a bridge or alter a bridge above a public highway"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/registration-of-independent-health-care-service-england-wales",
+         "updated": "2014-11-12T12:25:42Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/registration-of-independent-health-care-service-england-wales"
+         },
+         "title": "Registration of independent health care service (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need to register with the Care Quality Commission or Healthcare Inspectorate to run an independent health care service (eg private hospital or clinic) in England and Wales"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/slaughter-house-rpa-notification-england",
+         "updated": "2014-11-12T12:25:42Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/slaughter-house-rpa-notification-england"
+         },
+         "title": "Operator of approved slaughter house RPA notification (England)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "If you become an operator of an approved slaughterhouse you must notify the Rural Payments Agency (RPA) in writing within 28 days of starting the business"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/child-work-permit-england-wales",
+         "updated": "2014-11-12T12:25:42Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/child-work-permit-england-wales"
+         },
+         "title": "Child work permit (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "To employ a child in the UK, you may need to get a work permit from your local authority"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/safety-certificates-for-regulated-stands-at-sports-grounds-e-s-w",
+         "updated": "2014-11-12T12:25:41Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/safety-certificates-for-regulated-stands-at-sports-grounds-e-s-w"
+         },
+         "title": "Safety certificates: sports stands (England, Scotland and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to apply for a safety certificate for a sports stand - general safety certificate, special safety certificate, responsibilities, fines and penalties"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/market-stall-licence",
+         "updated": "2014-11-12T12:25:40Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/market-stall-licence"
+         },
+         "title": "Market stall licence",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "To run a market stall as a trader, you need either a temporary (&#x27;casual&#x27;) or permanent licence from the local council."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/busking-licence",
+         "updated": "2014-11-12T12:25:40Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/busking-licence"
+         },
+         "title": "Busking licence (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You may need a busking licence or permit from the council before busking in that area.  Find out the council&#x27;s rules on busking and apply online."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/massage-and-special-treatment-premises-licensing",
+         "updated": "2014-11-12T12:25:40Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/massage-and-special-treatment-premises-licensing"
+         },
+         "title": "Massage and special treatment premises licensing",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Contact your council if you run an establishment for massage or other special treatments and need a premises licence"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/skip-operator-licence",
+         "updated": "2014-11-12T12:25:40Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/skip-operator-licence"
+         },
+         "title": "Skip operator licence",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Get a skip permit for your skip hire company - skip hire licence, local authority, highway act"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/petroleum-storage-licence",
+         "updated": "2014-11-12T12:25:40Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/petroleum-storage-licence"
+         },
+         "title": "Petroleum Storage Licence (England, Scotland and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need a petroleum licence to store and supply petrol to internal combustion vehicles - where to apply for your licence"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/weighbridge-operator-certificate",
+         "updated": "2014-11-12T12:25:40Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/weighbridge-operator-certificate"
+         },
+         "title": "Weighbridge operator certificate",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Contact your council for a certificate of competence to operate a chargeable weighbridge"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/hackney-carriage-vehicle-licence",
+         "updated": "2014-11-12T12:25:33Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/hackney-carriage-vehicle-licence"
+         },
+         "title": "Hackney carriage vehicle licence (England, Scotland and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need a licence to run or own a hackney carriage"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/sports-ground-safety-certificate-england-scotland-and-wales",
+         "updated": "2014-11-12T12:25:33Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/sports-ground-safety-certificate-england-scotland-and-wales"
+         },
+         "title": "Sports ground safety certificate (England, Scotland and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Getting a safety certificate to operate a sports ground in England, Scotland or Wales - terms and conditions, fees and restrictions"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/mixing-ammonium-nitrate-with-fuel-oil-licence",
+         "updated": "2014-11-12T12:25:32Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/mixing-ammonium-nitrate-with-fuel-oil-licence"
+         },
+         "title": "Mixing ammonium nitrate (with fuel oil) licence",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need a manufacturing licence to combine ammonium nitrate and fuel oil to create mixtures for use in certain blasting operations"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/permission-to-place-tables-and-chairs-on-the-pavement",
+         "updated": "2014-11-12T12:25:31Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/permission-to-place-tables-and-chairs-on-the-pavement"
+         },
+         "title": "Permission to place tables and chairs on the pavement",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Get a licence to place furniture on the pavement in England and Wales - how to apply, restrictions, fines, penalties"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/notice-claiming-the-right-to-buy--2",
+         "updated": "2014-08-06T15:59:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/notice-claiming-the-right-to-buy--2"
+         },
+         "title": "Right to Buy: application form (RTB1)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "The RTB1 form is the notice claiming the Right to Buy that tenants need to complete."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/road-occupation-licence-for-building-work",
+         "updated": "2014-04-04T09:12:06Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/road-occupation-licence-for-building-work"
+         },
+         "title": "Road occupation licence for building work (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You must get a licence from the council to dig up the road, or temporarily occupy it in connection with building work - fines, penalties"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/english-housing-survey-2012-to-2013-questionnaire-and-physical-survey-form",
+         "updated": "2014-03-07T00:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/english-housing-survey-2012-to-2013-questionnaire-and-physical-survey-form"
+         },
+         "title": "English housing survey 2012 to 2013: questionnaire and physical survey form",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Questionnaire and physical survey form used for the English housing survey."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/park-homes-notification-of-deposit",
+         "updated": "2014-02-03T17:14:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/park-homes-notification-of-deposit"
+         },
+         "title": "Park homes: notification of deposit",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form to be used to notify park home owners when the agreed site rules have been deposited with the local authority."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/park-homes-notification-of-deposit-of-deletion-notice",
+         "updated": "2014-02-03T17:12:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/park-homes-notification-of-deposit-of-deletion-notice"
+         },
+         "title": "Park homes: notification of deposit of deletion notice",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form to be used to notify park home owners that an agreed deletion of, or to, the site rules have been deposited with the local authority."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/park-homes-consultation-response",
+         "updated": "2014-02-03T17:11:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/park-homes-consultation-response"
+         },
+         "title": "Park homes: consultation response",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form to be used when notifying park (mobile) home owners of the outcome of a consultation on changes to park home site rules."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/park-homes-proposal-notice",
+         "updated": "2014-02-03T17:09:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/park-homes-proposal-notice"
+         },
+         "title": "Park homes: proposal notice",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form to be used when consulting park (mobile) home owners on the proposed rules or changes to the site rules."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/cooling-tower-notification",
+         "updated": "2014-01-23T19:01:37Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/cooling-tower-notification"
+         },
+         "title": "Cooling tower notification",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Cooling tower notification for commercial site owners"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/commercial-inland-fishing-licence",
+         "updated": "2014-01-17T16:47:37Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/commercial-inland-fishing-licence"
+         },
+         "title": "Commercial Inland Fishing Licence",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need a licence to net for salmon and sea trout or fish for eels using nets, trawls or traps"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/delivering-differently-expression-of-interest",
+         "updated": "2014-01-10T12:16:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/delivering-differently-expression-of-interest"
+         },
+         "title": "Delivering Differently: expression of interest",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "An application form for the Delivering Differently fund, which helps local authorities transform services through alternative delivery models."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/right-to-contest-application-form",
+         "updated": "2014-01-08T00:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/right-to-contest-application-form"
+         },
+         "title": "Challenge the government to sell land or property (Right to Contest)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "If you believe land or property is not needed and could be put to better economic use, then you can challenge the government by submitting a Right to Contest application."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/english-housing-survey-2011-to-2012-questionnaire-and-physical-survey-form",
+         "updated": "2013-10-11T23:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/english-housing-survey-2011-to-2012-questionnaire-and-physical-survey-form"
+         },
+         "title": "English housing survey 2011 to 2012: questionnaire and physical survey form",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Questionnaire and physical survey form used for the English housing survey."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/horse-drawn-hackney-licence",
+         "updated": "2013-08-30T10:46:59Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/horse-drawn-hackney-licence"
+         },
+         "title": "Horse-drawn hackney carriage licence (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You&#x27;ll need a hackney vehicle licence if you want to use a horse and carriage for paying customers"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/private-hire-vehicle-operator-licence-outside-london",
+         "updated": "2013-08-16T10:41:53Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/private-hire-vehicle-operator-licence-outside-london"
+         },
+         "title": "Private hire vehicle operator licence outside London",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Private hire vehicle operator licence outside London; taxi, private hire, mincab, licence, vehicle"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/pitch-fee-review-form-park-homes",
+         "updated": "2013-06-24T23:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/pitch-fee-review-form-park-homes"
+         },
+         "title": "Pitch fee review form: park homes",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "This form should be used if the site owner is proposing to change the pitch fee."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/buyers-information-form-park-homes",
+         "updated": "2013-05-16T23:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/buyers-information-form-park-homes"
+         },
+         "title": "Buyer's information form: park homes",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form to fill in and give to the buyer when selling your park home."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/notice-of-proposed-sale-form-park-homes",
+         "updated": "2013-05-16T23:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/notice-of-proposed-sale-form-park-homes"
+         },
+         "title": "Notice of proposed sale form: park homes",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form to fill in and give to the site owner."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/assignment-form-park-homes",
+         "updated": "2013-05-16T23:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/assignment-form-park-homes"
+         },
+         "title": "Assignment form: park homes",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form to fill in when assigning the pitch agreement to the new owner."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/notice-of-assignment-form-park-homes",
+         "updated": "2013-05-16T23:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/notice-of-assignment-form-park-homes"
+         },
+         "title": "Notice of assignment form: park homes",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form for the buyer to fill in so they can pay commission to the site owner."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/notice-of-proposed-gift-form-park-homes",
+         "updated": "2013-05-16T23:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/notice-of-proposed-gift-form-park-homes"
+         },
+         "title": "Notice of proposed gift form: park homes",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Form to fill in when gifting (giving away) your park home to a family member."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/licences-use-music-online-mobile",
+         "updated": "2013-04-15T13:01:06Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/licences-use-music-online-mobile"
+         },
+         "title": "Licences to use music online or on mobile technology",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You may need a licence to use copyright music online or on mobiles"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/initial-notice-of-delay",
+         "updated": "2013-04-01T00:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/initial-notice-of-delay"
+         },
+         "title": "Right to Buy: initial notice of delay form (RTB6)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "The RTB6 form is for a tenant to use if their landlord is not completing parts of the Right to Buy application within set time limits."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/operative-notice-of-delay",
+         "updated": "2013-04-01T00:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/operative-notice-of-delay"
+         },
+         "title": "Right to Buy: operative notice of delay form (RTB8)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "The RTB8 form is for a tenant to use if they do not get a response to the initial notice of delay form."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/pavement-or-street-display-licence",
+         "updated": "2013-03-28T12:34:15Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/pavement-or-street-display-licence"
+         },
+         "title": "Pavement or street display licence (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Get a licence to put an advertising sign on the road or pavement in England and Wales - restrictions, fines, penalties"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/register-a-hairdressing-business",
+         "updated": "2013-03-28T12:24:43Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/register-a-hairdressing-business"
+         },
+         "title": "Hairdresser registration (England)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You may have to register with your local council in England if you run a hairdressing or barbers business, so that they can check you&#x27;re following health and safety rules"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-council-tax-reduction",
+         "updated": "2013-03-26T15:20:14Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-council-tax-reduction"
+         },
+         "title": "Apply for Council Tax Reduction",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply to your local council for Council Tax Reduction if you&#x27;re on a low income or benefits - this has replaced Council Tax Benefit"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/firefighters-pension-scheme-medical-appeals-forms",
+         "updated": "2013-01-31T09:38:19Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/firefighters-pension-scheme-medical-appeals-forms"
+         },
+         "title": "Firefighters' pension scheme: medical appeals forms",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Forms relating to medical appeals for the firefighters&#x27; pension scheme."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-skip-permit",
+         "updated": "2013-01-22T13:41:29Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-skip-permit"
+         },
+         "title": "Skip licence (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You or the skip hire company need a skip licence&#x2F;permit if you want to put a skip on a public road. You may need safety lights, traffic cones or markings"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/street-works-licence-england-scotland-wales",
+         "updated": "2013-01-22T10:02:16Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/street-works-licence-england-scotland-wales"
+         },
+         "title": "Street works licence (England, Scotland and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need a licence to place apparatus on a street or road in England, Wales and Scotland"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/hackney-carriage-licence",
+         "updated": "2013-01-15T16:41:39Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/hackney-carriage-licence"
+         },
+         "title": "Hackney carriage licence (England, Scotland and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need a licence to drive a hackney carriage - taxicabs, England, excluding London, Scotland and Wales"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/scaffolding-and-hoarding-licence",
+         "updated": "2013-01-14T14:31:45Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/scaffolding-and-hoarding-licence"
+         },
+         "title": "Scaffolding and hoarding licence (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You need a licence from the local authority to put up scaffolding or hoarding on a public highway in the UK."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/building-regulations-competent-person-schemes",
+         "updated": "2012-12-14T12:27:11Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/building-regulations-competent-person-schemes"
+         },
+         "title": "Competent person schemes",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Join a competent person scheme to self-certify certain types of building work instead of getting building regulations approval from a council or private inspector - how to join, current schemes"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/right-to-buy-notice-in-reply-to-a-tenants-claim-rtb2",
+         "updated": "2012-11-20T00:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/right-to-buy-notice-in-reply-to-a-tenants-claim-rtb2"
+         },
+         "title": "Right to Buy: notice in reply to a tenant's claim (RTB2)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "The RTB2 form is the notice that a council sends to a tenant who has applied to buy their home through the Right to Buy scheme."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/approval-of-premises-for-civil-marriage-or-civil-partnership",
+         "updated": "2012-11-13T14:34:43Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/approval-of-premises-for-civil-marriage-or-civil-partnership"
+         },
+         "title": "Approval of premises for civil marriage and civil partnership (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to get a licence (grant of approval) to hold a civil marriage or civil partnership in your venue, and what requirements or conditions to follow"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/hypnotism-permit-england-scotland-and-wales",
+         "updated": "2012-10-22T14:12:56Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/hypnotism-permit-england-scotland-and-wales"
+         },
+         "title": "Hypnotism permit (England, Scotland and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You must hold a permit to stage a public performance of hypnotism for entertainment purposes in England, Wales and Scotland - learn how to apply, conditions, fines and penalties"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/premises-licence-scotland",
+         "updated": "2012-10-22T10:38:23Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/premises-licence-scotland"
+         },
+         "title": "Premises licence (Scotland)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You&#x27;ll need a premises licence if you want to sell alcohol or offer entertainment from a particular venue"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/street-collection-licence",
+         "updated": "2012-10-16T19:28:30Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/street-collection-licence"
+         },
+         "title": "Street collection licence (England & Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "If you want to collect money or sell items on the street for charity, you might need a street collection licence, depending on your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/auction-premises-registration",
+         "updated": "2012-10-15T14:05:39Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/auction-premises-registration"
+         },
+         "title": "Auction premises registration",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "To sell goods by auction in a stall or other premises you might need to register with your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/comment-on-an-alcohol-licence",
+         "updated": "2012-10-13T11:39:17Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/comment-on-an-alcohol-licence"
+         },
+         "title": "Comment on an alcohol licence",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to comment on an alcohol licence or ask for an existing licence to be reviewed - what you need to do, who to apply to and what happens at licensing hearings"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/financial-help-after-fire",
+         "updated": "2012-10-11T18:21:11Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/financial-help-after-fire"
+         },
+         "title": "House fires: financial help and fire safety",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Your council can help you after a fire in your home - Council, emergency housing, Red Cross, fire safety"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/contact-your-local-council-about-business-rates",
+         "updated": "2012-10-08T12:30:10Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/contact-your-local-council-about-business-rates"
+         },
+         "title": "Contact your council about business rates bill",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find out about your business rates bill, business rate relief or pay your bill through your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/support-group-for-children-young-people-families",
+         "updated": "2012-10-04T14:46:59Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/support-group-for-children-young-people-families"
+         },
+         "title": "Find a local support group for children, young people and families",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Your local council may have details of organisations in your community that can give families and young people help and support"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/sex-shop-and-cinema-licence",
+         "updated": "2012-09-17T14:54:47Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/sex-shop-and-cinema-licence"
+         },
+         "title": "Sex shop and cinema licence (England and Wales)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Contact your council for a sex establishment licence if you want to run a sex shop or adult cinema"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-blocked-drain",
+         "updated": "2012-07-16T16:03:42Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-blocked-drain"
+         },
+         "title": "Report a blocked drain",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Your local council is responsible for public drains - report a blockage."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-road-flooding",
+         "updated": "2012-07-16T16:03:24Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-road-flooding"
+         },
+         "title": "Report road flooding",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "If you find a flooded road or street, report it to your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/home-schooling-information-council",
+         "updated": "2012-05-18T14:08:42Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/home-schooling-information-council"
+         },
+         "title": "Home education: get information from your council",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Your responsibilities with your local council if you want to educate your child at home - sometimes called home schooling"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/safe-walking-cycling-routes-school",
+         "updated": "2012-05-02T16:27:24Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/safe-walking-cycling-routes-school"
+         },
+         "title": "Find safe walking or cycling routes to your child's school",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Plan a journey so your child can get safely to and from school"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/services-disrupted-severe-weather",
+         "updated": "2012-05-02T16:27:23Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/services-disrupted-severe-weather"
+         },
+         "title": "Local services disrupted by severe weather",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Information about local services that have been disrupted by severe weather conditions"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-disabled-facilities-grant",
+         "updated": "2012-05-02T16:27:23Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-disabled-facilities-grant"
+         },
+         "title": "Apply for a Disabled Facilities Grant",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply for financial help to make your home suitable for a disabled person"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-youth-opportunity-funding",
+         "updated": "2012-05-02T16:27:22Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-youth-opportunity-funding"
+         },
+         "title": "Apply for Youth Opportunity Funding",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "The Youth Opportunities Fund provides money for young people to use on activities and projects - apply to your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-fly-posters",
+         "updated": "2012-05-02T16:27:22Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-fly-posters"
+         },
+         "title": "Report fly-posting",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report fly-posting to your local council - posters, stickers or bills put up without permission of the property owner"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/book-internet-access-at-library",
+         "updated": "2012-05-02T16:27:22Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/book-internet-access-at-library"
+         },
+         "title": "Book internet access in your library",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Many libraries offer free internet access - book internet access at your local council library"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-vandalism",
+         "updated": "2012-05-02T16:27:22Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-vandalism"
+         },
+         "title": "Report vandalism",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report vandalised property to your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-home-equipment-for-disabled",
+         "updated": "2012-05-02T16:27:22Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-home-equipment-for-disabled"
+         },
+         "title": "Apply for equipment for your home if you're disabled",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply to your local council for equipment or help adapting your home if you’re disabled"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-hold-street-party",
+         "updated": "2012-05-02T16:27:21Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-hold-street-party"
+         },
+         "title": "Apply to hold a street party",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check what you need to tell your local council if you are organising a small street party with your neighbours"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/roads-council-will-grit",
+         "updated": "2012-05-02T16:27:21Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/roads-council-will-grit"
+         },
+         "title": "Find out which roads your council will grit",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Plan your journey in cold weather - find out about gritting of roads and footpaths, the location of grit bins and snow clearance"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/find-local-transport-plans",
+         "updated": "2012-05-02T16:27:21Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/find-local-transport-plans"
+         },
+         "title": "Find local transport plans",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check the transport plan for maintenance, improvements and changes in your local area with the council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-problem-street-furniture",
+         "updated": "2012-05-02T16:27:21Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-problem-street-furniture"
+         },
+         "title": "Report a problem with 'street furniture'",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report a problem with street furniture, which includes things like bollards, litter bins, benches and cycle racks to the council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-noise-pollution-to-council",
+         "updated": "2012-05-02T16:27:21Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-noise-pollution-to-council"
+         },
+         "title": "Report a noise nuisance to your council",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report a noise problem like loud music, noisy pubs, neighbour&#x27;s parties or barking dogs to your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/find-your-local-park",
+         "updated": "2012-05-02T16:27:21Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/find-your-local-park"
+         },
+         "title": "Find your local park",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Information about parks and open spaces near you, including playgrounds, nature reserves, wildlife sites and sports pitches"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/claim-compensation-injury-road-pavement",
+         "updated": "2012-05-02T16:27:21Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/claim-compensation-injury-road-pavement"
+         },
+         "title": "Claim compensation for injuries caused by roads or pavements",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You may be able to claim compensation from the council if you&#x27;ve had an accident caused by a road or pavement"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-dog-fouling",
+         "updated": "2012-05-02T16:27:21Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-dog-fouling"
+         },
+         "title": "Report a dog fouling problem",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "The local council must keep public areas like parks, playgrounds and pavements clear of dog mess - report a dog fouling problem to the local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-work-on-protected-tree",
+         "updated": "2012-05-02T16:27:21Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-work-on-protected-tree"
+         },
+         "title": "Apply to work on a tree that's protected",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You may need to make a &#x27;works to trees&#x27; application if they’re protected by a ‘tree preservation order’ (TPO) or you live in a conservation area."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/garden-waste-disposal",
+         "updated": "2012-05-02T16:27:21Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/garden-waste-disposal"
+         },
+         "title": "Dispose of garden waste",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Arrange for the collection of garden waste by your council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-syringes",
+         "updated": "2012-05-02T16:27:20Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-syringes"
+         },
+         "title": "Report discarded syringes",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report discarded syringes, needles and other drug related items in public places to your council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-for-community-alarm",
+         "updated": "2012-05-02T16:27:20Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-for-community-alarm"
+         },
+         "title": "Apply for a community alarm",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Many councils provide community alarm services to support independent living in your own home"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/find-mobile-library",
+         "updated": "2012-05-02T16:27:20Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/find-mobile-library"
+         },
+         "title": "Find a mobile library",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check whether a mobile library service visits your area"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/contact-council-crime-prevention-community-safety",
+         "updated": "2012-05-02T16:27:20Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/contact-council-crime-prevention-community-safety"
+         },
+         "title": "Contact your council about crime prevention and community safety",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check out schemes for crime prevention and community safety with your council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/search-local-archives",
+         "updated": "2012-05-02T16:27:20Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/search-local-archives"
+         },
+         "title": "Search local archives",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Explore the local archives to help your research into family and local history at your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/rent-council-garage",
+         "updated": "2012-05-02T16:27:20Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/rent-council-garage"
+         },
+         "title": "Rent a council garage",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply to rent a garage from the local council - there may be a waiting list"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/local-planning-emergency-major-incident",
+         "updated": "2012-05-02T16:27:20Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/local-planning-emergency-major-incident"
+         },
+         "title": "Preparing for emergencies: find out about local plans",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check out your local council&#x27;s emergency plan covering major incidents like flooding, flu pandemics and transport accidents"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/repair-council-property",
+         "updated": "2012-05-02T16:27:20Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/repair-council-property"
+         },
+         "title": "Request a repair to a council property",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Request a repair to a council property to your local council - urgent problems, Right to Repair, health, safety, security"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-squatters-property",
+         "updated": "2012-05-02T16:27:19Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-squatters-property"
+         },
+         "title": "Report squatters in a council property",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report squatters in a council property to the local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-for-council-tax-discount",
+         "updated": "2012-05-02T16:27:19Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-for-council-tax-discount"
+         },
+         "title": "Apply for a Council Tax discount",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Check with your council if you&#x27;re eligible for a discount on your Council Tax"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/find-local-consultations",
+         "updated": "2012-05-02T16:27:19Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/find-local-consultations"
+         },
+         "title": "Find local consultations",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Councils carry out consultations to help plan, manage and deliver services. Have your say about local issues by responding to consultations run by your council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-swap-homes-council",
+         "updated": "2012-05-02T16:27:19Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-swap-homes-council"
+         },
+         "title": "Swap your council or housing association home",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Exchanging your council or housing association property if you want to move house - tenants, rules, permission from landlords, mutual exchange"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/community-transport-services-shopmobility",
+         "updated": "2012-05-02T16:27:19Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/community-transport-services-shopmobility"
+         },
+         "title": "Find out about community transport services and Shopmobility",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Many areas have community transport services for people who have difficulty using public transport"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-funding-community-project",
+         "updated": "2012-05-02T16:27:19Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-funding-community-project"
+         },
+         "title": "Apply for funding for community projects",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Contact your council about funding and grants for your project - activities for young people, volunteer programmes, development of communal facilities"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/complain-about-your-council",
+         "updated": "2012-05-02T16:27:19Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/complain-about-your-council"
+         },
+         "title": "Complain about your council",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Complain to your council if they have done something wrong, failed to provide a service or not followed correct procedures"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/insurance-claim-against-council",
+         "updated": "2012-05-02T16:27:19Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/insurance-claim-against-council"
+         },
+         "title": "Make an insurance claim against your council",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "If you&#x27;re a council tenant you may be able to make an insurance claim against the council for any damage they are responsible for"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/request-speed-limit-change",
+         "updated": "2012-05-02T16:27:18Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/request-speed-limit-change"
+         },
+         "title": "Request a speed limit change",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Local speed limits are set by the council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-problem-pavement",
+         "updated": "2012-05-02T16:27:17Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-problem-pavement"
+         },
+         "title": "Report a problem with a pavement",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report damaged pavements to the local council - broken or missing slabs, removing weeds"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-abandoned-vehicle",
+         "updated": "2012-05-02T16:27:17Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-abandoned-vehicle"
+         },
+         "title": "Report an abandoned vehicle",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You can report an abandoned vehicle like a dumped car to the local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-problem-traffic-light",
+         "updated": "2012-05-02T16:27:17Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-problem-traffic-light"
+         },
+         "title": "Report a problem with a traffic light",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to report faulty or broken traffic lights depends on where you live and the type of road"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-allotment",
+         "updated": "2012-05-02T16:27:17Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-allotment"
+         },
+         "title": "Apply for an allotment",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Rent an allotment through your council to grow your own fruit and vegetables - you can be allocated a plot or added to a waiting list"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/pay-council-tax",
+         "updated": "2012-05-02T16:27:17Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/pay-council-tax"
+         },
+         "title": "Pay your Council Tax",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Pay Council Tax online or by other methods, like direct debit to your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-graffiti",
+         "updated": "2012-05-02T16:27:17Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-graffiti"
+         },
+         "title": "Report graffiti",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Your local council is usually responsible for removing graffiti from things like public buildings, monuments, benches and bins"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/request-pedestrian-crossing",
+         "updated": "2012-05-02T16:27:16Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/request-pedestrian-crossing"
+         },
+         "title": "Request a pedestrian crossing",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Request a pedestrian crossing like a puffin crossing, toucan crossing or zebra crossing from the local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/parking-permit",
+         "updated": "2012-05-02T16:27:16Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/parking-permit"
+         },
+         "title": "Get a parking permit",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Your council has information on parking permit schemes in your area"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/garden-maintenance-council-tenants",
+         "updated": "2012-05-02T16:27:16Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/garden-maintenance-council-tenants"
+         },
+         "title": "Garden maintenance for elderly or disabled council tenants",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Contact your council to find out whether they offer a garden maintenance service for elderly or disabled council tenants"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/meals-home",
+         "updated": "2012-05-02T16:27:16Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/meals-home"
+         },
+         "title": "Get meals at home (meals on wheels)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Apply for meals at home from your council or other local organisation"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/street-name-sign",
+         "updated": "2012-05-02T16:27:15Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/street-name-sign"
+         },
+         "title": "Report a problem with a street name sign",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Report a missing or damaged street or road name sign to your local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/join-library",
+         "updated": "2012-05-02T16:27:15Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/join-library"
+         },
+         "title": "Join a library",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Your local library offers many services like book loans, CD rental and internet access - contact your council for more information"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/renew-library-item",
+         "updated": "2012-05-02T16:27:15Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/renew-library-item"
+         },
+         "title": "Renew a library item",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Renew your library items like books and DVDs online through your local council website"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/local-library-services",
+         "updated": "2012-05-02T16:27:15Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/local-library-services"
+         },
+         "title": "Local library services",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Find your nearest library to access services such as book loans, CD rentals and internet access"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/complain-demolition-works",
+         "updated": "2012-05-02T16:27:14Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/complain-demolition-works"
+         },
+         "title": "Complain about problems caused by demolition works",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "If demolition work is causing problems - like noise or obstruction to pavements or roads - you can complain to your council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/collection-large-waste-items",
+         "updated": "2012-05-02T16:27:14Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/collection-large-waste-items"
+         },
+         "title": "Apply for special collection of large waste items",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Arrange a special collection for large waste items - most councils will collect things like old sofas, fridges or washing machines for a fee"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/apply-dropped-kerb",
+         "updated": "2012-05-02T16:27:14Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/apply-dropped-kerb"
+         },
+         "title": "Apply for a dropped kerb",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "A dropped kerb allows vehicles to cross the pavement from the road to a driveway - contact your local council to find out how to apply for a dropped kerb"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/day-care-centres",
+         "updated": "2012-05-02T16:27:12Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/day-care-centres"
+         },
+         "title": "Disability day care centres",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Contact your local council to find out what support and help is available at day care centres for disabled people"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/housing-association-homes",
+         "updated": "2012-05-02T16:26:47Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/housing-association-homes"
+         },
+         "title": "Housing association homes",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "How to apply for a housing association home, types of tenancy agreement and the Right to Acquire"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/find-a-community-support-group-or-organisation",
+         "updated": "2012-05-02T16:26:44Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/find-a-community-support-group-or-organisation"
+         },
+         "title": "Find a community support group or organisation",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Your local council may have details of organisations in your community that can give help and support - contact your council to find out more"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-derelict-abandoned-building",
+         "updated": "2012-05-02T16:26:43Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-derelict-abandoned-building"
+         },
+         "title": "Report a derelict or abandoned building",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You can report a derelict or abandoned building to the building control section of the local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/report-dangerous-building-structure",
+         "updated": "2012-05-02T16:26:43Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/report-dangerous-building-structure"
+         },
+         "title": "Report a dangerous building or structure",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "You can report a dangerous building to the local council"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/scaffolding-rules",
+         "updated": "2012-05-02T16:26:36Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/scaffolding-rules"
+         },
+         "title": "Scaffolding rules",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "The rules for putting up scaffolding on your property - licence, checks, safety, builder, scaffold companies"
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/the-public-request-to-order-disposal-process--2",
+         "updated": "2011-10-05T00:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/the-public-request-to-order-disposal-process--2"
+         },
+         "title": "Public Request to Order Disposal",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "This form helps people to exercise their rights under the Community Right to Reclaim Land to bring disused property back into beneficial use."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/right-to-acquire-application-form-rta1",
+         "updated": "2011-02-03T00:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/right-to-acquire-application-form-rta1"
+         },
+         "title": "Right to Acquire: application form (RTA1)",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "This form is for housing association tenants who wish to apply to buy their home through the Right to Acquire scheme."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/english-housing-survey-2008-to-2009-market-value-survey-questionnaire",
+         "updated": "2010-07-07T00:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/english-housing-survey-2008-to-2009-market-value-survey-questionnaire"
+         },
+         "title": "English housing survey 2008 to 2009: market value survey questionnaire",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "Questionnaire for the 2008 to 2009 market value component of the English housing survey."
+         }
+      },
+      {
+         "id": "tag:www.gov.uk,2005:/government/publications/planning-application-forms-templates-for-local-planning-authorities",
+         "updated": "2010-04-22T23:00:00Z",
+         "link":
+         {
+            "@rel": "alternate",
+            "@type": "text/html",
+            "@href": "https://www.gov.uk/government/publications/planning-application-forms-templates-for-local-planning-authorities"
+         },
+         "title": "Planning application forms: templates for local planning authorities",
+         "summary":
+         {
+            "@type": "html",
+            "#text": "This collection brings together planning application form templates for local planning authorities to use when producing their own versions."
+         }
+      }
+   ]
+}

@@ -1,0 +1,266 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+{% block beforeContent %}
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.go(-1)"
+}) }}
+
+
+{% endblock%}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Add a service
+      </h1>
+
+
+{{ govukInput({
+  label: {
+    text: "Name"
+  },
+  classes: "govuk-input--width-20",
+  id: "name",
+  name: "name"
+}) }}
+
+
+{{ govukInput({
+  label: {
+    text: "Role"
+  },
+  classes: "govuk-input--width-20",
+  id: "role",
+  name: "role"
+}) }}
+
+{{ govukInput({
+  label: {
+    text: "Email"
+  },
+  classes: "govuk-input--width-20",
+  id: "email",
+  name: "email"
+}) }}
+
+<p>
+  &nbsp;
+</p>
+
+<h2 class="govuk-heading-l">
+  Service information
+</h2>
+
+{{ govukInput({
+  label: {
+    text: "Service name"
+  },
+  classes: "govuk-input--width-20",
+  id: "serviceName",
+  name: "serviceName"
+}) }}
+
+{{ govukTextarea({
+  name: "serviceDescription",
+  id: "serviceDescription",
+  rows: "6",
+  label: {
+    text: "Service description"
+  },
+      classes: "govuk-label--m"
+}) }}
+
+{{ govukTextarea({
+  name: "deliveredBy",
+  id: "deliveredBy",
+  rows: "6",
+  label: {
+    text: "Delivered by"
+  },
+      classes: "govuk-label--m",
+      hint: {
+    text: "List all service providers"
+  }
+}) }}
+
+{{ govukCheckboxes({
+  idPrefix: "MHCLGrole",
+  name: "MHCLGrole",
+  classes: "govuk-checkboxes--small",
+  fieldset: {
+    legend: {
+      text: "MHCLG’s role"
+    }
+  },
+  classes: "govuk-label--m",
+  items: [
+    {
+      value: "consultation",
+      text: "Consultation"
+    },
+    {
+      value: "data-collection",
+      text: "Data collection"
+    },
+    {
+      value: "delivery",
+      text: "Delivery"
+    },
+    {
+      value: "funding",
+      text: "Funding"
+    },
+    {
+      value: "guidance",
+      text: "Guidance"
+    },
+    {
+      value: "policy",
+      text: "Policy"
+    }
+  ]
+}) }}
+
+{{ govukInput({
+  label: {
+    text: "End user"
+  },
+  classes: "govuk-input--width-20",
+  id: "endUser",
+  name: "endUser"
+}) }}
+
+{{ govukTextarea({
+  name: "endUserNeed",
+  id: "endUserNeed",
+  rows: "6",
+  label: {
+    text: "End user need"
+  },
+  classes: "govuk-label--m"
+}) }}
+
+{{ govukRadios({
+  classes: "govuk-radios--small",
+  idPrefix: "serviceType",
+  name: "serviceType",
+  fieldset: {
+    legend: {
+      text: "Service type"
+    }
+  },
+  classes: "govuk-label--m",
+  items: [
+    {
+      value: "transactional",
+      text: "Transactional"
+    },
+    {
+      value: "none-transactional",
+      text: "Non-transactional"
+    }
+  ]
+}) }}
+
+{{ govukRadios({
+  classes: "govuk-radios--small",
+  idPrefix: "serviceMaturity",
+  name: "serviceMaturity",
+  fieldset: {
+    legend: {
+      text: "Service maturity"
+    }
+  },
+  classes: "govuk-label--m",
+  items: [
+    {
+      value: "pilot",
+      text: "Pilot"
+    },
+    {
+      value: "BAU",
+      text: "BAU"
+    },
+    {
+      value: "other",
+      text: "Other"
+    }
+
+  ]
+}) }}
+
+{{ govukInput({
+  label: {
+    text: "Policy objective"
+  },
+  classes: "govuk-input--width-20",
+  id: "policyObjective",
+  name: "policyObjective"
+}) }}
+
+{{ govukInput({
+  label: {
+    text: "Policy team"
+  },
+  classes: "govuk-input--width-20",
+  id: "policyTeam",
+  name: "policyTeam"
+}) }}
+
+{{ govukInput({
+  label: {
+    text: "Policy group"
+  },
+  classes: "govuk-input--width-20",
+  id: "policyGroup",
+  name: "policyGroup"
+}) }}
+
+{{ govukInput({
+  label: {
+    text: "Staff commitment (optional)"
+  },
+  hint: {
+    text: "FTE staff working on the service"
+  },
+  classes: "govuk-input--width-20",
+  id: "staffCommitment",
+  name: "staffCommitment"
+}) }}
+
+{{ govukInput({
+  label: {
+    text: "Funding from MHCLG (optional)"
+  },
+  classes: "govuk-input--width-20",
+  id: "fundingFromMHCLG",
+  name: "fundingFromMHCLG"
+}) }}
+
+
+{{ govukInput({
+  label: {
+    text: "Fund name (optional)"
+  },
+  classes: "govuk-input--width-20",
+  id: "fundName",
+  name: "fundName"
+}) }}
+
+{{ govukButton({
+  text: "Submit"
+}) }}
+
+    </div>
+  </div>
+
+{% endblock %}

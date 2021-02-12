@@ -1,0 +1,321 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+{% block beforeContent %}
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.go(-1)"
+}) }}
+
+
+{% endblock%}
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full-width">
+      <h1 class="govuk-heading-xl">
+        Services where MHCLG's role includes delivery
+      </h1>
+
+
+<p>
+  Total number of services: 11
+</p>
+
+<table class="govuk-table">
+
+
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+
+      <th scope="col" class="govuk-table__header" width="35%">Name of service</th>
+
+      <th scope="col" class="govuk-table__header" width="20%">Delivered by</th>
+
+      <th scope="col" class="govuk-table__header" width="20%">MHCLG’s role</th>
+
+      <th scope="col" class="govuk-table__header" width="25%">End user</th>
+
+    </tr>
+  </thead>
+
+  <tbody class="govuk-table__body">
+
+
+    <tr class="govuk-table__row">
+
+
+
+      <td class="govuk-table__cell"
+      ><a href="service-info?numberOfService=1">Get in touch with MHCLG</a><br>The Department provides contact details and basic information about its responsibilities online</td>
+
+
+      <td class="govuk-table__cell"
+      >1. MHCLG</td>
+
+      <td class="govuk-table__cell"
+      >1. Delivery</td>
+
+      <td class="govuk-table__cell"
+      >1. Interested party</td>
+
+    </tr>
+
+    <tr class="govuk-table__row">
+
+
+
+      <td class="govuk-table__cell"
+      ><a href="service-info?numberOfService=1">Get updated on Government's progress against policy commitments</a><br>MHCLG provides updates and data on how policies are performing to Ministers to share in the Houses of Parliament and to be put on the public record for all to see</td>
+
+
+      <td class="govuk-table__cell"
+      >1. MHCLG</td>
+
+      <td class="govuk-table__cell"
+      >1. Delivery</td>
+
+      <td class="govuk-table__cell"
+      >1. Interested party</td>
+
+    </tr>
+
+
+    <tr class="govuk-table__row">
+
+
+
+      <td class="govuk-table__cell"
+      ><a href="service-info?numberOfService=1">Link into the local government digital network</a><br>Local gov digi community is provided by LDCU to create a movement around local government digital transformation</td>
+
+
+      <td class="govuk-table__cell"
+      >1. MHCLG</td>
+
+      <td class="govuk-table__cell"
+      >1. Delivery</td>
+
+      <td class="govuk-table__cell"
+      >1. Local authority</td>
+
+    </tr>
+
+
+
+        <tr class="govuk-table__row">
+
+
+
+          <td class="govuk-table__cell"
+          ><a href="service-info?numberOfService=5">Make a Freedom of Information request</a><br>Shielding is a multi-departmental service which aims to protect those most vulnerable in society who will be more susceptible to Covid-19. They are provided with deliveries of food and medicine along with social contact.</td>
+
+
+
+
+          <td class="govuk-table__cell"
+          >1. MHCLG</td>
+
+
+
+
+          <td class="govuk-table__cell"
+          >1. Delivery</td>
+
+
+
+
+          <td class="govuk-table__cell"
+          >1. Interested party</td>
+
+
+        </tr>
+
+
+        <tr class="govuk-table__row">
+
+
+
+          <td class="govuk-table__cell"
+          ><a href="service-info?numberOfService=5">Negotiate the local government finance settlement with HMT</a><br>MHCLG acts on behalf of Local Authorities to negotiate the settlement</td>
+
+
+
+
+          <td class="govuk-table__cell"
+          >1. MHCLG</td>
+
+
+
+
+          <td class="govuk-table__cell"
+          >1. Policy<br>
+        2. Delivery</td>
+
+
+
+
+          <td class="govuk-table__cell"
+          >1. Local authority</td>
+
+
+        </tr>
+
+        <tr class="govuk-table__row">
+
+
+
+          <td class="govuk-table__cell"
+          ><a href="service-info?numberOfService=5">Resilience and Recovery</a><br>Resilience and Recovery help communities to prepare for, respond to, recover and learn from emergencies. These include things such as the Grenfell disaster, Covid-19 and seasonal flooding.</td>
+
+
+
+
+          <td class="govuk-table__cell"
+          >1. MHCLG<br>
+        2. Local authorities<br>
+      3. PHE</td>
+
+
+
+
+          <td class="govuk-table__cell"
+          >1. Policy<br>
+        2. Delivery<br>
+      3. Guidance<br>
+    4. Data collection</td>
+
+
+
+
+          <td class="govuk-table__cell"
+          >
+        1. Local authority<br>
+      2. Grenfell survivor<br>
+    3. Local resident</td>
+
+
+        </tr>
+
+
+        <tr class="govuk-table__row">
+
+
+
+          <td class="govuk-table__cell"
+          ><a href="service-info?numberOfService=1">Respond to Government consultations</a><br>No summary</td>
+
+
+          <td class="govuk-table__cell"
+          >1. MHCLG</td>
+
+          <td class="govuk-table__cell"
+          >1. Delivery</td>
+
+          <td class="govuk-table__cell"
+          >1. Interested party</td>
+
+        </tr>
+
+        <tr class="govuk-table__row">
+
+
+
+          <td class="govuk-table__cell"
+          ><a href="service-info?numberOfService=1">Rough Sleeping Accommodation programme</a><br>Provide 6,000 homes to vulnerable rough sleepers</td>
+
+
+          <td class="govuk-table__cell"
+          >1. MHCLG<br>
+        2. Local authorities<br>
+      3. Homes England</td>
+
+          <td class="govuk-table__cell"
+          >1. Delivery</td>
+
+          <td class="govuk-table__cell"
+          >1. Rough sleeper</td>
+
+        </tr>
+
+
+        <tr class="govuk-table__row">
+
+
+
+          <td class="govuk-table__cell"
+          ><a href="service-info?numberOfService=1">See MHCLG's Accounts</a><br>MHCLG is required to publish a statement of its accounts</td>
+
+
+          <td class="govuk-table__cell"
+          >1. MHCLG</td>
+
+          <td class="govuk-table__cell"
+          >1. Delivery</td>
+
+          <td class="govuk-table__cell"
+          >1. Interested party</td>
+
+        </tr>
+
+        <tr class="govuk-table__row">
+
+          <td class="govuk-table__cell"
+          ><a href="service-info?numberOfService=3">Shielding</a><br>Shielding is a multi-departmental service which aims to protect those most vulnerable in society who will be more susceptible to Covid-19. They are provided with deliveries of food and medicine along with social contact.</td>
+
+          <td class="govuk-table__cell">1. MHCLG<br>
+          2. Local authorities<br>
+          3. DHSC<br>
+          4. DWP<br>
+          5. DEFRA<br>
+          6. GDS<br>
+          7. NHS<br>
+          8. PHE</td>
+
+          <td class="govuk-table__cell">1. Policy<br>
+          2. Delivery<br>
+          3. Data collection<br>
+          4. Guidance</td>
+
+          <td class="govuk-table__cell">1. Vulnerable person</td>
+
+
+        </tr>
+
+
+
+                <tr class="govuk-table__row">
+
+
+
+                  <td class="govuk-table__cell"
+                  ><a href="service-info?numberOfService=1">Take part in deciding the future of the Grenfell site</a><br>Bring the Grenfell tragedy onto an appropriate commemorative footing in a way that is community-led [tbc]</td>
+
+
+                  <td class="govuk-table__cell"
+                  >1. MHCLG</td>
+
+                  <td class="govuk-table__cell"
+                  >1. Delivery</td>
+
+                  <td class="govuk-table__cell"
+                  >1. Grenfell survivor</td>
+
+                </tr>
+
+  </tbody>
+</table>
+
+
+
+
+  <p>Last updated on: 8 January 2020</p>
+
+    </div>
+  </div>
+
+{% endblock %}

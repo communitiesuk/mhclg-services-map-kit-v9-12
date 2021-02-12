@@ -1,0 +1,334 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+{% block beforeContent %}
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.go(-1)"
+}) }}
+
+
+{% endblock%}
+
+{% block content %}
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <span class="govuk-caption-xl">
+        Service detail
+      </span>
+      <h1 class="govuk-heading-xl govuk-!-margin-bottom-0">
+
+        {{ nameOfService }}
+
+      </h1>
+
+        <strong class="govuk-tag govuk-!-margin-top-0 govuk-!-margin-bottom-8">Pilot</strong>
+
+        <p class="govuk-body govuk-!-margin-bottom-8">
+          Last updated: 7 January 2020
+          </p>
+
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+
+      <p>
+        <a href="#">Overview of the service</a><br />
+        <a href="#">Purpose of the service</a><br />
+        <a href="#">Delivery of the service</a><br />
+        <a href="#">Management of the service</a>
+      </p>
+      </div>
+
+
+      <div class="govuk-grid-column-two-thirds">
+
+      <h2 class="govuk-heading-l">Overview of the service</h2>
+      <h3 class="govuk-heading-m">Service description</h3>
+
+
+      <p>
+        {% if serviceDescription.length > 0 %}
+        {{ serviceDescription }}
+        {% else %}
+
+          No service description recorded
+
+        {% endif %}
+      </p>
+
+      <h3 class="govuk-heading-m">MHCLG's role in the service</h3>
+
+      <p>
+        {% if MHCLGInputDescription.length > 0 %}
+
+            {{ MHCLGInputDescription }}
+
+        {% else %}
+
+              No description of MHCLG's role in the service.
+
+        {% endif %}
+        </p>
+
+        <!--<p>
+        Aspects of MHCLG's involvement in the service: {{ roleOfMHCLG }}
+      </p>-->
+
+  <h2 class="govuk-heading-l">Purpose of the service</h2>
+
+      <h3 class="govuk-heading-m">Who does this service help?</h3>
+
+      <dl class="govuk-summary-list">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+              End user
+          </dt>
+          <dd class="govuk-summary-list__key">
+            User need
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__value">
+              Someone who is shielding
+          </dt>
+          <dd class="govuk-summary-list__value">
+            Get food and medicine if I am asked to shield
+          </dd>
+        </div>
+        </dl>
+
+        <h3 class="govuk-heading-m">Policy</h3>
+
+        <dl class="govuk-summary-list">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Policy objective
+            </dt>
+            <dd class="govuk-summary-list__value">
+              {{ policyObjective }}
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Minsiterial objective
+            </dt>
+            <dd class="govuk-summary-list__value">
+              None
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Policy area
+            </dt>
+            <dd class="govuk-summary-list__value">
+              <!-- policyGroup --> <a href="#">Shielding</a>
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Policy team
+            </dt>
+            <dd class="govuk-summary-list__value">
+              <a href="#">Shielding</a>
+            </dd>
+          </div>
+          </dl>
+
+
+      <h3 class="govuk-heading-m">What does this service help them to do?</h3>
+
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a href="#">Get support with Covid-19</a></li>
+      </ul>
+
+
+  <h2 class="govuk-heading-l">Delivery of the service</h2>
+
+      <h3 class="govuk-heading-m">The service that is delivered</h3>
+
+      <!-- <p>Partners involved: {{ serviceProvider }}</p> -->
+
+      <dl class="govuk-summary-list">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+              Stages
+          </dt>
+          <dd class="govuk-summary-list__key">
+            Delivered by
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__value">
+              1. information on gov.uk
+          </dt>
+          <dd class="govuk-summary-list__value">
+            MHCLG
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__value">
+            2. apply for money - online or offline
+          </dt>
+          <dd class="govuk-summary-list__value">
+            Homes England
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__value">
+            3. receive money
+          </dt>
+          <dd class="govuk-summary-list__value">
+            Homes England
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__value">
+            4. check money is spent as it should have been
+          </dt>
+          <dd class="govuk-summary-list__value">
+              Home England
+          </dd>
+        </div>
+        </dl>
+
+
+
+    <h3 class="govuk-heading-m">
+      Funding distributed by the service
+    </h3>
+
+    <p>
+      A pot of £28m awarded in 2018 to be spent by 2024. The money is handed to Homes England, who then distribute the money.
+    </p>
+
+    <dl class="govuk-summary-list">
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+            Funding amount
+        </dt>
+        <dd class="govuk-summary-list__key">
+           Financial year
+        </dd>
+      </div>
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__value">
+            £ 7,550,000
+        </dt>
+        <dd class="govuk-summary-list__value">
+          2020 to 2021
+        </dd>
+      </div>
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__value">
+            £ 12,750,000
+        </dt>
+        <dd class="govuk-summary-list__value">
+          2021 to 2022
+        </dd>
+      </div>
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__value">
+            £ 9,250,000
+        </dt>
+        <dd class="govuk-summary-list__value">
+          2022 to 2023
+        </dd>
+      </div>
+    </dl>
+
+
+      <h3 class="govuk-heading-m">Connected services</h3>
+
+      <p>
+        This is a standalone service.
+      </p>
+
+
+
+
+      <h2 class="govuk-heading-l govuk-!-margin-top-8">Management of this service</h2>
+
+
+            <h3 class="govuk-heading-m">Budget for the service</h3>
+
+        <dl class="govuk-summary-list">
+
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Amount and time period
+          </dt>
+          <dd class="govuk-summary-list__value">
+            £50million between April 2020 and March 2022
+
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Fund name (is there one for the dept budget?)
+          </dt>
+          <dd class="govuk-summary-list__value">
+          FUND NAME if there is one
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Review date for funding
+          </dt>
+          <dd class="govuk-summary-list__value">
+           October 2021
+          </dd>
+        </div>
+
+      </dl>
+
+
+      <h3 class="govuk-heading-m">Staff</h3>
+
+
+      <dl class="govuk-summary-list">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            FTE
+          </dt>
+          <dd class="govuk-summary-list__value">
+            6 (as of [date] / for period X to Y)
+          </dd>
+        </div>
+      </dl>
+
+
+
+            <h3 class="govuk-heading-m">Contact for this service</h3>
+
+            <p>
+              <strong>Simon Wilson</strong><br />
+              simon.wilson@communities.gov.uk
+            </p>
+
+            <p>
+              <strong>UCPD team</strong><br />
+              ucpd@communities.gov.uk
+            </p>
+
+
+
+
+<div class="govuk-inset-text govuk-!-margin-top-8">
+      <p>
+        <a href="feedback-for-service">Is something wrong with this information?</a>.
+        </p>
+</div>
+    </div>
+
+  </div>
+
+{% endblock %}

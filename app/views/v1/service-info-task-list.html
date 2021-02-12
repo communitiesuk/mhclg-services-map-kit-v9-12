@@ -1,0 +1,109 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+{% block beforeContent %}
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.go(-1)"
+}) }}
+
+
+{% endblock%}
+
+{% block content %}
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <span class="govuk-caption-xl">
+        Service detail
+      </span>
+      <h1 class="govuk-heading-xl">
+        {{ nameOfService }}
+      </h1>
+
+      <h3 class="govuk-heading-m">Service description</h3>
+      <p>
+        {{ serviceDescription }}
+      </p>
+
+      <h3 class="govuk-heading-m">Delivered by</h3>
+      <p>
+        {{ serviceProvider }}
+      </p>
+
+
+      <h3 class="govuk-heading-m">MHCLG’s role</h3>
+      <p>
+        {{ roleOfMHCLG }}
+      </p>
+
+      <h3 class="govuk-heading-m">End user</h3>
+      <p>
+        {{ endUser }}
+      </p>
+
+      <h3 class="govuk-heading-m">End user need</h3>
+      <p>
+        {{ endUserNeeds }}
+      </p>
+
+      <h3 class="govuk-heading-m">Service type</h3>
+      <p>
+        {{ serviceType }}
+      </p>
+
+      <h3 class="govuk-heading-m">Service maturity</h3>
+      <p>
+        {{ serviceMaturity }}
+      </p>
+
+      <h3 class="govuk-heading-m">Policy objective</h3>
+      <p>
+        {{ policyObjective }}
+      </p>
+
+      <h3 class="govuk-heading-m">Policy team</h3>
+      <p>
+        {{ policyTeam }}
+      </p>
+
+      <h3 class="govuk-heading-m">Policy group</h3>
+      <p>
+        {{ policyGroup}}
+      </p>
+
+
+      <h3 class="govuk-heading-m">Staff commitment</h3>
+      <p>
+        {{ FTE }} FTE
+      </p>
+
+      <h3 class="govuk-heading-m">Funding from MHCLG</h3>
+      <p>
+        {{ levelOfFunding }}
+      </p>
+
+      <h3 class="govuk-heading-m">Fund name</h3>
+      <p>
+        {{ fundName }} - only show if record exists
+      </p>
+
+      <p>
+        Last updated: 7 January 2020
+        </p>
+
+<div class="govuk-inset-text">
+      <p>
+        <a href="feedback-for-service">Is something wrong with this information?</a>.
+        </p>
+</div>
+    </div>
+  </div>
+
+{% endblock %}

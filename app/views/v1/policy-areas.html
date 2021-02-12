@@ -1,0 +1,64 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+{% block beforeContent %}
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.go(-1)"
+}) }}
+
+
+{% endblock%}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        Policy areas
+      </h1>
+
+
+  <p>
+    <a href="policy-area">Building safety</a><br>
+    <a href="policy-area">Correspondence and scrutiny</a><br>
+    <a href="policy-area">Departmental publications</a><br>
+    <a href="policy-area">Emergencies</a><br>
+    <a href="policy-area">Funding for Local Growth</a><br>
+
+
+    <a href="policy-area">Homelessness and rough sleeping</a><br>
+    <a href="policy-area">Housing Delivery</a><br>
+    <a href="policy-area">Housing and Vulnerable People</a><br>
+
+    <a href="policy-area">Housing Markets</a><br>
+
+
+    <a href="policy-area">Local Government</a><br>
+    <a href="policy-area">Planning</a><br>
+
+    <a href="policy-area">Shelter</a><br>
+    <a href="policy-area">Shielding</a><br>
+    <a href="policy-area">Social Housing</a><br>
+    <a href="policy-area">Troubled Families (Local Gov and Communities)</a><br>
+
+
+  </p>
+
+
+
+<div class="govuk-inset-text">
+      <p>
+        <a href="feedback-for-service">Is something wrong with this information?</a>.
+        </p>
+</div>
+    </div>
+  </div>
+
+{% endblock %}
