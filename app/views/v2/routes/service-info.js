@@ -30,6 +30,8 @@ let serviceType = [''];
 let serviceMaturity = [''];
 let serviceStartDate = [''];
 let serviceEndDate = [''];
+let departmentalPriority = [''];
+let policyPartners = [''];
 let policyObjective = [''];
 let policyTeam = [''];
 let policyGroup = [''];
@@ -54,6 +56,8 @@ for (x of obj["records"]) {
   serviceMaturity.push(obj["records"][counter]["fields"]["Service Maturity"]);
   serviceStartDate.push(obj["records"][counter]["fields"]["Service Start Date"]);
   serviceEndDate.push(obj["records"][counter]["fields"]["Service End Date"]);
+  departmentalPriority.push(obj["records"][counter]["fields"]["Departmental Priority"]);
+  policyPartners.push(obj["records"][counter]["fields"]["Policy Partners"]);
   policyObjective.push(obj["records"][counter]["fields"]["Policy Objective"]);
   policyTeam.push(obj["records"][counter]["fields"]["Policy Team"]);
   policyGroup.push(obj["records"][counter]["fields"]["Policy Group"]);
@@ -96,6 +100,9 @@ router.get('/v2/service-info', function (req, res) {
     serviceStartDate: serviceStartDate[numberOfService],
     serviceEndDate: serviceEndDate[numberOfService],
 
+    departmentalPriority: departmentalPriority[numberOfService],
+
+    policyPartners: policyPartners[numberOfService],
     policyObjective: policyObjective[numberOfService],
 
     policyTeam: policyTeam[numberOfService],
