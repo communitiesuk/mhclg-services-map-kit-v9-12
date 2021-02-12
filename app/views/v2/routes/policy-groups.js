@@ -18,6 +18,7 @@ var x;
 var counter;
 counter = 0;
 
+var groupID = [];
 var groupName = [];
 
 console.log("v2 policy-groups.js data:\n");
@@ -26,9 +27,11 @@ console.log("v2 policy-groups.js data:\n");
 for (x of obj["records"]) {
 //  console.log(" ding... ");
   //console.log(counter + ": " + obj["records"][counter]["fields"]["Service Name"]);
+  groupID.push(obj["records"][counter]["id"]);
   groupName.push(obj["records"][counter]["fields"]["Name"]);
 
-  console.log(counter + "   " + groupName[counter]);
+  console.log("\n\ngroupID: " + groupID[counter]);
+
   //req.session.data['serviceNames']['counter'] = serviceNames[counter];
   counter++;
 }
@@ -40,7 +43,8 @@ router.get('/v2/all-policy-groups', function (req, res) {
 
 
   res.render('v2/all-policy-groups', {
-    groupName: groupName
+    groupName: groupName,
+    groupID: groupID
   })
 })
 

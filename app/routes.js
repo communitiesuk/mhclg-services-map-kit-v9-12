@@ -18,6 +18,8 @@ require('./views/v2/routes/end-users')(router);
 require('./views/v2/routes/end-user-needs')(router);
 
 require('./views/v2/routes/policy-groups')(router);
+require('./views/v2/routes/policy-group-detail')(router);
+
 require('./views/v2/routes/policy-teams')(router);
 require('./views/v2/routes/policy-team-services')(router);
 require('./views/v2/routes/policy-objectives')(router);
