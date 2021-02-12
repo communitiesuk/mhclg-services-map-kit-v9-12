@@ -9,6 +9,8 @@ require('./views/v1/routes/service-info')(router);
 
 // v2
 require('./views/v2/routes/service-list')(router);
+require('./views/v2/routes/service-list-policy')(router);
+
 require('./views/v2/routes/service-list-policy-delivery')(router);
 
 require('./views/v2/routes/service-info')(router);

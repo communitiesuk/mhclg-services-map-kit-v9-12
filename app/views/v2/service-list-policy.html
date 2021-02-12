@@ -1,0 +1,54 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+{% block beforeContent %}
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.go(-1)"
+}) }}
+
+
+{% endblock%}
+
+{% block content %}
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+
+        All services MHCLG does policy abut does not deliver the service
+
+      </h1>
+
+    </div>
+
+  </div>
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-two-thirds">
+
+        <p>
+
+          <ol class="govuk-list govuk-list--number">
+            {% set count = 0 %}
+          {% for item in matchingService %}
+            <li><a href="service-info?numberOfService={{ numberOfService[count] }}">{{item}}</a></li>
+            {% set count = count + 1 %}
+          {% endfor %}
+          </ol>
+
+        </p>
+
+      </div>
+
+  </div>
+
+{% endblock %}
