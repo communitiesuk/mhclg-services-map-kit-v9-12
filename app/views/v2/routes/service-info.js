@@ -36,6 +36,7 @@ let policyObjective = [''];
 let policyTeam = [''];
 let policyGroup = [''];
 let FTE = [''];
+let serviceBudget = [''];
 let levelOfFunding = [''];
 let fundName = [''];
 
@@ -62,6 +63,8 @@ for (x of obj["records"]) {
   policyTeam.push(obj["records"][counter]["fields"]["Policy Team"]);
   policyGroup.push(obj["records"][counter]["fields"]["Policy Group"]);
   FTE.push(obj["records"][counter]["fields"]["FTE"]);
+  serviceBudget.push(obj["records"][counter]["fields"]["Service budget"]);
+
   levelOfFunding.push(obj["records"][counter]["fields"]["Level of Funding"]);
   fundName.push(obj["records"][counter]["fields"]["Fund Name"]);
 
@@ -108,6 +111,8 @@ router.get('/v2/service-info', function (req, res) {
     policyTeam: policyTeam[numberOfService],
     policyGroup: policyGroup[numberOfService],
     FTE: FTE[numberOfService],
+
+    serviceBudget: serviceBudget[numberOfService],
 
     levelOfFunding: levelOfFunding[numberOfService],
     fundName: fundName[numberOfService]
