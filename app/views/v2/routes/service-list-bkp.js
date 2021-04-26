@@ -5,15 +5,14 @@ const fs = require('fs');
 const fileLocation = './app/views/v2/services-data.json';
 
 let rawdata = fs.readFileSync(fileLocation);
-// let JSONdata = JSON.parse(rawdata);
-// console.log(JSONdata);
+let JSONdata = JSON.parse(rawdata);
+//console.log(JSONdata);
 
 // Converting JSON object to JS object
 var obj = JSON.parse(rawdata);
 
 // test JSON by printing the service name of service "30"
 // console.log(obj["records"][30]["fields"]["Service Name"]);
-
 
 var numberOfService = [];
 var x;
@@ -34,9 +33,6 @@ for (x of obj["records"]) {
   //req.session.data['serviceNames']['counter'] = serviceNames[counter];
   counter++;
 }
-
-
-
 
 
 

@@ -1,15 +1,15 @@
 module.exports = function (router) {
 
+// ------- START import user data ---------
 
-const fs = require('fs');
-const fileLocation = './app/views/v2/end-users-data.json';
+const gs = require('fs');
+const usersfileLocation = './app/views/v2/end-users-data.json';
 
-let rawdata = fs.readFileSync(fileLocation);
-let JSONdata = JSON.parse(rawdata);
+let usersrawdata = gs.readFileSync(usersfileLocation);
 //console.log(JSONdata);
 
 // Converting JSON object to JS object
-var obj = JSON.parse(rawdata);
+var usersobj = JSON.parse(usersrawdata);
 
 // test JSON by printing the service name of service "30"
 // console.log(obj["records"][30]["fields"]["Service Name"]);
@@ -23,17 +23,16 @@ var userName = [];
 console.log("v2 end-users.js data:\n");
 
 
-for (x of obj["records"]) {
-//  console.log(" ding... ");
+for (x of usersobj["records"]) {
   //console.log(counter + ": " + obj["records"][counter]["fields"]["Service Name"]);
-  userName.push(obj["records"][counter]["fields"]["Name"]);
+  userName.push(usersobj["records"][counter]["fields"]["Name"]);
 
   console.log(counter + "   " + userName[counter]);
   //req.session.data['serviceNames']['counter'] = serviceNames[counter];
   counter++;
 }
 
-
+// ------- END import user data ---------
 
 
 router.get('/v2/end-users', function (req, res) {

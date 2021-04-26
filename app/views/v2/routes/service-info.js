@@ -1,11 +1,12 @@
 module.exports = function (router) {
 
 
+// ------- START import services data ---------
+
 const fs = require('fs');
 const fileLocation = './app/views/v2/services-data.json';
 
 let rawdata = fs.readFileSync(fileLocation);
-let JSONdata = JSON.parse(rawdata);
 //console.log(JSONdata);
 
 // Converting JSON object to JS object
@@ -73,6 +74,46 @@ for (x of obj["records"]) {
   counter++;
 }
 
+// ------- END import services data ---------
+
+
+// ------- START import user data ---------
+
+const gs = require('fs');
+const usersfileLocation = './app/views/v2/end-users-data.json';
+
+let usersrawdata = gs.readFileSync(usersfileLocation);
+//console.log(JSONdata);
+
+// Converting JSON object to JS object
+var usersobj = JSON.parse(usersrawdata);
+
+// test JSON by printing the service name of service "30"
+// console.log(obj["records"][30]["fields"]["Service Name"]);
+
+var x;
+var counter;
+counter = 0;
+
+var userName = [];
+var userNameID = [];
+
+console.log("v2 end-users.js data:\n");
+
+
+for (x of usersobj["records"]) {
+  //console.log(counter + ": " + obj["records"][counter]["fields"]["Service Name"]);
+  userName.push(usersobj["records"][counter]["fields"]["Name"]);
+  userNameID.push(usersobj["records"][counter]["id"]);
+
+  //console.log(counter + "   " + userName[counter]);
+  //req.session.data['serviceNames']['counter'] = serviceNames[counter];
+  counter++;
+}
+
+// ------- END import user data ---------
+
+
 
 
 router.get('/v2/service-info', function (req, res) {
@@ -87,6 +128,29 @@ router.get('/v2/service-info', function (req, res) {
     numberOfService = "3";
 
   };
+
+
+  var s;
+  var t;
+  for (s in endUser[numberOfService]) {
+
+    console.log("endUser " + s + "   " + endUser[s]);
+
+    for (t in userNameID) {
+
+      console.log("   userNameID " + t + "   " + userNameID[t]);
+
+      if (endUser[numberOfService][s] == userNameID[t]) {
+
+        console.log("MATCH! \n");
+        endUser[numberOfService][s] = userName[t];
+        console.log("     changed endUser " + numberOfService + " " + s + " = " + endUser[numberOfService][s]);
+
+      }
+
+    }
+
+  }
 
 
 
