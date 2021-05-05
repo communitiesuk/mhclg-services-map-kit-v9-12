@@ -1,0 +1,90 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+{% block beforeContent %}
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.go(-1)"
+}) }}
+
+
+{% endblock%}
+
+{% block content %}
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+
+        End users detail: Grenfell survivor
+
+      </h1>
+
+    </div>
+
+  </div>
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-two-thirds">
+
+        <h2 class="govuk-heading-m">
+
+          Themes for this end user
+
+        </h2>
+
+<ol class="govuk-list govuk-list--number">
+    <li>Communities of people</li>
+  </ol>
+
+    <h2 class="govuk-heading-m">
+      End user needs
+    </h2>
+
+<ol class="govuk-list govuk-list--number">
+  <li>
+    be invited to contribute to the future of the site and stay informed about that process
+    </li>
+    <li>
+Recover and learn from an emergency.
+      </li>
+  </ol>
+
+        <h2 class="govuk-heading-m">
+
+          Services for these users
+
+        </h2>
+
+
+        <p>
+
+          <ol class="govuk-list govuk-list--number">
+          {% for item in userName %}
+            <!--<li>{{item}}</li>-->
+          {% endfor %}
+
+          <li>
+            <a href="service-info?numberOfService=187">Take part in deciding the future of the Grenfell site</a>
+          </li>
+          <li>
+            <a href="service-info?numberOfService=204">Resilience and Recovery</a>
+          </li>
+
+          </ol>
+
+        </p>
+
+      </div>
+
+  </div>
+
+{% endblock %}

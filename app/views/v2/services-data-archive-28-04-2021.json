@@ -1,0 +1,2181 @@
+{
+   "records":[
+      {
+         "id":"rec0yCK0EMykW7HTi",
+         "fields":{
+            "Service Name":"New Homes Ombudsman",
+            "End User Need":"Get compensation for poor quality of a new home",
+            "End User":[
+               "recGvzvS1fGFSdaf2"
+            ],
+            "MHCLG input description":"MHCLG will pass legislation making obligatory for new home builders to belong to the New Homes Ombudsman. The dept will also set up the ombudsman(men)",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "rec5SJUXVGC3grM2U"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2021",
+            "Policy Objective":"The scheme will have powers to hold developers to account and to require them to put matters right. This will provide new build homebuyers with the protection they require.",
+            "Policy Team":[
+               "Housing Performance"
+            ],
+            "Policy Group":[
+               "rec8qNK2IdVQGMdea"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Delivery"
+            ],
+            "Link to Service":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/867567/New_Homes_Ombudsman_Consultation_Response.pdf",
+            "Service description":"an independent body that owners of new homes can appeal to in the case of substandard work by developers",
+            "Service contact email address":"keith.burnett@communities.gov.uk",
+            "Last updated":"2021-01-19T11:50:12.000Z"
+         },
+         "createdTime":"2021-01-18T15:42:07.000Z"
+      },
+      {
+         "id":"rec12iyjXHLM7pMmw",
+         "fields":{
+            "Service Name":"Brownfield Fund",
+            "End User Need":"get funding to bring more land in to use",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"MHCLG provides funding",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2020",
+            "Level of Funding":"£400 million",
+            "Policy Objective":"The government will provide £400m for Mayoral Combined Authorities and local areas to build housing on brownfield land across the country.",
+            "Policy Team":[
+               "Shif and Land Policy​"
+            ],
+            "Policy Group":[
+               "recTdMlUByYlxQIkt"
+            ],
+            "Role of MHCLG":[
+               "Funding"
+            ],
+            "Service description":"funding to boost the supply of homes for pro-development councils and mayoral combined authorities",
+            "Service contact email address":"christian.delaney@communities.gov.uk",
+            "Last updated":"2021-01-26T12:23:17.000Z"
+         },
+         "createdTime":"2021-01-07T16:28:49.000Z"
+      },
+      {
+         "id":"rec2FWycDleVE5otq",
+         "fields":{
+            "Service Name":"Find an energy performance certificate",
+            "End User Need":"check for an energy performance certificate ",
+            "End User":[
+               "recirmb0mC2k95tsv",
+               "reccCmxgiNHr2uVzS",
+               "recGvzvS1fGFSdaf2",
+               "recyJRyUKlusW1g7B",
+               "recsmz11BF3XN16cY"
+            ],
+            "MHCLG input description":"MHCLG runs the digital service",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Provider Type":"MHCLG",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"New service started 2020",
+            "Policy Objective":"Energy performance certificates must be shared with prospective buyers or renters of properties to inform them about energy costs and possible remediation works",
+            "Policy Team":[
+               "Energy Performance of Buildings​"
+            ],
+            "Policy Group":[
+               "recuVrkuJfghgzFNm"
+            ],
+            "Role of MHCLG":[
+               "Delivery"
+            ],
+            "Link to Service":"https://find-energy-certificate.digital.communities.gov.uk/",
+            "Number of End Users Engaging":"1.35m transactions / year",
+            "Service description":"The certificates are created by assessors and submitted to the register, which is searchable online. ",
+            "Service contact email address":"dean.wanless@communities.gov.uk",
+            "Last updated":"2021-01-26T17:29:52.000Z"
+         },
+         "createdTime":"2021-01-22T11:34:44.000Z"
+      },
+      {
+         "id":"rec2llh6TGIfhzZfP",
+         "fields":{
+            "Service Name":"Land Assembly Fund",
+            "End User Need":"get help to develop land so that new houses can be built",
+            "End User":[
+               "recdx61cjhjSl4NHh"
+            ],
+            "Service Provider":[
+               "recGJhcidvM2IJW83"
+            ],
+            "Provider Type":"ALB",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2018",
+            "Service End Date":"2030?",
+            "Fund Name":"Land Assembly Fund",
+            "Level of Funding":"£1.3 billion",
+            "Policy Objective":"Acquire challenging sites that the private sector cannot progress without public sector intervention. The scheme will also acquire sites which are not progressing into production on a commercial basis.",
+            "Policy Team":[
+               "Housing Impacts - Places​"
+            ],
+            "Policy Group":[
+               "recTdMlUByYlxQIkt"
+            ],
+            "Role of MHCLG":[
+               "Funding"
+            ],
+            "Link to Service":"https://www.gov.uk/government/news/government-investment-to-overcome-barriers-to-building",
+            "Service description":"Funding used to acquire land needing work and get it ready for the market, making it less risky for developers to invest in and start building.",
+            "Last updated":"2021-01-22T11:51:05.000Z"
+         },
+         "createdTime":"2020-12-29T15:05:44.000Z"
+      },
+      {
+         "id":"rec33GOC2czFk6z8h",
+         "fields":{
+            "Service Name":"Home Building Fund",
+            "End User Need":"receive funding to build new homes",
+            "End User":[
+               "recdx61cjhjSl4NHh"
+            ],
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recGJhcidvM2IJW83"
+            ],
+            "Provider Type":"ALB",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2016",
+            "Service End Date":"2023",
+            "Fund Name":"Home Building Fund",
+            "Level of Funding":" £4.5 billion (£2.5 billion for Short Term Fund and £2 billion for Long Term Fund)",
+            "Policy Objective":"Government finance to increase the number of homes being built in England by the private sector",
+            "Policy Team":[
+               "Housing Investment and Diversification​"
+            ],
+            "Policy Group":[
+               "rec8qNK2IdVQGMdea"
+            ],
+            "Role of MHCLG":[
+               "Funding"
+            ],
+            "Link to Service":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/744217/An_introduction_to_the_home_building_fund_revised_September2018.pdf",
+            "Service description":"Loan funding to meet the development costs of building homes for sale or rent, or for site preparation and the\ninfrastructure needed to enable housing to progress and to prepare land for development.",
+            "Service contact email address":"beth.walmswell@communities.gov.uk",
+            "Last updated":"2021-01-21T13:27:43.000Z"
+         },
+         "createdTime":"2020-12-29T14:32:18.000Z"
+      },
+      {
+         "id":"rec5L9DmvdFRgEp2z",
+         "fields":{
+            "Service Name":"Respond to Government consultations ",
+            "End User Need":"As an interested party I need to see and respond to government consultations",
+            "End User":[
+               "rec7is7Cuqxfl00rQ"
+            ],
+            "MHCLG input description":"Consultations are published and answers accepted online",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Policy Objective":"Legal requirement for consultation is met",
+            "Policy Team":[
+               "Comms "
+            ],
+            "Policy Group":[
+               "recteVaokiFWr0OZd"
+            ],
+            "Role of MHCLG":[
+               "Delivery"
+            ],
+            "Link to Service":"https://www.gov.uk/search/policy-papers-and-consultations?organisations%5B%5D=ministry-of-housing-communities-and-local-government&order=updated-newest",
+            "Last updated":"2021-01-21T17:10:29.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"rec6DinkBVDCW6Cgo",
+         "fields":{
+            "Service Name":"Get your building tested for ACM cladding",
+            "End User Need":"Find out if my building has dangerous ACM cladding on it so I know if I need to get it removed",
+            "End User":[
+               "recBOZs9xZG0ikaR2",
+               "recGvzvS1fGFSdaf2",
+               "recSDgXAWA6dthhJy",
+               "recyJRyUKlusW1g7B"
+            ],
+            "MHCLG input description":"Testing facilities made available free of charge so tests can be carried out lerated",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recBsVmHmHGtwcj81"
+            ],
+            "Provider Type":"Charitable science organisation",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"Jun-17",
+            "Policy Objective":"Reassure the public and discover other instances of dangerous cladding on buildings",
+            "Policy Team":[
+               "Building Safety"
+            ],
+            "Policy Group":[
+               "recuVrkuJfghgzFNm"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Guidance"
+            ],
+            "Link to Service":"https://www.gov.uk/government/publications/safety-checks-on-private-residential-blocks",
+            "Last updated":"2021-01-19T11:50:12.000Z"
+         },
+         "createdTime":"2020-11-18T12:01:18.000Z"
+      },
+      {
+         "id":"rec9LLtwnKtkrcohq",
+         "fields":{
+            "Service Name":"Shielding",
+            "End User Need":"Get food and medicine if I am asked to shield",
+            "End User":[
+               "recKP967pJmWhHVat"
+            ],
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recZrYiYPMtCXWNot",
+               "recI4rb6fViERO3RT",
+               "recs4CLF3vM1J4B3r",
+               "recbMbtxUFHjf9k4S",
+               "rectUAgiLdBUv4h5b",
+               "rec9ohXafZLk58MHh",
+               "recEiPWMsQCEblsfq"
+            ],
+            "Provider Type":"ALBs, LAs and Government departments all play a role",
+            "Service Maturity":[
+               "Other"
+            ],
+            "Service Start Date":"March 2020",
+            "Policy Objective":"Protect society's most vulnerable",
+            "Policy Team":[
+               "Shielding Policy"
+            ],
+            "Policy Group":[
+               "recDucRw8F1ZD5ALd"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Delivery",
+               "Data collection",
+               "Guidance"
+            ],
+            "Link to Service":" https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/conditionsanddiseases/datasets/coronavirusandshieldingofclinicallyextremelyvulnerablepeopleinengland",
+            "Number of End Users Engaging":"1.2m engaged with service once; 286,000 registered for support",
+            "Service description":"Shielding is a multi-departmental service which aims to protect those most vulnerable in society who will be more susceptible to Covid-19. They are provided with deliveries of food and medicine along with social contact.",
+            "Last updated":"2021-01-24T13:43:02.000Z"
+         },
+         "createdTime":"2020-11-18T12:04:18.000Z"
+      },
+      {
+         "id":"recCIQyABuvDBeTKB",
+         "fields":{
+            "Service Name":"Public Sector Land Programme",
+            "End User Need":"get access to public sector land",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recGJhcidvM2IJW83"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Policy Objective":"to release land for at least 160,000 homes from the central government estate by April 2020; and a similar ambition to work with LAs to release land for 160K on their land",
+            "Policy Team":[
+               "Housing Impacts - Places​"
+            ],
+            "Policy Group":[
+               "recTdMlUByYlxQIkt"
+            ],
+            "Role of MHCLG":[
+               "Policy"
+            ],
+            "Number of End Users Engaging":"Land with capacity for c48,000 homes has been sold by all departments as of June 2019",
+            "Service description":"Access land owned by Government depts or ALBs to build new homes",
+            "Service contact email address":"caroline.geary@communities.gov.uk",
+            "Last updated":"2021-01-25T11:24:11.000Z"
+         },
+         "createdTime":"2021-01-08T14:16:16.000Z"
+      },
+      {
+         "id":"recEMfjxtk6Jh5xth",
+         "fields":{
+            "Service Name":"Move on Fund",
+            "End User Need":"Get longer term accommodation",
+            "End User":[
+               "rec7OBmqbVclC0y9J",
+               "recYK9npkhrRhfPZA"
+            ],
+            "MHCLG input description":"MHCLG provides funding",
+            "Service Provider":[
+               "recGJhcidvM2IJW83"
+            ],
+            "Provider Type":"ALB",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2018/19",
+            "Service End Date":" 31 March 2021.",
+            "Level of Funding":"£44 million grant funding and £6 million revenue funding",
+            "Policy Objective":"The fund aims to free up hostel and refuge spaces and provide accommodation that people can move straight into from the streets to avoid having to stay in a hostel or refuge all together.",
+            "Policy Team":[
+               "Rough Sleeping"
+            ],
+            "Policy Group":[
+               "rec2xc1OTNP8Sauk4"
+            ],
+            "Role of MHCLG":[
+               "Funding"
+            ],
+            "Link to Service":"https://troubledfamilies.blog.gov.uk/page/2/",
+            "Service description":"The Move On Fund will contribute towards the capital costs of developing move-on accommodation for people leaving homelessness hostels and refuges for survivors of domestics abuse. This could involve: i) the purchase and repair of existing accommodation, ii) the development of new build properties iii) the lease and repair of existing properties. Bidding is open to all organisations who are, or intend to become, qualified as Homes\nEngland investment partners. This includes housing associations, local authorities, private sector developers and community groups among others. ",
+            "Service contact email address":"david.steele-drew@communities.gov.uk",
+            "Last updated":"2021-01-22T13:00:36.000Z"
+         },
+         "createdTime":"2021-01-04T11:57:34.000Z"
+      },
+      {
+         "id":"recFZB8zsE9rvtdsS",
+         "fields":{
+            "Service Name":"Make a Freedom of Information request",
+            "End User Need":"Get a response to my freedom of information request",
+            "End User":[
+               "rec7is7Cuqxfl00rQ"
+            ],
+            "MHCLG input description":"Department must respond to freedom of information requests within a specific timeframe",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2000",
+            "Service End Date":"n/a",
+            "Policy Objective":"Comply with FOI legislation in the interests of transparency",
+            "Policy Team":[
+               "Ministerial Group & Principal Private Secretary​"
+            ],
+            "Policy Group":[
+               "recmCHcE4nafYrFMT"
+            ],
+            "Role of MHCLG":[
+               "Delivery"
+            ],
+            "Link to Service":"https://www.gov.uk/make-a-freedom-of-information-request",
+            "Number of End Users Engaging":"c.1000",
+            "Service contact email address":"andy.jennings@communities.gov.uk",
+            "Last updated":"2021-01-25T11:17:21.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recFbAN5UpCixfCrk",
+         "fields":{
+            "Service Name":"Advice on making places Covid Secure",
+            "End User Need":"Feel safe in public spaces",
+            "End User":[
+               "rec7ZX0POYNW0xPIz"
+            ],
+            "MHCLG input description":"Suite of guidance on areas including urban centres and green spaces, playgrounds and a toolkit to help manage beaches and the countryside.",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "Other"
+            ],
+            "Service Start Date":"March 2020",
+            "Service End Date":"tbc",
+            "Policy Objective":"To make public spaces safe during the covid-19 pandemic.",
+            "Policy Team":[
+               "Covid Secure​"
+            ],
+            "Policy Group":[
+               "recTdMlUByYlxQIkt"
+            ],
+            "Role of MHCLG":[
+               "Guidance",
+               "Policy"
+            ],
+            "Last updated":"2021-01-22T11:43:08.000Z"
+         },
+         "createdTime":"2020-11-18T15:11:26.000Z"
+      },
+      {
+         "id":"recFwgxpX5dhEafiQ",
+         "fields":{
+            "Service Name":"Link into the local government digital network",
+            "End User Need":"I need to make connections to others working in digital in LAs so I can learn and share",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"Local gov digi community is provided by LDCU to create a movement around local government digital transformation",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"Jul-18",
+            "Policy Objective":"Promote GDS-style digital innovation in local authorities and create reusable components",
+            "Policy Team":[
+               "Local Government Digital​"
+            ],
+            "Policy Group":[
+               "rec5YEMuVWQdo1YmD"
+            ],
+            "Role of MHCLG":[
+               "Delivery"
+            ],
+            "Service description":"Provision of a community hub and networking opportunities for those in Local Gov Digital\n ",
+            "Last updated":"2021-01-22T11:55:02.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recGrxoABbrCCResQ",
+         "fields":{
+            "Service Name":"Pay Council tax",
+            "End User Need":"Pay council tax bill",
+            "End User":[
+               "recpyb2psYX7oc6uL"
+            ],
+            "MHCLG input description":"Set framework in which LAs bill locals for council tax, with revenue going to help fund local government budgets.",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recZrYiYPMtCXWNot",
+               "recONdF519qRXsx20"
+            ],
+            "Provider Type":"Local Gov",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"Apr-93",
+            "Service End Date":"n/a",
+            "Policy Objective":"Support the provision of local public services by delivering a fair, stable and credible council tax system.",
+            "Policy Team":[
+               "Local Taxation"
+            ],
+            "Policy Group":[
+               "recIVsxWzKSsTwHLl"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Guidance",
+               "Data collection"
+            ],
+            "Link to Service":"https://www.gov.uk/topic/local-government/council-tax",
+            "Last updated":"2021-01-22T13:10:37.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recHnVLEBbzivXz9b",
+         "fields":{
+            "Service Name":"Small Sites Fund",
+            "End User Need":"get grant funding to speed up building on public land",
+            "End User":[
+               "recBOZs9xZG0ikaR2",
+               "rec8jnokRwXN23ffH"
+            ],
+            "MHCLG input description":"MHCLG provides funding",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recGJhcidvM2IJW83"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2018",
+            "Level of Funding":"£630 million",
+            "Policy Objective":"Unlock public and private land, with capacity for up to 27,000 homes, by funding on-site infrastructure and land remediation on small sites.",
+            "Policy Team":[
+               "Housing Impacts - Places​"
+            ],
+            "Policy Group":[
+               "recTdMlUByYlxQIkt"
+            ],
+            "Role of MHCLG":[
+               "Funding"
+            ],
+            "Link to Service":"https://www.gov.uk/government/news/government-investment-to-overcome-barriers-to-building",
+            "Service description":"grant funding to speed up getting the right infrastructure in place to support home building on stalled small sites ",
+            "Last updated":"2021-01-22T15:22:41.000Z"
+         },
+         "createdTime":"2021-01-07T15:12:43.000Z"
+      },
+      {
+         "id":"recJTmwOG3yTRinYZ",
+         "fields":{
+            "Service Name":"Get an exemption from stamp duty",
+            "End User Need":"As a potential first time home buyer I need an affordable home to buy",
+            "End User":[
+               "recirmb0mC2k95tsv"
+            ],
+            "Service Type":"Transactional Service",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"Dec-14",
+            "Service End Date":"n/a",
+            "Policy Objective":"First time buyers get a discount on buying a home to help them get on the property ladder and receipts are used to pay for affordable housing",
+            "Policy Group":[
+               "rec8qNK2IdVQGMdea"
+            ],
+            "Role of MHCLG":[
+               "Policy"
+            ],
+            "Link to Service":"https://www.gov.uk/stamp-duty-land-tax",
+            "Number of End Users Engaging":"568,000 households (2017 - q2 2020)",
+            "Service description":"First-time buyers are entitled to relief for the first £300,000 of Stamp Duty on properties up to a value of £500,000. The conveyancer arranges for the discount to be applied. ",
+            "Last updated":"2021-01-25T12:26:20.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recKQunBh6RMIowmH",
+         "fields":{
+            "Service Name":"Troubled Family Outcomes Plans",
+            "End User Need":"help identify, prioritise and address the needs of those families who have many multiple and complex needs",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"MHCLG set the parameters for funding and give examples of the plans ",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recZrYiYPMtCXWNot"
+            ],
+            "Provider Type":"Local Authorities",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Policy Objective":"Provide a plan of action so that families can break out of negative cycles of unemployment, abuse, etc. Taking a whole family approach.",
+            "Policy Team":[
+               "Vulnerable People and Troubled Families​"
+            ],
+            "Policy Group":[
+               "reclo9CDrjihWAddo"
+            ],
+            "Role of MHCLG":[
+               "Guidance"
+            ],
+            "Service description":"A Troubled Families Outcome Plan (TFOP) is required for all authorities delivering the TFP.This should set out what each local authority and its partners consider to be the indicators of eligibility and successful outcomes against the programme’s six headline problems",
+            "Service contact email address":"ruth.keeling@communities.gov.uk",
+            "Last updated":"2021-01-21T13:36:34.000Z"
+         },
+         "createdTime":"2020-12-31T14:26:37.000Z"
+      },
+      {
+         "id":"recKaoh313cp4eb6Y",
+         "fields":{
+            "Service Name":"Offenders Accommodation",
+            "End User Need":"accommodation on leaving prison, so that I do not become a rough sleeper",
+            "End User":[
+               "recKVO8WXfkih3Za6"
+            ],
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recW0UDKUxJrQtRck"
+            ],
+            "Provider Type":"Prisons, local authority, probation staff, charities",
+            "Service Maturity":[
+               "Pilot"
+            ],
+            "Service Start Date":"Oct-19",
+            "Service End Date":"tbc",
+            "Fund Name":"tbc",
+            "Level of Funding":"£6.4 million",
+            "Policy Objective":"tbc",
+            "Policy Team":[
+               "Rough Sleeping"
+            ],
+            "Policy Group":[
+               "rec2xc1OTNP8Sauk4"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Funding"
+            ],
+            "Number of End Users Engaging":"400",
+            "Service description":"In the 12 weeks up to their release date, offenders involved in the pilot receive intensive support, targeted to their individual needs, to tackle issues like alcohol and drug dependency. Following release, offenders are given up to two years of secure and stable accommodation, funded by their benefits where the local housing market permits, as well as specific assistance with employment, education, benefits and family engagement. ",
+            "Last updated":"2021-01-25T12:12:02.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recLP3hCcbedVDxKR",
+         "fields":{
+            "Service Name":"Rough Sleeping Accommodation programme",
+            "End User Need":"get long term accommodation",
+            "End User":[
+               "rec7OBmqbVclC0y9J"
+            ],
+            "MHCLG input description":"MHCLG works in partnership with Homes England, councils, local leaders and the property sector to create long term accommodation",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recZrYiYPMtCXWNot",
+               "recGJhcidvM2IJW83"
+            ],
+            "Provider Type":"MHCLG, ALBs and local authorities all play a role.",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2020",
+            "Level of Funding":"£433 million",
+            "Policy Objective":"Provide 6,000 new supported homes 3,300 of these becoming available in the next 12 months.  Once in their new home, rough sleepers will be supported by specialist staff to access the help they need, such as support for mental health or substance abuse problems, so they can rebuild their lives, move towards training and work, and remain off the streets for good. ",
+            "Policy Team":[
+               "Rough Sleeping Accommodation Programme​"
+            ],
+            "Policy Group":[
+               "rec2xc1OTNP8Sauk4"
+            ],
+            "Role of MHCLG":[
+               "Delivery"
+            ],
+            "Link to Service":"https://www.gov.uk/government/news/6-000-new-supported-homes-as-part-of-landmark-commitment-to-end-rough-sleeping",
+            "Service description":"Provide 6,000 homes to vulnerable rough sleepers",
+            "Last updated":"2021-01-22T13:24:37.000Z"
+         },
+         "createdTime":"2020-12-31T11:29:04.000Z"
+      },
+      {
+         "id":"recMWOQdWm9rfn4Ce",
+         "fields":{
+            "Service Name":"Get Affordable Homes funding",
+            "End User Need":"As a housing provider I need funds with which to subsidise affordable homes",
+            "End User":[
+               "recirmb0mC2k95tsv"
+            ],
+            "MHCLG input description":"The Affordable Homes Programme provides grant funding to registered providers to support the delivery of affordable housing.",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recGJhcidvM2IJW83"
+            ],
+            "Provider Type":"ALB",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2019",
+            "Fund Name":"Affordable homes programme fund",
+            "Level of Funding":"£2.6bn (19/20), £2.4bn (20/21), £0.6bn (21/20), £2bn (next SR period)",
+            "Policy Objective":"More affordable housing built",
+            "Policy Team":[
+               "Affordable Housing Regulation & Investment​"
+            ],
+            "Policy Group":[
+               "recQy6BbmDNwBrYn7"
+            ],
+            "Role of MHCLG":[
+               "Funding"
+            ],
+            "Number of End Users Engaging":"450,000 homes delivered between 2011 and 2019",
+            "Service contact email address":"kerry.machale@communities.gov.uk",
+            "Last updated":"2021-01-25T12:55:52.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recNI0uee1quws9tX",
+         "fields":{
+            "Service Name":"Get funding for Covid Secure Marshalls",
+            "End User Need":"Ensure that members of the public are complying with Covid-19 rules",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"Money is being allocated to all district and unitary authorities including metropolitan borough and London borough councils in England to spend on COVID-19 related compliance and enforcement activities.",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recZrYiYPMtCXWNot"
+            ],
+            "Service Maturity":[
+               "Other"
+            ],
+            "Service Start Date":"October 2020",
+            "Service End Date":"tbc",
+            "Fund Name":"Local Authority Compliance and Enforcement Grant",
+            "Level of Funding":"£30 million",
+            "Policy Objective":"To support compliance and enforcement activities.",
+            "Policy Team":[
+               "COVID Response Team​"
+            ],
+            "Policy Group":[
+               "reclo9CDrjihWAddo"
+            ],
+            "Role of MHCLG":[
+               "Funding",
+               "Guidance",
+               "Policy"
+            ],
+            "Link to Service":"https://www.gov.uk/government/publications/covid-19-local-authority-compliance-and-enforcement-grant",
+            "Last updated":"2021-01-22T16:23:58.000Z"
+         },
+         "createdTime":"2020-11-18T15:25:47.000Z"
+      },
+      {
+         "id":"recNL2HOTEGbF7lQC",
+         "fields":{
+            "Service Name":"Supported Lettings",
+            "End User Need":"Emergency shelter for the night",
+            "End User":[
+               "rec7OBmqbVclC0y9J"
+            ],
+            "Service Type":"Transactional Service",
+            "Provider Type":"Charity via Local Gov",
+            "Service Start Date":"Aug-18",
+            "Service End Date":"tbc",
+            "Fund Name":"Rapid Housing Pathway",
+            "Level of Funding":"tbc",
+            "Policy Objective":"tbc",
+            "Policy Team":[
+               "Rough Sleeping"
+            ],
+            "Policy Group":[
+               "rec2xc1OTNP8Sauk4"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Guidance",
+               "Funding"
+            ],
+            "Link to Service":"https://www.gov.uk/government/publications/rapid-rehousing-pathway-2019-to-2020-funding",
+            "Service description":"Flexible support funding to help people at risk of rough sleeping to sustain their tenancies in homes across the housing sector.",
+            "Last updated":"2021-01-26T17:31:40.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recNe9Uf9X0mgVjMM",
+         "fields":{
+            "Service Name":"Buy a home with a First Homes discount [under consultation]",
+            "End User Need":"As a potential first time home buyer I need an affordable home to buy",
+            "End User":[
+               "recirmb0mC2k95tsv"
+            ],
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recGJhcidvM2IJW83"
+            ],
+            "Provider Type":"ALB",
+            "Service Maturity":[
+               "Pilot"
+            ],
+            "Fund Name":"Section 106 affordable housing contributions",
+            "Policy Objective":"The First Homes scheme will support first-time buyers to own a home  by providing discounts of at least 30% on new-build properties in their area compared to market prices. The discount will be retained when the home is sold through a restrictive covenant.",
+            "Policy Team":[
+               "Home Ownership​"
+            ],
+            "Policy Group":[
+               "rec8qNK2IdVQGMdea"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Guidance"
+            ],
+            "Link to Service":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/907214/200728_PUBLICATION_Govt_response_FH_condoc_v4.pdf",
+            "Service description":"Complete a purchase of a First Home after passing eligibility checks",
+            "Service contact email address":"sarah.callanan@communities.gov.uk",
+            "Last updated":"2021-01-20T14:53:46.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recO5gIRO63sID0Cy",
+         "fields":{
+            "Service Name":"Private Rented Sector Guarantee scheme ",
+            "End User Need":"Get a loan to buy homes for private rent",
+            "End User":[
+               "recp3b74bpnrzfY6r"
+            ],
+            "MHCLG input description":"MHCLG provide funding",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recFK74yIqtdAxyql"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2012",
+            "Service End Date":"now closed for bids (but not all transaction completed?)",
+            "Level of Funding":"£3.5 billion with the potential to access part of a further £3 billion",
+            "Policy Objective":"Provide more choice in the private rental sector. Companies can borrow a minimum of £10 million to buy homes for private rent",
+            "Policy Group":[
+               "recTdMlUByYlxQIkt"
+            ],
+            "NOTES":"Is this closed? It is on the fund list but it's on the 2021 anchor list",
+            "Service description":"unlock new investment by institutional investors to increase the supply of new, purpose built and professionally managed private rented sector homes, which will help improve standards and increase choice for tenants.",
+            "Last updated":"2021-01-22T16:08:31.000Z"
+         },
+         "createdTime":"2021-01-15T16:46:36.000Z"
+      },
+      {
+         "id":"recPa7qdDCW51tVUb",
+         "fields":{
+            "Service Name":"Voluntary Right to Buy Pilot",
+            "End User Need":"buy my council owned property",
+            "End User":[
+               "recirmb0mC2k95tsv"
+            ],
+            "MHCLG input description":"MHCLG provides funding",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recGJhcidvM2IJW83"
+            ],
+            "Service Maturity":[
+               "Pilot"
+            ],
+            "Service Start Date":"August 2018",
+            "Service End Date":"now closed for bids (but not all transaction completed?)",
+            "Level of Funding":"£110 million",
+            "Policy Objective":"Government support to fund the discounted sales of around 3,000 homes",
+            "Policy Team":[
+               "Local Authority Housing and Right to Buy"
+            ],
+            "Policy Group":[
+               "recQy6BbmDNwBrYn7"
+            ],
+            "Role of MHCLG":[
+               "Funding"
+            ],
+            "Link to Service":"https://www.gov.uk/government/news/james-brokenshire-launches-200-million-pilot-to-boost-social-home-ownership?utm_source=9b568214-c8c5-40d6-9c93-c338bc22a901&utm_medium=email&utm_campaign=govuk-notifications&utm_content=immediate",
+            "Number of End Users Engaging":"c1,900",
+            "Service description":"A pilot in the West Midlands of the Voluntary Right to Buy scheme giving people to opportunity to buy their council property",
+            "Service contact email address":"neil.riddell@communities.gov.uk",
+            "Last updated":"2021-01-25T11:01:42.000Z"
+         },
+         "createdTime":"2021-01-15T12:12:46.000Z"
+      },
+      {
+         "id":"recQnuWVfZmw4Gq0c",
+         "fields":{
+            "Service Name":"Old Oak Common",
+            "End User Need":"Build or buy a home near the new HS2 station at Old Oak North",
+            "End User":[
+               "recirmb0mC2k95tsv",
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"MHCLG provides funding",
+            "Service Provider":[
+               "recGJhcidvM2IJW83",
+               "recnD8hUuwdnGBNtv",
+               "recOv7SUwNjBep0rr",
+               "recIhZB6AqWLZSc9p"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Level of Funding":"£250 million ",
+            "Policy Objective":"The funding will enable 13,000 new homes to be built, creating a new gateway for London",
+            "Policy Group":[
+               "recTdMlUByYlxQIkt"
+            ],
+            "Role of MHCLG":[
+               "Funding"
+            ],
+            "Link to Service":"https://intranet.mhclg.gov.uk/news/keeping-the-show-on-the-road/",
+            "Service description":"Provide funding to enable 13,000 new homes to be built close to the new HS2 railway station at Old Oak Common.",
+            "Last updated":"2021-01-22T16:27:23.000Z"
+         },
+         "createdTime":"2021-01-04T16:22:54.000Z"
+      },
+      {
+         "id":"recRyeA2ch6FBcyrn",
+         "fields":{
+            "Service Name":"Troubled family blogs and webinars",
+            "End User Need":"Get guidance on best practice when supporting troubled families",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"MHCLG maintains a blogging site on gov.uk",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Policy Team":[
+               "Vulnerable People and Troubled Families​"
+            ],
+            "Policy Group":[
+               "reclo9CDrjihWAddo"
+            ],
+            "Role of MHCLG":[
+               "Guidance"
+            ],
+            "Service description":"A series of webinars and blogs giving guidance on supporting people through the troubled families programme. Areas covered include health and education. The blogs also offer advice for improving teams that are giving support to troubled families ",
+            "Service contact email address":"ruth.keeling@communities.gov.uk",
+            "Last updated":"2021-01-21T13:36:34.000Z"
+         },
+         "createdTime":"2020-12-31T15:24:15.000Z"
+      },
+      {
+         "id":"recU6SZQ5BTujGMVV",
+         "fields":{
+            "Service Name":"Affordable Homes Guarantee Scheme",
+            "End User Need":"get a loan to build affordable homes",
+            "End User":[
+               "recdx61cjhjSl4NHh"
+            ],
+            "MHCLG input description":"MHCLG appears to have the final say in whether the loan is approved. Homes England and ARA Venn manage the scheme on behalf of the department",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recGJhcidvM2IJW83",
+               "recFK74yIqtdAxyql"
+            ],
+            "Provider Type":"ALB and private sector investment management company",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2020",
+            "Level of Funding":"£3 billion",
+            "Policy Objective":"Finance affordable homes across England, including for social rent, affordable rent and shared ownership. The funding will provide low-cost, flexible loans that will support Registered Providers to deliver their development plans and deliver new affordable homes. ",
+            "Policy Team":[
+               "Affordable Housing Regulation & Investment​"
+            ],
+            "Policy Group":[
+               "recQy6BbmDNwBrYn7"
+            ],
+            "Role of MHCLG":[
+               "Lending money"
+            ],
+            "Service description":"Low-cost, flexible loans that will support Registered Providers to deliver their development plans and deliver new affordable homes.",
+            "Last updated":"2021-01-22T16:25:14.000Z"
+         },
+         "createdTime":"2020-12-30T16:17:46.000Z"
+      },
+      {
+         "id":"recVMzfgz98i7uOur",
+         "fields":{
+            "Service Name":"Disabled Facilities Grant ",
+            "End User Need":"I need to live in an accessible home",
+            "End User":[
+               "reciTDHaHPIuLSIng"
+            ],
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recZrYiYPMtCXWNot",
+               "recI4rb6fViERO3RT"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"1996",
+            "Service End Date":"n/a",
+            "Fund Name":"Better Care Fund",
+            "Policy Objective":"Fund home adaptations so that eligible people can live safely and independently.",
+            "Policy Team":[
+               "Local Authority Housing and Right to Buy"
+            ],
+            "Policy Group":[
+               "recQy6BbmDNwBrYn7"
+            ],
+            "Role of MHCLG":[
+               "Funding",
+               "Policy"
+            ],
+            "Link to Service":"https://mhclg.sharepoint.com/:p:/s/Prep/EaluVjqsrzRKnNVJfzFdzSsBfexf9LQb4-QYEN7aRCh4wA?e=JQA2DB",
+            "Number of End Users Engaging":"280,000 adaptations 2012/13 to 2018/19.​ On average, 50,000 people per year",
+            "Service description":"The DFG is a grant administered by local authorities in England to help fund home adaptations so that eligible people can live safely and independently. Home adaptations can include handrails, stairlifts, wet-rooms, ramps and assistive technology.",
+            "Service contact email address":"kurt.horder@communities.gov.uk",
+            "Last updated":"2021-01-25T12:22:03.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recVwwFW947BJPO9k",
+         "fields":{
+            "Service Name":"Take part in deciding the future of the Grenfell site",
+            "End User Need":"be invited to contribute to the future of the site and stay informed about that process",
+            "End User":[
+               "recRmcNbKAXcS8fny"
+            ],
+            "MHCLG input description":"tbc\nMHCLG took on this service because of the breakdown in relationship between the local authority and the end users.",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"Jun-17",
+            "Policy Objective":"Bring the Grenfell tragedy onto an appropriate commemorative footing in a way that is community-led [tbc]",
+            "Policy Team":[
+               "Soft Services​ (Grenfell)​"
+            ],
+            "Policy Group":[
+               "recOmPhXpbRbuCN7x"
+            ],
+            "Role of MHCLG":[
+               "Delivery"
+            ],
+            "Last updated":"2021-01-22T15:41:25.000Z"
+         },
+         "createdTime":"2020-11-18T11:06:22.000Z"
+      },
+      {
+         "id":"recWMXTG8claZulFw",
+         "fields":{
+            "Service Name":"Future High Streets Fund / Towns Fund",
+            "End User Need":"Live in/run an area that is thriving and economically prosperous.",
+            "End User":[
+               "recBOZs9xZG0ikaR2",
+               "reccmOSJEaeFlA1oI"
+            ],
+            "MHCLG input description":"The funding can be used by Lead Councils at the head of a Town Deal Board to improve transport and access into town centres and invest in vital infrastructure. This is a key part of the government’s local growth agenda.",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recZrYiYPMtCXWNot"
+            ],
+            "Provider Type":"MHCLG via local authorities",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"July 2019",
+            "Fund Name":"Towns Fund",
+            "Level of Funding":"£3.6 billion",
+            "Policy Team":[
+               "Funding Delivery​"
+            ],
+            "Policy Group":[
+               "recd71US8QYqRRrHh"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Funding"
+            ],
+            "Link to Service":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/924503/20191031_Towns_Fund_prospectus.pdf",
+            "Service contact email address":"sally.kuspisz@communities.gov.uk",
+            "Last updated":"2021-01-21T16:38:06.000Z"
+         },
+         "createdTime":"2020-11-18T16:17:55.000Z"
+      },
+      {
+         "id":"recWciDyI22xmWX5f",
+         "fields":{
+            "Service Name":"Get a new energy performance certificate ",
+            "End User Need":"get an energy performance assessment done to the property",
+            "End User":[
+               "reccCmxgiNHr2uVzS",
+               "recGvzvS1fGFSdaf2"
+            ],
+            "MHCLG input description":"MHCLG runs the register of assessors and the database of energy certificates, which are hosted on GOV.UK.",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Provider Type":"MHCLG",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"New service started 2020",
+            "Departmental Priority":"1 - More better quality, safer, greener and more affordable homes",
+            "Policy Objective":"Energy performance certificates are mandatory upon the sale or rent of a property. The certificate is made by an assessor following an appointment at the property.",
+            "Policy Team":[
+               "Energy Performance of Buildings​"
+            ],
+            "Policy Group":[
+               "recuVrkuJfghgzFNm"
+            ],
+            "Policy Partners":[
+              "BEIS"
+            ],
+            "Role of MHCLG":[
+               "Delivery",
+               "Policy"
+            ],
+            "Service budget":"£2,200,000 budget in 2020/21 to run two energy certificate services. Fees charged to assessors to lodge assessments in our system are expected to make the services cost neutral.",
+            "Link to Service":"https://getting-new-energy-certificate.digital.communities.gov.uk/",
+            "Number of End Users Engaging":"c. 120,000 / year ",
+            "Service description":"An energy certificate is required when selling or letting most houses, flats or commercial properties. This service allows users to find accredited energy assessors to undertake energy assessments and issue certificates.",
+            "Service contact email address":"dean.wanless@communities.gov.uk",
+            "Last updated":"2021-01-24T12:08:53.000Z"
+         },
+         "createdTime":"2021-01-22T11:41:36.000Z"
+      },
+      {
+         "id":"recYRBe7w5mmy2WDZ",
+         "fields":{
+            "Service Name":"Local Authority Accelerated Construction",
+            "End User Need":"get help to develop surplus public sector land",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"Capital grant funding to LAs that requires them to set start dates and level of pace to acquire the funding.",
+            "Service Provider":[
+               "recGJhcidvM2IJW83"
+            ],
+            "Provider Type":"ALB",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Fund Name":"Local Authority Accelerated Construction (LAAC) programme",
+            "Level of Funding":"£450 million",
+            "Policy Objective":"The policy aims to improve the energy efficiency of buildings and thereby contribute to the UK's target of net carbon neutrality by 2050. The UK’s building stock is a significant contributor to the country’s carbon footprint. Energy certificates are a valuable tool to support property owners to understand and improve the energy performance of their homes and commercial buildings.",
+            "Policy Team":[
+               "Housing Impacts - Places​"
+            ],
+            "Policy Group":[
+               "recTdMlUByYlxQIkt"
+            ],
+            "Role of MHCLG":[
+               "Funding"
+            ],
+            "Link to Service":"https://www.gov.uk/government/news/38-million-homes-england-funding-to-speed-up-development-of-over-2000-homes?utm_source=1ec96bde-0173-467f-917b-bfa10766e9ec&utm_medium=email&utm_campaign=govuk-notifications&utm_content=immediate",
+            "Service description":"Funding award to local authorities so they can develop surplus public sector land for council housing schemes",
+            "Last updated":"2021-01-22T12:02:57.000Z"
+         },
+         "createdTime":"2020-12-29T16:13:24.000Z"
+      },
+      {
+         "id":"recZa5BH73hXQCwwL",
+         "fields":{
+            "Service Name":"Revenue Support Grant",
+            "End User Need":"Get funding to finance local services",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"The Revenue Support Grant is a central government grant given to local authorities which can be used to finance revenue expenditure on any service. The amount of Revenue Support Grant to be provided to  authorities is established through the local government\nfinance settlement",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Level of Funding":"Set every year",
+            "Policy Objective":"Support the provision of local public services",
+            "Policy Team":[
+               "LG Funding Strategy and Resources​"
+            ],
+            "Policy Group":[
+               "recIVsxWzKSsTwHLl"
+            ],
+            "Role of MHCLG":[
+               "Funding"
+            ],
+            "Service contact email address":"michael.oliver@communities.gov.uk",
+            "Last updated":"2021-01-22T13:24:08.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recZt0ES3BYGEVPQl",
+         "fields":{
+            "Service Name":"Resilience and Recovery",
+            "End User Need":"Recover and learn from an emergency.",
+            "End User":[
+               "recBOZs9xZG0ikaR2",
+               "recRmcNbKAXcS8fny",
+               "reccmOSJEaeFlA1oI"
+            ],
+            "MHCLG input description":"Resilience and Recovery help communities to prepare for, respond to, recover and learn from emergencies. These include things such as the Grenfell disaster, Covid-19 and seasonal flooding.",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recZrYiYPMtCXWNot",
+               "recEiPWMsQCEblsfq"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Policy Objective":"Support communities during an emergency",
+            "Policy Team":[
+               "RED Local Engagement and Response​"
+            ],
+            "Policy Group":[
+               "recehWxtK44sGuQyE"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Delivery",
+               "Guidance",
+               "Data collection"
+            ],
+            "Last updated":"2021-01-25T11:24:05.000Z"
+         },
+         "createdTime":"2020-11-18T14:04:37.000Z"
+      },
+      {
+         "id":"recdV4Xx4i97AZUOC",
+         "fields":{
+            "Service Name":"Garden Communities programme",
+            "End User Need":"get support to build a garden city",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"MHCLG provide funding and support",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recGJhcidvM2IJW83"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2018",
+            "Service End Date":"2050?",
+            "Policy Objective":"The programme aims to deliver over 200,000 homes by the middle of the century.",
+            "Policy Group":[
+               "rec8qNK2IdVQGMdea"
+            ],
+            "Role of MHCLG":[
+               "Funding",
+               "Guidance"
+            ],
+            "Link to Service":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/805688/Garden_Communities_Prospectus.pdf",
+            "Service description":"Garden communities within the current programme receive a tailored package of\nGovernment support that includes resource funding, expert delivery advice from Homes\nEngland and cross-government brokerage to resolve barriers to delivery",
+            "Service contact email address":"masum.ali@communities.gov.uk",
+            "Last updated":"2021-01-21T16:53:06.000Z"
+         },
+         "createdTime":"2021-01-08T16:46:37.000Z"
+      },
+      {
+         "id":"recevRPnARCkYIhOx",
+         "fields":{
+            "Service Name":"Build to Rent",
+            "End User Need":"get a loan to build housing",
+            "End User":[
+               "recdx61cjhjSl4NHh"
+            ],
+            "MHCLG input description":"MHCLG provides funding",
+            "Service Type":"Transactional Service",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service End Date":"now closed?",
+            "Policy Objective":"Help SMEs to gain funds to build more homes",
+            "Policy Team":[
+               "Housing Investment and Diversification​"
+            ],
+            "Policy Group":[
+               "rec8qNK2IdVQGMdea"
+            ],
+            "Role of MHCLG":[
+               "Lending money"
+            ],
+            "Service description":"Funding scheme to loan money to SMEs to build houses",
+            "Service contact email address":"nigel.kersey@communities.gov.uk",
+            "Last updated":"2021-01-22T11:21:33.000Z"
+         },
+         "createdTime":"2021-01-21T13:48:47.000Z"
+      },
+      {
+         "id":"recfPNoETdbspoPkI",
+         "fields":{
+            "Service Name":"Get funding for local digital projects",
+            "End User Need":"Get funding to pay for an innovative joint digital project",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"Local Digital Collaboration Fund awards money to teams that meet the criteria and helps them to succeed in their projects",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Policy Objective":"Promote GDS-style digital innovation in local authorities and create reusable components",
+            "Policy Team":[
+               "Local Government Digital​"
+            ],
+            "Policy Group":[
+               "rec5YEMuVWQdo1YmD"
+            ],
+            "Role of MHCLG":[
+               "Funding",
+               "Guidance"
+            ],
+            "Link to Service":"https://localdigital.gov.uk/",
+            "Service contact email address":"sheldon.ferguson@communities.gov.uk",
+            "Last updated":"2021-01-21T17:14:31.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recfSL3W11hI5EpS4",
+         "fields":{
+            "Service Name":"Early Help System Guide",
+            "End User Need":"get help and guidance to support troubled families",
+            "End User":[
+               "recBOZs9xZG0ikaR2",
+               "recRYekRbPXThr484"
+            ],
+            "MHCLG input description":"MHCLG created and maintains the guidance document",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Provider Type":"MHCLG",
+            "Service Maturity":[
+               "Other"
+            ],
+            "Service Start Date":"April 2020",
+            "Policy Objective":"The Early Systems Guide is designed to help with conversations between partners, think about the right questions, and develop a common language for the changes that need to happen in troubled families",
+            "Policy Team":[
+               "Vulnerable People and Troubled Families​"
+            ],
+            "Policy Group":[
+               "reclo9CDrjihWAddo"
+            ],
+            "Role of MHCLG":[
+               "Guidance"
+            ],
+            "Link to Service":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/878994/TF_Early_Help_System_April_2020.pdf",
+            "Service description":"A toolkit to assist local strategic partnerships responsible for their\nEarly Help System",
+            "Service contact email address":"ruth.keeling@communities.gov.uk",
+            "Last updated":"2021-01-21T13:36:22.000Z"
+         },
+         "createdTime":"2020-12-31T15:14:38.000Z"
+      },
+      {
+         "id":"recgGOPGAmV8Hcxse",
+         "fields":{
+            "Service Name":"Business Rates Retention allocations",
+            "End User Need":"Get money back from the business rates pot to fund local services",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"Local authorities send in their business rate receipts and then receive a share of the total according to a formula which is set by MHCLG",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Policy Objective":"To share out the wealth produced by businesses across the country fairly",
+            "Policy Team":[
+               "LGF Reform and Settlement​"
+            ],
+            "Policy Group":[
+               "recIVsxWzKSsTwHLl"
+            ],
+            "Role of MHCLG":[
+               "Consultation",
+               "Policy"
+            ],
+            "Service contact email address":"emily.gascoigne@communities.gov.uk",
+            "Last updated":"2021-01-20T15:31:16.000Z"
+         },
+         "createdTime":"2020-11-23T15:02:46.000Z"
+      },
+      {
+         "id":"recgPElkj3eDuNlAf",
+         "fields":{
+            "Service Name":"Land Release Fund",
+            "End User Need":"get funding to develop land for home building",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"MHCLG provides funding",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2018",
+            "Level of Funding":"£45 million plus a further £20 million added in 2020",
+            "Policy Objective":"The LRF will offer councils the opportunity to bid for funding for remediation works and infrastructure to bring their surplus sites forward for housing. The LRF targets small sites with a focus on supporting SME builders. Issues could include a range of necessary works such as asbestos removal and bat alleviation",
+            "Policy Team":[
+               "Housing Impacts - Places​"
+            ],
+            "Policy Group":[
+               "recTdMlUByYlxQIkt"
+            ],
+            "Role of MHCLG":[
+               "Funding"
+            ],
+            "Link to Service":"https://www.gov.uk/government/news/45-million-funding-boost-to-support-councils-unlock-land-for-thousands-of-homes",
+            "Service description":"Combat barriers which would otherwise make land unusable for development.",
+            "Service contact email address":"daniel.fitzharris@communities.gov.uk",
+            "Last updated":"2021-01-22T11:54:13.000Z"
+         },
+         "createdTime":"2021-01-08T11:41:01.000Z"
+      },
+      {
+         "id":"recjFUTBEOXxbuKaU",
+         "fields":{
+            "Service Name":"Affordable Homes Programme 2021-2026",
+            "End User Need":"get grant funding to build affordable homes for rent or sale",
+            "End User":[
+               "recdx61cjhjSl4NHh"
+            ],
+            "Service Provider":[
+               "recGJhcidvM2IJW83",
+               "recducQcWmgZIER4d"
+            ],
+            "Provider Type":"ALB and local authority",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2021",
+            "Service End Date":"2026",
+            "Level of Funding":"£12bn funding figure will be split in two, with London getting £4bn, and the rest of the country getting more than £7bn.",
+            "Policy Objective":"Provide funding for registered providers so they can build affordable homes",
+            "Policy Team":[
+               "Affordable Housing Regulation & Investment​"
+            ],
+            "Policy Group":[
+               "recQy6BbmDNwBrYn7"
+            ],
+            "Role of MHCLG":[
+               "Funding",
+               "Policy"
+            ],
+            "Link to Service":"https://www.gov.uk/guidance/apply-for-affordable-housing-funding",
+            "Service description":"The AHP is intended to fund up to 180,000 homes. Around half the homes will be properties for home ownership. The vast majority of these will be shared ownership homes. The other half will be for rent – both social and affordable. ",
+            "Service contact email address":"kerry.machale@communities.gov.uk",
+            "Last updated":"2021-01-21T10:39:15.000Z"
+         },
+         "createdTime":"2020-12-31T11:29:07.000Z"
+      },
+      {
+         "id":"recjyN9RpfxaM8umA",
+         "fields":{
+            "Service Name":"Get funding from the Bellwin Scheme",
+            "End User Need":"Emergency financial support during a disaster.",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"1983",
+            "Level of Funding":"Case by case basis",
+            "Policy Objective":"To meet the shortfall in a local authority's emergency budget",
+            "Policy Team":[
+               "LG Funding Strategy and Resources​"
+            ],
+            "Policy Group":[
+               "recIVsxWzKSsTwHLl"
+            ],
+            "Role of MHCLG":[
+               "Funding",
+               "Policy"
+            ],
+            "Link to Service":"https://mhclg.sharepoint.com/sites/DigitalDelivery/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalDelivery%2FShared%20Documents%2FUCPD%2FResearch%20on%20MHCLG%20services%2FBellwin%20Scheme%2Epdf&parent=%2Fsites%2FDigitalDelivery%2FShared%20Documents%2FUCPD%2FResearch%20on%20MHCLG%20services",
+            "Service description":"The scheme provides emergency financial assistance to local\nauthorities in England. Assistance under the scheme is usually given as the result of an emergency caused by the weather, but relief may also be available in other circumstances: for example, the outbreak of foot and mouth disease  the explosion at Buncefield fuel terminal, the riots of August 2011, and the Grenfell Tower disaster.",
+            "Service contact email address":"michael.oliver@communities.gov.uk",
+            "Last updated":"2021-01-21T17:16:33.000Z"
+         },
+         "createdTime":"2020-11-18T10:44:39.000Z"
+      },
+      {
+         "id":"reclN3FU8vY904Xgh",
+         "fields":{
+            "Service Name":"West Midlands Housing Package",
+            "End User Need":"get funding to build new homes in the West Midlands ",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"MHCLG:\n- provides funding\n- helps with the Housing Infrastructure Fund Forward Funding bid for housing growth areas including the Commonwealth\nGames site at Perry Barr through to co-development\n- Government and Homes England will work with local stakeholders to explore the potential for a deal with Housing\nAssociations on Affordable Housing to deliver more affordable homes and increase financial certainty ",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recGJhcidvM2IJW83",
+               "recZrYiYPMtCXWNot"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2018/2019",
+            "Service End Date":"2030/31",
+            "Level of Funding":"£100 million",
+            "Policy Objective":"Deliver 215,000 homes by 2030/31",
+            "Policy Group":[
+               "recTdMlUByYlxQIkt"
+            ],
+            "Role of MHCLG":[
+               "Funding",
+               "Consultation"
+            ],
+            "Link to Service":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/689710/W_Mids_overview.pdf",
+            "Service description":"Increase the quality and density of new homes through a Land Fund of up to £100m to acquire and de-risk land around priority sites across the area",
+            "Last updated":"2021-01-22T16:27:08.000Z"
+         },
+         "createdTime":"2021-01-05T15:33:48.000Z"
+      },
+      {
+         "id":"reclh9imYsNmc9P4t",
+         "fields":{
+            "Service Name":"Somewhere Safe to Stay",
+            "End User Need":"Emergency shelter for the night",
+            "End User":[
+               "rec7OBmqbVclC0y9J"
+            ],
+            "Service Type":"Non-Transactional Service",
+            "Provider Type":"Charity via Local Gov",
+            "Service Maturity":[
+               "Pilot"
+            ],
+            "Service Start Date":"Aug-18",
+            "Service End Date":"tbc",
+            "Fund Name":"Rapid Housing Pathway",
+            "Level of Funding":"tbc",
+            "Policy Objective":"tbc",
+            "Policy Team":[
+               "Rough Sleeping"
+            ],
+            "Policy Group":[
+               "rec2xc1OTNP8Sauk4"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Guidance",
+               "Funding"
+            ],
+            "Link to Service":"https://www.gov.uk/government/publications/rapid-rehousing-pathway-2019-to-2020-funding",
+            "Service description":"To rapidly assess the needs of people who are sleeping rough or those who are at risk of sleeping rough and support them to get the right help.",
+            "Last updated":"2021-01-26T17:31:40.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recm1g0Pdq9tlrrrj",
+         "fields":{
+            "Service Name":"Buy with Help to buy",
+            "End User Need":"As a potential first time home buyer I need an affordable home to buy",
+            "End User":[
+               "recirmb0mC2k95tsv"
+            ],
+            "MHCLG input description":"Funding",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recGJhcidvM2IJW83"
+            ],
+            "Provider Type":"ALB",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"Apr-13",
+            "Service End Date":"2023",
+            "Fund Name":"Help to Buy",
+            "Level of Funding":"£29m",
+            "Policy Objective":"Get more first time buyers on the housing ladder by helping them raise the necessary deposit",
+            "Policy Team":[
+               "Home Ownership​"
+            ],
+            "Policy Group":[
+               "rec8qNK2IdVQGMdea"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Guidance",
+               "Lending money",
+               "Funding"
+            ],
+            "Link to Service":"https://www.gov.uk/affordable-home-ownership-schemes",
+            "Number of End Users Engaging":"30,000 completions / year",
+            "Service description":"First time buyers can buy a home with a government-funded bonus payment or loan.",
+            "Service contact email address":"joanna.hahn@communities.gov.uk",
+            "Last updated":"2021-01-25T10:31:49.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recmueyAkrVFtJzGb",
+         "fields":{
+            "Service Name":"Rough Sleeping Navigators",
+            "End User Need":"Emergency shelter for the night",
+            "End User":[
+               "rec7OBmqbVclC0y9J"
+            ],
+            "Service Type":"Non-Transactional Service",
+            "Provider Type":"Charity via Local Gov",
+            "Service Maturity":[
+               "Pilot"
+            ],
+            "Service Start Date":"Aug-18",
+            "Service End Date":"tbc",
+            "Fund Name":"Rapid Housing Pathway",
+            "Level of Funding":"tbc",
+            "Policy Objective":"tbc",
+            "Policy Team":[
+               "Rough Sleeping"
+            ],
+            "Policy Group":[
+               "rec2xc1OTNP8Sauk4"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Guidance",
+               "Funding"
+            ],
+            "Link to Service":"https://www.gov.uk/government/publications/rapid-rehousing-pathway-2019-to-2020-funding",
+            "Service description":"Navigators will work with a range of multidisciplinary teams and provide both navigation and co-ordination support, using strong local relationships, expertise and collective working.",
+            "Last updated":"2021-01-26T17:31:40.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recnHNeuZPiwAR3nB",
+         "fields":{
+            "Service Name":"Statutory Right to Buy  ​",
+            "End User Need":"buy my council flat or house",
+            "End User":[
+               "rec4PYR0QXfGrFzaa"
+            ],
+            "MHCLG input description":"MHCLG oversee the scheme",
+            "Service Provider":[
+               "recZrYiYPMtCXWNot"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"1980",
+            "Level of Funding":"n/a",
+            "Policy Objective":"Increase homeownership for social housing tenants who would not otherwise be able to afford to buy a home.​ he intention is also to increase social mobility because the beneficiaries of RTB are typically people from the lower end of the income distribution.​",
+            "Policy Team":[
+               "Local Authority Housing and Right to Buy"
+            ],
+            "Policy Group":[
+               "recQy6BbmDNwBrYn7"
+            ],
+            "Role of MHCLG":[
+               "Policy"
+            ],
+            "Link to Service":"https://mhclg.sharepoint.com/:p:/s/Prep/EaK_xVqRandEkrDIIWv5tUEBJ6ugJyk38vUeDPxxhK9MrQ?e=yq69s8",
+            "Number of End Users Engaging":"c. 10,000 transactions/ year",
+            "Service description":"a statutory right to purchase an LA owned home at a significant discount to the market price. ​",
+            "Service contact email address":"neil.riddell@communities.gov.uk",
+            "Last updated":"2021-01-24T12:08:00.000Z"
+         },
+         "createdTime":"2021-01-18T15:52:20.000Z"
+      },
+      {
+         "id":"recnUm3ZxNL8ebEmz",
+         "fields":{
+            "Service Name":"ECLAIMS",
+            "End User Need":"get funding and submit reports on its use",
+            "End User":[
+               "rec0di1mC1qNzY1OE"
+            ],
+            "MHCLG input description":"The European Structural and Investment Funds Growth programme is funding for projects that create jobs and supports local growth. Funding applicants use Eclaims to qualify for and receive payments",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2014",
+            "Service End Date":"2023",
+            "Fund Name":"EU funds (ESIFGP)",
+            "Policy Objective":"EU process for the giving out and monitoring of funding is met",
+            "Policy Team":[
+               "Euro Progs National Delivery​"
+            ],
+            "Policy Group":[
+               "recd71US8QYqRRrHh"
+            ],
+            "Role of MHCLG":[
+               "Funding",
+               "Data collection"
+            ],
+            "Link to Service":"https://www.gov.uk/topic/business-enterprise/european-regional-development-funding",
+            "Number of End Users Engaging":"up to 50,000 transactions/year",
+            "Service contact email address":"sharon.shattock@communities.gov.uk",
+            "Last updated":"2021-01-25T10:53:12.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recpKQKSmuVuP3d8a",
+         "fields":{
+            "Service Name":"ENABLE Build Guarantee Scheme",
+            "End User Need":"as a smaller housebuilder, get a loan to build more new homes",
+            "End User":[
+               "recdx61cjhjSl4NHh"
+            ],
+            "MHCLG input description":"MHCLG guarantees loan portfolios of new lending to smaller housebuilders",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recGJhcidvM2IJW83",
+               "recj8BOGJfS5lbR4u"
+            ],
+            "Service Start Date":"announced at autumn Budget 2018 and launched in May 2019",
+            "Level of Funding":"£1 billion",
+            "Policy Objective":"Local builders will be able secure loans from participating banks to help the government deliver its commitment of at least a million new homes in the next five years.",
+            "Policy Group":[
+               "recTdMlUByYlxQIkt"
+            ],
+            "Service description":"A lack of development finance has been identified as a barrier preventing smaller builders from delivering more. Through this scheme the Government will support SME housebuilders to grow and build more homes.",
+            "Last updated":"2021-01-22T16:24:51.000Z"
+         },
+         "createdTime":"2021-01-06T13:53:37.000Z"
+      },
+      {
+         "id":"recqJrBjwDqFZvSIL",
+         "fields":{
+            "Service Name":"New Homes Bonus",
+            "End User Need":"Get a grant for building or revitalising housing.",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"The New Homes Bonus is a grant paid by central government to local councils to reflect and incentivize housing growth in their areas. It is based on the amount of extra Council Tax revenue raised for new-build homes, conversions and long-term empty homes brought back into use. There is also an extra payment for providing affordable homes.",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Fund Name":"New homes bonus",
+            "Level of Funding":"Set every year",
+            "Policy Team":[
+               "Housing Investment and Diversification​"
+            ],
+            "Policy Group":[
+               "rec8qNK2IdVQGMdea"
+            ],
+            "Role of MHCLG":[
+               "Funding",
+               "Data collection",
+               "Policy"
+            ],
+            "Link to Service":"https://www.gov.uk/government/publications/new-homes-bonus-provisional-allocations-2020-to-2021",
+            "Service contact email address":"beth.walmswell@communities.gov.uk",
+            "Last updated":"2021-01-21T11:35:05.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recqheEqDAyuKely1",
+         "fields":{
+            "Service Name":"Housing Infrastructure Fund",
+            "End User Need":"build infrastructure for new homes",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"tbc\nMHCLG provide funding and oversight. HE work directly with local authorities",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recGJhcidvM2IJW83"
+            ],
+            "Provider Type":"ALB",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"2018-19",
+            "Service End Date":"2023-24",
+            "Fund Name":"Housing Infrastructure Fund",
+            "Level of Funding":"£5.5 billion",
+            "Policy Objective":"Deliver new physical infrastructure to support new and existing communities, and make more land available in high demand areas. It will help to unlock up to 320,000 new homes",
+            "Policy Team":[
+               "Housing Impacts - Places​"
+            ],
+            "Policy Group":[
+               "recTdMlUByYlxQIkt"
+            ],
+            "Role of MHCLG":[
+               "Funding",
+               "Policy"
+            ],
+            "Link to Service":"https://www.gov.uk/government/publications/housing-infrastructure-fund",
+            "Service description":"Funding awarded to local authorities on a competitive basis, providing grant funding for new infrastructure that will unlock new homes in the areas of greatest housing demand. ",
+            "Service contact email address":"andrew.keck@communities.gov.uk",
+            "Last updated":"2021-01-22T11:44:28.000Z"
+         },
+         "createdTime":"2020-12-29T15:00:52.000Z"
+      },
+      {
+         "id":"recsBEhXYg47t7Wqj",
+         "fields":{
+            "Service Name":"Next Steps Accomodation",
+            "End User Need":"Longer term accommodation",
+            "End User":[
+               "rec7OBmqbVclC0y9J"
+            ],
+            "Service Type":"Transactional Service",
+            "Provider Type":"Charity and Housing Associations via Local Gov",
+            "Service Start Date":"tbc",
+            "Service End Date":"tbc",
+            "Fund Name":"Next Steps Accomodation",
+            "Level of Funding":"£289 million",
+            "Policy Objective":"tbc",
+            "Policy Team":[
+               "Rough Sleeping"
+            ],
+            "Policy Group":[
+               "rec2xc1OTNP8Sauk4"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Guidance",
+               "Funding"
+            ],
+            "Link to Service":"https://www.housing.org.uk/globalassets/files/resource-files/next-steps-accommodation-programme-briefing.pdf",
+            "Service description":"Ensure rough sleepers brought into emergency accommodation in response to COVID-19, do not return to sleeping rough. ",
+            "Last updated":"2021-01-26T17:31:40.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"rectZrIRtZilw2jsO",
+         "fields":{
+            "Service Name":"Local Lettings",
+            "End User Need":"Longer term accommodation",
+            "End User":[
+               "rec7OBmqbVclC0y9J"
+            ],
+            "Service Type":"Transactional Service",
+            "Provider Type":"Charity via Local Gov",
+            "Service Start Date":"Aug-18",
+            "Service End Date":"tbc",
+            "Fund Name":"Rapid Housing Pathway",
+            "Level of Funding":"tbc",
+            "Policy Objective":"tbc",
+            "Policy Team":[
+               "Rough Sleeping"
+            ],
+            "Policy Group":[
+               "rec2xc1OTNP8Sauk4"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Guidance",
+               "Funding"
+            ],
+            "Link to Service":"https://www.gov.uk/government/publications/rapid-rehousing-pathway-2019-to-2020-funding",
+            "Service description":"Set up lettings agencies to help local areas make the most efficient use of rental accommodation, foster the development of strong relationships between landlords and tenants, and where possible develop a property portfolio to meet the needs of rough sleepers.",
+            "Last updated":"2021-01-26T17:31:40.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recuGTile5VguDnLI",
+         "fields":{
+            "Service Name":"Troubled Families Programme",
+            "End User Need":"get support if your family is facing serious issues",
+            "End User":[
+               "recRYekRbPXThr484"
+            ],
+            "MHCLG input description":"MHCLG provides funding either through payment by results or upfront payments; spot checks and assurance visits; and by collating quantitative info on families worked with and outcomes achieved",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recZrYiYPMtCXWNot"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"This initial iteration started in 2012, the current one in 2015",
+            "Service End Date":"Extended until 2022",
+            "Level of Funding":"A total of £1.1 billion of funding has been committed to March 2021, with an additional £165 million announced in November 2020 for 2021-22.",
+            "Policy Objective":"The programme intended to help up to 400,000 families “achieve significant and sustained progress against all their multiple problems and make work and ambition for all families” by 2020. The programme is primarily a payment by results scheme, where local authorities claim payment when their work with families results in significant and sustained progress against their identified problems, or achieve continuous employment.",
+            "Policy Team":[
+               "Vulnerable People and Troubled Families​"
+            ],
+            "Policy Group":[
+               "reclo9CDrjihWAddo"
+            ],
+            "Role of MHCLG":[
+               "Funding",
+               "Policy"
+            ],
+            "Link to Service":"https://commonslibrary.parliament.uk/research-briefings/cbp-7585/",
+            "Number of End Users Engaging":"More than 350,000 families total since 2015",
+            "Service description":"The programme conducts targeted interventions for families experiencing multiple problems, including crime, anti-social behaviour, truancy, unemployment, mental health problems and domestic abuse.",
+            "Service contact email address":"ruth.keeling@communities.gov.uk",
+            "Last updated":"2021-01-24T13:31:39.000Z"
+         },
+         "createdTime":"2020-12-31T14:46:01.000Z"
+      },
+      {
+         "id":"reculhUctA68KOVTe",
+         "fields":{
+            "Service Name":"Get updated on Government's progress against policy commitments",
+            "End User Need":"As a member of parliament I need to hold the government to account on behalf of those I represent",
+            "End User":[
+               "rec7is7Cuqxfl00rQ"
+            ],
+            "MHCLG input description":"MHCLG provides updates and data on how policies are performing to Ministers to share in the Houses of Parliament and to be put on the public record for all to see",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"1620s",
+            "Service End Date":"n/a",
+            "Policy Objective":"To comply with Ministers' obligations to Parliament",
+            "Policy Team":[
+               "Ministerial office"
+            ],
+            "Policy Group":[
+               "recgyPCjxIt3Epnq6"
+            ],
+            "Role of MHCLG":[
+               "Delivery"
+            ],
+            "Last updated":"2021-01-19T11:50:12.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recunJRJJOjjx9JvG",
+         "fields":{
+            "Service Name":"Get in touch with MHCLG",
+            "End User Need":"Need to contact the Department on a matter of business or politics",
+            "End User":[
+               "rec7is7Cuqxfl00rQ"
+            ],
+            "MHCLG input description":"The Department provides contact details and basic information about its responsibilities online",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service End Date":"n/a",
+            "Policy Objective":"Provide basic information in the spirit of transparency and to avoid excessive queries coming in via MPs",
+            "Policy Team":[
+               "Comms "
+            ],
+            "Policy Group":[
+               "recgyPCjxIt3Epnq6"
+            ],
+            "Role of MHCLG":[
+               "Delivery"
+            ],
+            "Link to Service":"https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government",
+            "Last updated":"2021-01-19T11:50:12.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recv19IbDtZxtzKyA",
+         "fields":{
+            "Service Name":"See MHCLG's Accounts",
+            "End User Need":"See MHCLG's financial accounts",
+            "End User":[
+               "rec7is7Cuqxfl00rQ"
+            ],
+            "MHCLG input description":"MHCLG is required to publish a statement of its accounts",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Policy Objective":"Comply with transparency legislation",
+            "Policy Team":[
+               "Financial Reporting & Systems"
+            ],
+            "Policy Group":[
+               "recGvkdJlv6w4daKY"
+            ],
+            "Role of MHCLG":[
+               "Delivery"
+            ],
+            "Last updated":"2021-01-22T13:26:11.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recvMzbb3Dn5SDSSP",
+         "fields":{
+            "Service Name":"Pay Business Rates",
+            "End User Need":"Pay or appeal business rates",
+            "End User":[
+               "reccCmxgiNHr2uVzS"
+            ],
+            "MHCLG input description":"Set the framework for business rates to help fund local government budgets.",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recZrYiYPMtCXWNot",
+               "recOv7SUwNjBep0rr",
+               "recONdF519qRXsx20"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service Start Date":"Apr-90",
+            "Policy Objective":"Support the provision of local public services by delivering a fair, stable and credible business rates system.",
+            "Policy Team":[
+               "Local Taxation"
+            ],
+            "Policy Group":[
+               "recIVsxWzKSsTwHLl"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Guidance",
+               "Billing",
+               "Data collection"
+            ],
+            "Link to Service":"https://www.gov.uk/topic/local-government/business-rates",
+            "Last updated":"2021-01-22T13:10:33.000Z"
+         },
+         "createdTime":"2020-11-12T12:06:08.000Z"
+      },
+      {
+         "id":"recwMPMq0Yz0dGxI7",
+         "fields":{
+            "Service Name":"Submit a local plan for examination",
+            "End User Need":"Submit draft local plan for examination so it can be adopted",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"PINS examine local plans on behalf of the secretary of state",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "rec0p2cyWnORAkDdk"
+            ],
+            "Provider Type":"ALB",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Policy Objective":"The examination will assess whether the plan has been prepared in accordance with legal and procedural requirements and if it is sound. ",
+            "Policy Group":[
+               "recvlEEkA3v0LgsCF"
+            ],
+            "Role of MHCLG":[
+               "Policy"
+            ],
+            "Link to Service":"https://www.gov.uk/guidance/local-plans",
+            "Last updated":"2021-01-22T12:50:03.000Z"
+         },
+         "createdTime":"2020-11-18T11:51:58.000Z"
+      },
+      {
+         "id":"recx3FBryHgPVxWa6",
+         "fields":{
+            "Service Name":"Community Housing Fund",
+            "End User Need":"get funding to build affordable homes for the community",
+            "End User":[
+               "recpt0ZWkJDjtxJvd"
+            ],
+            "MHCLG input description":"MHCLG provide funding",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr",
+               "recGJhcidvM2IJW83"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Service End Date":"2021 (though funding list says 2019)",
+            "Level of Funding":"£163 million",
+            "Policy Objective":"Provide housing that is affordable at local income levels and remains so in perpetuity",
+            "Policy Team":[
+               "Housing Investment and Diversification​"
+            ],
+            "Policy Group":[
+               "rec8qNK2IdVQGMdea"
+            ],
+            "Role of MHCLG":[
+               "Funding"
+            ],
+            "Link to Service":"https://www.gov.uk/government/publications/community-housing-fund-prospectus",
+            "Service description":"The Fund aims to support an increase in housing supply in England by increasing the number of additional homes delivered by the community-led housing sector",
+            "Service contact email address":"beth.walmswell@communities.gov.uk",
+            "Last updated":"2021-01-21T13:56:42.000Z"
+         },
+         "createdTime":"2021-01-15T13:33:57.000Z"
+      },
+      {
+         "id":"recx9oI3fi4B6M8OG",
+         "fields":{
+            "Service Name":"Negotiate the local government finance settlement with HMT",
+            "End User Need":"As MHCLG I need to negotiate a financial settlement so that local authorities can continue to provide services to local peopl",
+            "End User":[
+               "recBOZs9xZG0ikaR2"
+            ],
+            "MHCLG input description":"MHCLG acts on behalf of Local Authorities to negotiate the settlement",
+            "Service Type":"Non-Transactional Service",
+            "Service Provider":[
+               "recOv7SUwNjBep0rr"
+            ],
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Policy Objective":"To agree a settlement that meets central government and local government's needs",
+            "Policy Team":[
+               "LGF Reform and Settlement​"
+            ],
+            "Policy Group":[
+               "recIVsxWzKSsTwHLl"
+            ],
+            "Role of MHCLG":[
+               "Policy",
+               "Delivery"
+            ],
+            "Service contact email address":"stuart.hoggan@communities.gov.uk",
+            "Last updated":"2021-01-22T13:04:50.000Z"
+         },
+         "createdTime":"2020-11-18T10:54:14.000Z"
+      },
+      {
+         "id":"recz1fisPGUZKHPoZ",
+         "fields":{
+            "Service Name":"Make a planning application",
+            "End User Need":"Get permission to build",
+            "End User":[
+               "recGvzvS1fGFSdaf2",
+               "recdx61cjhjSl4NHh"
+            ],
+            "MHCLG input description":"Under the current planning framework set by MHCLG, Local Authorities assess and decide on planning applications",
+            "Service Type":"Transactional Service",
+            "Service Provider":[
+               "recZrYiYPMtCXWNot"
+            ],
+            "Provider Type":"Local Gov",
+            "Service Maturity":[
+               "BAU"
+            ],
+            "Policy Objective":"Local authorities decide on planning matters except where standards are nationally mandated or sites are of national importance ",
+            "Policy Team":[
+               "Development Management"
+            ],
+            "Policy Group":[
+               "recvlEEkA3v0LgsCF"
+            ],
+            "Role of MHCLG":[
+               "Policy"
+            ],
+            "Number of End Users Engaging":"478,000 / year",
+            "Last updated":"2021-01-25T10:43:16.000Z"
+         },
+         "createdTime":"2020-11-18T11:24:29.000Z"
+      }
+   ]
+}

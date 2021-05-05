@@ -23,7 +23,7 @@
 
       <h1 class="govuk-heading-xl">
 
-        Policy area detail for {{ groupName }}
+        Policy area detail for <!-- {{ groupName }} --> Grenfell Site and Programme
 
       </h1>
 
@@ -39,14 +39,20 @@
 
         <p>
 
-          ** present service name and policy team **
+          <!-- ** present service name and policy team ** -->
 
           <ol class="govuk-list govuk-list--number">
+
+            <li><a href="service-info?numberOfService=187">Take part in deciding the future of the Grenfell site</a></li>
+              <li><a href="service-info?numberOfService=184">Engagement with Grenfell community stakeholders</a></li>
+                <li><a href="service-info?numberOfService=143">Build a Grenfell Memorial</a></li>
+                  <li><a href="service-info?numberOfService=73">Grenfell Environmental Testing Programme
+</a></li>
 
           {% set count = 0 %}
           {% for item in policyTeamServiceName %}
 
-            <li><a href="service-info?numberOfService={{ numberOfService[count] }}">{{item}}</a></li>
+            <!--<li><a href="service-info?numberOfService={{ numberOfService[count] }}">{{item}}</a></li>-->
 
           {% set count = count + 1 %}
           {% endfor %}
@@ -62,7 +68,13 @@
 
 <ol class="govuk-list govuk-list--number">
 
-  <li>{{ policyTeamUsers }}</li>
+  <li>Grenfell survivor</li>
+  <li>Member of Grenfell community</li>
+  <li>Member of the public</li>
+  <li>Community groups</li>
+  <li>Resident in relevabt area</li>
+
+  <!--<li>{{ policyTeamUsers }}</li>-->
 
 </ol>
 
