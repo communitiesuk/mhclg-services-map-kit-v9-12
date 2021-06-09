@@ -26,4 +26,8 @@ require('./views/v2/routes/policy-teams')(router);
 require('./views/v2/routes/policy-team-services')(router);
 require('./views/v2/routes/policy-objectives')(router);
 
+
+// v4
+let PrototypeVersion = 4;
+require('./views/v' + PrototypeVersion + '/routes/service-info')(router);
 module.exports = router

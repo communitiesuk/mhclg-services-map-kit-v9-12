@@ -5,15 +5,7 @@
   Services
 {% endblock %}
 
-{% block beforeContent %}
 
-{{ govukBackLink({
-  text: "Back",
-  href: "javascript:history.go(-1)"
-}) }}
-
-
-{% endblock%}
 
 {% block content %}
 
@@ -25,15 +17,15 @@
       </span>
       <h1 class="govuk-heading-xl govuk-!-margin-bottom-0">
 
-        {{ nameOfService }}
+        Get a new energy certificate
 
       </h1>
 
-        <strong class="govuk-tag govuk-!-margin-top-0 govuk-!-margin-bottom-8">{{ serviceMaturity }}</strong>
+        <strong class="govuk-tag govuk-!-margin-top-0 govuk-!-margin-bottom-8">Ongoing</strong>
 
-        <p class="govuk-body govuk-!-margin-bottom-8">
+<!--        <p class="govuk-body govuk-!-margin-bottom-8">
           Last reviewed: 7 January 2021
-          </p>
+          </p>-->
 
 
     </div>
@@ -46,7 +38,7 @@
 
       <div class="govuk-grid-column-two-thirds">
 
-        <p>Contents</p>
+        <h2 class="govuk-heading-l">Contents</h2>
 
         <ol class="govuk-list govuk-list--dashed">
           <li>&mdash; <a href="#overview">Overview of the service</a></li>
@@ -55,39 +47,26 @@
           <li>&mdash; <a href="#management">Management of the service</a></li>
         </ol>
 
-      <h2 class="govuk-heading-l"><a name="overview">Overview of this service</h2>
+      <h2 class="govuk-heading-l"><a name="overview">Overview of the service</h2>
       <h3 class="govuk-heading-m">Service description</h3>
 
 
       <p>
-        {% if serviceDescription.length > 0 %}
-        {{ serviceDescription }}
-        {% else %}
-
-          No service description recorded
-
-        {% endif %}
+        An energy certificate is required when selling or letting most houses, flats or commercial properties. This service allows users to find accredited energy assessors to undertake energy assessments and issue certificates.
       </p>
 
       <h3 class="govuk-heading-m">MHCLG's role in the service</h3>
 
       <p>
-        {% if MHCLGInputDescription.length > 0 %}
 
-            {{ MHCLGInputDescription }}
-
-        {% else %}
-
-              No description of MHCLG's role in the service.
-
-        {% endif %}
+        MHCLG runs the register of assessors and the database of energy certificates, which are hosted on GOV.UK.
         </p>
 
         <!--<p>
         Aspects of MHCLG's involvement in the service: {{ roleOfMHCLG }}
       </p>-->
 
-  <h2 class="govuk-heading-l govuk-!-margin-top-8"><a name="purpose">Purpose of this service</h2>
+  <h2 class="govuk-heading-l govuk-!-margin-top-8"><a name="purpose">Purpose of the service</h2>
 
       <h3 class="govuk-heading-m">Who does this service help?</h3>
 
@@ -102,53 +81,60 @@
         </div>
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-            {% for item in endUser %}
-
-              {{item}}<br />
-
-            {% endfor %}
+              Home owner
           </dt>
           <dd class="govuk-summary-list__value">
-            {{ endUserNeeds }}
+            I need an energy performance certificate to sell my property.
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__value">
+              Landlord
+          </dt>
+          <dd class="govuk-summary-list__value">
+
+I need an energy performance certificate to let my property.
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__value">
+            Property owner
+
+          </dt>
+          <dd class="govuk-summary-list__value">
+
+I need to know how to improve the energy efficiency of my property.
           </dd>
         </div>
         </dl>
 
 
+        <h3 class="govuk-heading-m">Policy</h3>
 
-        <h3 class="govuk-heading-m">Policy objective</h3>
+        <h4 class="govuk-heading-s">Policy objective</h4>
         <p>
-          {{ policyObjective }}
+          The policy aims to improve the energy efficiency of buildings and thereby contribute to the UK's target of net carbon neutrality by 2050. The UK’s building stock is a significant contributor to the country’s carbon footprint. Energy certificates are a valuable tool to support property owners to understand and improve the energy performance of their homes and commercial buildings.
         </p>
 
-        <h3 class="govuk-heading-m">Departmental priority</h3>
+        <h4 class="govuk-heading-s">Departmental priority</h4>
         <p>
-
-          {% if departmentalPriority.length > 0 %}
-
-              {{ departmentalPriority }}
-
-          {% else %}
-
-                Not linked to any priority.
-
-          {% endif %}<br />
-          <a href="ministerial-priorities">See all services for this departmental priority</a>
+          1 - More better quality, safer, greener and more affordable homes<br />
+          <a href="#">See all service for this departmental priority</a>
         </p>
 
 
 
 
-  <h2 class="govuk-heading-l govuk-!-margin-top-8"><a name="delivery">Delivery of this service</h2>
+  <h2 class="govuk-heading-l govuk-!-margin-top-8"><a name="delivery">Delivery of the service</h2>
 
-      <h3 class="govuk-heading-m">The service as experienced by users</h3>
+      <h3 class="govuk-heading-m">The service that is delivered</h3>
 
       <!-- <p>Partners involved: {{ serviceProvider }}</p> -->
 
       <dl class="govuk-summary-list govuk-!-margin-bottom-8">
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__key">
-              Steps
+              Stages
           </dt>
           <dd class="govuk-summary-list__key">
             Delivered by
@@ -156,8 +142,7 @@
         </div>
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-              1. Views GOV.UK guidance on buying, selling or letting
-
+            Views GOV.UK guidance on buying, selling or letting
           </dt>
           <dd class="govuk-summary-list__value">
             MHCLG, BEIS and GDS
@@ -165,7 +150,7 @@
         </div>
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-            2. Uses Getting a new energy certificate on GOV.UK to find energy assessors
+            Uses Getting a new energy certificate on GOV.UK to find energy assessors
           </dt>
           <dd class="govuk-summary-list__value">
             MHCLG
@@ -173,7 +158,7 @@
         </div>
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-            3. Books an energy assessment
+            Books an energy assessment
           </dt>
           <dd class="govuk-summary-list__value">
             Energy assessors registered with accreditation schemes
@@ -182,30 +167,26 @@
         </div>
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-            4. Energy assessment of the property
+            Energy assessment of the property
           </dt>
           <dd class="govuk-summary-list__value">
-            Energy assessors registered with accreditation schemes
-
+              Energy assessors registered with accreditation schemes
           </dd>
         </div>
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-            5. Receives a link to energy certificate for the property
-
+            Receives a link to energy certificate for the property
           </dt>
           <dd class="govuk-summary-list__value">
-            Energy assessors registered with accreditation schemes
-
+              Energy assessors registered with accreditation schemes
           </dd>
         </div>
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-            5. Views the energy certificate for the property on Find an energy certificate on GOV.UK
+            Views the energy certificate for the property on Find an energy certificate on GOV.UK
           </dt>
           <dd class="govuk-summary-list__value">
-            MHCLG
-
+              MHCLG
           </dd>
         </div>
         </dl>
@@ -226,48 +207,8 @@
 
     <p>
       Find an energy certificate<br />
-      <a href="service-info?numberOfService=10">See the service information for Find an energy certificate</a>
+      <a href="#">See the service information for Find an energy certificate</a>
     </p>
-
-
-<!--
-    <dl class="govuk-summary-list govuk-!-margin-bottom-8">
-      <div class="govuk-summary-list__row">
-        <dt class="govuk-summary-list__key">
-            Funding amount
-        </dt>
-        <dd class="govuk-summary-list__key">
-           Financial year
-        </dd>
-      </div>
-      <div class="govuk-summary-list__row">
-        <dt class="govuk-summary-list__value">
-            £ 7,550,000
-        </dt>
-        <dd class="govuk-summary-list__value">
-          2020 to 2021
-        </dd>
-      </div>
-      <div class="govuk-summary-list__row">
-        <dt class="govuk-summary-list__value">
-            £ 12,750,000
-        </dt>
-        <dd class="govuk-summary-list__value">
-          2021 to 2022
-        </dd>
-      </div>
-      <div class="govuk-summary-list__row">
-        <dt class="govuk-summary-list__value">
-            £ 9,250,000
-        </dt>
-        <dd class="govuk-summary-list__value">
-          2022 to 2023
-        </dd>
-      </div>
-    </dl>
--->
-
-
 
 
 
@@ -279,10 +220,10 @@
 
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">
-          Policy area or programme
+          Policy area / programme
         </dt>
         <dd class="govuk-summary-list__value">
-          <!-- policyGroup --> <a href="#">{{ policyGroup }}</a>
+          <!-- policyGroup --> <a href="#">Building Safety</a>
         </dd>
       </div>
       <div class="govuk-summary-list__row">
@@ -290,7 +231,7 @@
           Policy team
         </dt>
         <dd class="govuk-summary-list__value">
-          <a href="#">{{ policyTeam }}</a>
+          <a href="#">Energy Performance of Buildings</a>
         </dd>
       </div>
       <div class="govuk-summary-list__row">
@@ -298,53 +239,36 @@
           Policy partners
         </dt>
         <dd class="govuk-summary-list__value">
-          <a href="#">{{ policyPartners }}</a>
+          <a href="#">BEIS</a>
         </dd>
       </div>
       </dl>
 
 
-            <h3 class="govuk-heading-m">Budget to run the service</h3>
+            <h3 class="govuk-heading-m">Budget for the service</h3>
 
-            <p>
-            {% if serviceBudget.length > 0 %}
-            {{ serviceBudget }}
-            {% else %}
-
-              No budget information recorded.
-
-            {% endif %}
-            </p>
+        <p>
+          £2,200,000 budget in 2020/21 to run two energy certificate services. Fees charged to assessors to lodge assessments in our system are expected to make the services cost neutral.
+        </p>
 
 
-      <h3 class="govuk-heading-m">Staff</h3>
-
-
-
-
-
-            <h3 class="govuk-heading-m">Full time equivalent (FTE) staff</h3>
-
+      <h3 class="govuk-heading-m">Full time equivalent (FTE) staff</h3>
 
       <p>
         As of February 2021:
       </p>
 
-      <ul class="govuk-list govuk-list--bullet">
-            <li>8.2 FTE staff to run the online register</li>
-            <li>9 FTE staff in the policy team</li>
+      <ul class="govuk-list  govuk-list--bullet">
+        <li>8.2 FTE staff to run the online register</li>
+        <li>9 FTE staff in the policy team</li>
       </ul>
-
-
-
 
             <h3 class="govuk-heading-m">Contact for this service</h3>
 
             <p>
               Dean Wanless, Service owner<br />
-              <a href="">dean.wanless@communities.gov.uk</a>
+              dean.wanless@communities.gov.uk
             </p>
-
 
 
 

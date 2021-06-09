@@ -279,10 +279,17 @@
 
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">
-          Policy area or programme
+          Directorate
         </dt>
         <dd class="govuk-summary-list__value">
-          <!-- policyGroup --> <a href="#">{{ policyGroup }}</a>
+          {% if directorate.length > 0 %}
+          <a href="#">{{ directorate }}</a>
+          {% else %}
+
+            No directorate recorded.
+
+          {% endif %}
+
         </dd>
       </div>
       <div class="govuk-summary-list__row">
@@ -290,7 +297,13 @@
           Policy team
         </dt>
         <dd class="govuk-summary-list__value">
+          {% if policyTeam.length > 0 %}
           <a href="#">{{ policyTeam }}</a>
+          {% else %}
+
+            No policy team recorded.
+
+          {% endif %}
         </dd>
       </div>
       <div class="govuk-summary-list__row">
@@ -298,7 +311,14 @@
           Policy partners
         </dt>
         <dd class="govuk-summary-list__value">
+          {% if FTE.length > 0 %}
           <a href="#">{{ policyPartners }}</a>
+          {% else %}
+
+            No policy partners  recorded.
+
+          {% endif %}
+
         </dd>
       </div>
       </dl>
@@ -317,34 +337,33 @@
             </p>
 
 
-      <h3 class="govuk-heading-m">Staff</h3>
-
-
-
-
-
             <h3 class="govuk-heading-m">Full time equivalent (FTE) staff</h3>
 
+            {% if FTE.length > 0 %}
+            <p>
+              {{ FTE }}
+            </p>
+            {% else %}
 
-      <p>
-        As of February 2021:
-      </p>
+              <p>
+                No FTE information recorded.
+              </p>
 
-      <ul class="govuk-list govuk-list--bullet">
-            <li>8.2 FTE staff to run the online register</li>
-            <li>9 FTE staff in the policy team</li>
-      </ul>
-
-
+            {% endif %}
 
 
             <h3 class="govuk-heading-m">Contact for this service</h3>
 
+
+            {% if serviceBudget.length > 0 %}
+            {{ serviceBudget }}
+            {% else %}
+
             <p>
-              Dean Wanless, Service owner<br />
-              <a href="">dean.wanless@communities.gov.uk</a>
+              No contact information recorded.
             </p>
 
+            {% endif %}
 
 
 

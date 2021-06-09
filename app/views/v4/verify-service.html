@@ -1,0 +1,54 @@
+
+{% extends "layout_with_banner_and_back.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+{% block beforeContent %}
+
+{% from "govuk/components/phase-banner/macro.njk" import govukPhaseBanner %}
+{{ govukPhaseBanner({
+  tag: {
+    text: "alpha"
+  },
+  html: 'This is a new service – your <a class="govuk-link" href="feedback">feedback</a> will help us to improve it.'
+}) }}
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.go(-1)"
+}) }}
+
+
+{% endblock%}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-l">
+        Verify a service
+      </h1>
+
+
+      <p>
+        IF USER HAS COME THROUGH FROM A SERVICE WE CAN USE THIS
+      </p>
+      <p>
+        What you need to do
+      </p>
+
+      <p>
+        Who can do this (we need someone who knows)
+      </p>
+
+      <p>
+        Need to capture who they are are
+      </p>
+
+
+    </div>
+  </div>
+
+{% endblock %}
