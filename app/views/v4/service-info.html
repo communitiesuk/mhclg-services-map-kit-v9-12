@@ -29,12 +29,36 @@
 
       </h1>
 
-        <strong class="govuk-tag govuk-!-margin-top-0 govuk-!-margin-bottom-8">{{ serviceMaturity }}</strong>
+        {% if serviceMaturity.length > 0 %}
+        <strong class="govuk-tag govuk-!-margin-top-0 govuk-!-margin-bottom-8">
+          {{ serviceMaturity }}
+        </strong>
+        {% else %}
+          <div class="govuk-body-s govuk-!-margin-top-0 govuk-!-margin-bottom-8">
+            No service maturity recorded
+          </div>
+        {% endif %}
 
-        <p class="govuk-body govuk-!-margin-bottom-8">
+        <!--<p class="govuk-body govuk-!-margin-bottom-8">
           Last reviewed: 7 January 2021
-          </p>
+          </p>-->
 
+
+          Validated {{ validatedInformation }}
+
+          {% from "govuk/components/notification-banner/macro.njk" import govukNotificationBanner %}
+
+
+
+          {% set html %}
+            <p class="govuk-notification-banner__heading">
+                        This information isn't verified as representative of this service. If you are a service owner and can help verify this information <a class="govuk-notification-banner__link" href="verify-service">contact us</a>.
+            </p>
+          {% endset %}
+
+          {{ govukNotificationBanner({
+            html: html
+          }) }}
 
     </div>
     </div>
@@ -61,10 +85,12 @@
 
       <p>
         {% if serviceDescription.length > 0 %}
+
         {{ serviceDescription }}
+
         {% else %}
 
-          No service description recorded
+          No service description recorded.
 
         {% endif %}
       </p>
@@ -89,36 +115,198 @@
 
   <h2 class="govuk-heading-l govuk-!-margin-top-8"><a name="purpose">Purpose of this service</h2>
 
-      <h3 class="govuk-heading-m">Who does this service help?</h3>
+      <h3 class="govuk-heading-m">Users of the service and their needs</h3>
+
+    {% if user1.length > 0 %}
+
+    <div class="govuk-inset-text">
+    <p>
+      This information has been provided by the service team
+    </p>
+    </div>
+
+    <dl class="govuk-summary-list govuk-!-margin-bottom-8">
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+            User
+        </dt>
+        <dd class="govuk-summary-list__key">
+            User needs
+        </dd>
+        <dd class="govuk-summary-list__key">
+          User type
+        </dd>
+      </div>
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__value">
+            {{user1}}
+        </dt>
+        <dd class="govuk-summary-list__value">
+            {{user1Needs}}
+        </dd>
+        <dd class="govuk-summary-list__value">
+            {{user1Type}}
+        </dd>
+      </div>
+
+    {% endif %}
+
+    {% if user2.length > 0 %}
+
+    <div class="govuk-summary-list__row">
+      <dt class="govuk-summary-list__value">
+          {{user2}}
+      </dt>
+      <dd class="govuk-summary-list__value">
+          {{user2Needs}}
+      </dd>
+      <dd class="govuk-summary-list__value">
+          {{user2Type}}
+      </dd>
+    </div>
+
+    {% endif %}
+
+    {% if user3.length > 0 %}
+
+    <div class="govuk-summary-list__row">
+      <dt class="govuk-summary-list__value">
+          {{user3}}
+      </dt>
+      <dd class="govuk-summary-list__value">
+          {{user3Needs}}
+      </dd>
+      <dd class="govuk-summary-list__value">
+          {{user3Type}}
+      </dd>
+    </div>
+
+    {% endif %}
+
+    {% if user4.length > 0 %}
+
+    <div class="govuk-summary-list__row">
+      <dt class="govuk-summary-list__value">
+          {{user4}}
+      </dt>
+      <dd class="govuk-summary-list__value">
+          {{user4Needs}}
+      </dd>
+      <dd class="govuk-summary-list__value">
+          {{user4Type}}
+      </dd>
+    </div>
+
+    {% endif %}
+
+    {% if user5.length > 0 %}
+
+    <div class="govuk-summary-list__row">
+      <dt class="govuk-summary-list__value">
+          {{user5}}
+      </dt>
+      <dd class="govuk-summary-list__value">
+          {{user5Needs}}
+      </dd>
+      <dd class="govuk-summary-list__value">
+          {{user5Type}}
+      </dd>
+    </div>
+
+    {% endif %}
+
+    {% if user6.length > 0 %}
+
+    <div class="govuk-summary-list__row">
+      <dt class="govuk-summary-list__value">
+          {{user6}}
+      </dt>
+      <dd class="govuk-summary-list__value">
+          {{user6Needs}}
+      </dd>
+      <dd class="govuk-summary-list__value">
+          {{user6Type}}
+      </dd>
+    </div>
+
+    {% endif %}
+
+    {% if user1.length > 0 %}
+        </dl>
+    {% endif %}
+
+
+
+    {% if user1.length == 0 and collatedEndUsers.length > 0 %}
 
       <dl class="govuk-summary-list govuk-!-margin-bottom-8">
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__key">
-              End user
+              User type
           </dt>
+          <dd class="govuk-summary-list__key">
+              User
+          </dd>
           <dd class="govuk-summary-list__key">
             User need
           </dd>
         </div>
+
+
+
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-            {% for item in endUser %}
-
-              {{item}}<br />
-
-            {% endfor %}
+              End users
           </dt>
           <dd class="govuk-summary-list__value">
-            {{ endUserNeeds }}
+              {{ collatedEndUsers }}
+          </dd>
+          <dd class="govuk-summary-list__value">
+          {{collatedEndUsersNeeds}}
           </dd>
         </div>
+
+        {% endif %}
+
+        {% if user1.length == 0 and collatedSupportingUsers.length > 0 %}
+
+        <div class="govuk-summary-list__row">
+          <dd class="govuk-summary-list__value">
+            Supporting users
+          </dd>
+          <dd class="govuk-summary-list__value">
+            {{collatedSupportingUsers}}
+          </dd>
+          <dd class="govuk-summary-list__value">
+            {{ collatedSupportingUsersNeeds }}
+          </dd>
+        </div>
+
+        {% endif %}
+
+        {% if user1.length == 0 and collatedEndUsers.length > 0 %}
         </dl>
+        {% endif %}
 
+        {% if collatedEndUsers.length == 0 and user1.length == 0 %}
 
+        <p>
+          No user information for this service.
+        </p>
+
+        {% endif %}
 
         <h3 class="govuk-heading-m">Policy objective</h3>
         <p>
-          {{ policyObjective }}
+          {% if policyObjective.length > 0 %}
+
+              {{ policyObjective }}
+
+          {% else %}
+
+                Not linked to any policy objective.
+
+          {% endif %}
         </p>
 
         <h3 class="govuk-heading-m">Departmental priority</h3>
@@ -141,9 +329,19 @@
 
   <h2 class="govuk-heading-l govuk-!-margin-top-8"><a name="delivery">Delivery of this service</h2>
 
+
+
       <h3 class="govuk-heading-m">The service as experienced by users</h3>
 
       <!-- <p>Partners involved: {{ serviceProvider }}</p> -->
+
+      {% if servicePhase1.length > 0 %}
+
+      <div class="govuk-inset-text">
+      <p>
+        This information has been provided by the service team
+      </p>
+      </div>
 
       <dl class="govuk-summary-list govuk-!-margin-bottom-8">
         <div class="govuk-summary-list__row">
@@ -156,61 +354,97 @@
         </div>
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-              1. Views GOV.UK guidance on buying, selling or letting
+              1. {{ servicePhase1 }}
 
           </dt>
           <dd class="govuk-summary-list__value">
-            MHCLG, BEIS and GDS
+            {{ servicePhase1Providers }}
           </dd>
         </div>
+
+        {% endif %}
+
+        {% if servicePhase2.length > 0 %}
+
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-            2. Uses Getting a new energy certificate on GOV.UK to find energy assessors
+            2. {{ servicePhase2 }}
           </dt>
           <dd class="govuk-summary-list__value">
-            MHCLG
+            {{ servicePhase2Providers }}
           </dd>
         </div>
+
+        {% endif %}
+
+        {% if servicePhase3.length > 0 %}
+
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-            3. Books an energy assessment
+            3. {{ servicePhase3 }}
           </dt>
           <dd class="govuk-summary-list__value">
-            Energy assessors registered with accreditation schemes
-
+            {{ servicePhase3Providers }}
           </dd>
         </div>
+
+        {% endif%}
+
+        {% if servicePhase4.length > 0 %}
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-            4. Energy assessment of the property
+            4. {{ servicePhase4 }}
           </dt>
           <dd class="govuk-summary-list__value">
-            Energy assessors registered with accreditation schemes
+            {{ servicePhase4Providers }}
 
           </dd>
         </div>
+
+        {% endif %}
+
+        {% if servicePhase5.length > 0 %}
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-            5. Receives a link to energy certificate for the property
+            5. {{ servicePhase5 }}
 
           </dt>
           <dd class="govuk-summary-list__value">
-            Energy assessors registered with accreditation schemes
+            {{ servicePhase5Providers }}
 
           </dd>
         </div>
+
+        {% endif %}
+
+        {% if servicePhase6.length > 0 %}
         <div class="govuk-summary-list__row">
           <dt class="govuk-summary-list__value">
-            5. Views the energy certificate for the property on Find an energy certificate on GOV.UK
+            6. {{ servicePhase6 }}
           </dt>
           <dd class="govuk-summary-list__value">
-            MHCLG
+            {{ servicePhase6Providers }}
 
           </dd>
         </div>
+        {% endif %}
+
+        {% if servicePhase1Providers.length > 0 %}
         </dl>
+        {% endif %}
 
+        {% if servicePhase1Providers.length == 0 and servicePatterns.length > 0 %}
+        <p>
+        Service patterns: {{ servicePatterns }}
+        </p>
 
+        {% endif %}
+
+        {% if servicePhase1Providers.length == 0 and servicePatterns.length == 0 %}
+        <p>
+          No service information is recorded.
+        </p>
+        {% endif %}
 
     <h3 class="govuk-heading-m">
       Funding distributed by the service
@@ -225,8 +459,15 @@
     </h3>
 
     <p>
-      Find an energy certificate<br />
-      <a href="service-info?numberOfService=10">See the service information for Find an energy certificate</a>
+    {% if connectedServices.length > 0 %}
+
+      {{ connectedServices }}
+
+      {% else %}
+
+      No services are recorded as connected to this service.
+
+      {% endif %}
     </p>
 
 

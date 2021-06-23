@@ -1,8 +1,9 @@
 const express = require('express')
 const router = express.Router()
 
-// v1
 
+
+// v1
 require('./views/v1/routes/services-parse')(router);
 require('./views/v1/routes/services-list')(router);
 require('./views/v1/routes/service-info')(router);
@@ -30,4 +31,6 @@ require('./views/v2/routes/policy-objectives')(router);
 // v4
 let PrototypeVersion = 4;
 require('./views/v' + PrototypeVersion + '/routes/service-info')(router);
+require('./views/v' + PrototypeVersion + '/routes/service-list')(router);
+
 module.exports = router
