@@ -1,5 +1,5 @@
 
-{% extends "layout_with_banner.html" %}
+{% extends "layout.html" %}
 
 {% block pageTitle %}
   Services
@@ -23,7 +23,7 @@
 
       <h1 class="govuk-heading-xl">
 
-        List of all services
+        Policy teams
 
       </h1>
 
@@ -38,10 +38,10 @@
         <p>
 
           <ol class="govuk-list govuk-list--number">
-            {% set count = 0 %}
-          {% for item in nameOfService %}
-            <li><a href="service-info?numberOfService={{ numberOfService[count] }}">{{item}}</a></li>
-            {% set count = count + 1 %}
+          {% for item in policyTeam %}
+
+            <li><a href="policy-team-services?focusTeam={{item}}">{{item}}</a></li>
+
           {% endfor %}
           </ol>
 

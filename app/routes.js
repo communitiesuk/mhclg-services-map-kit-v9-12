@@ -32,5 +32,27 @@ require('./views/v2/routes/policy-objectives')(router);
 let PrototypeVersion = 4;
 require('./views/v' + PrototypeVersion + '/routes/service-info')(router);
 require('./views/v' + PrototypeVersion + '/routes/service-list')(router);
+require('./views/v' + PrototypeVersion + '/routes/service-list-policy')(router);
+require('./views/v' + PrototypeVersion + '/routes/service-list-policy-delivery')(router);
+
+require('./views/v' + PrototypeVersion + '/routes/policy-objectives')(router);
+require('./views/v' + PrototypeVersion + '/routes/policy-groups')(router);
+require('./views/v' + PrototypeVersion + '/routes/policy-teams')(router);
+require('./views/v' + PrototypeVersion + '/routes/policy-team-services')(router);
+
+require('./views/v' + PrototypeVersion + '/routes/end-users')(router);
+require('./views/v' + PrototypeVersion + '/routes/end-user-needs')(router);
+
+router.get('/v4/', function (req, res) {
+  res.render('v4/index-3')
+})
+
+router.get('/v4/index', function (req, res) {
+  res.render('v4/index-3')
+})
+
+router.get('/v4/feedback', function (req, res) {
+  res.render('v4/feedback-3')
+})
 
 module.exports = router

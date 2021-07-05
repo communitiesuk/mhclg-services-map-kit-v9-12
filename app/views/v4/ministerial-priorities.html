@@ -1,0 +1,87 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+{% block beforeContent %}
+
+{{ govukBackLink({
+  text: "Back",
+  href: "javascript:history.go(-1)"
+}) }}
+
+
+{% endblock%}
+
+{% block content %}
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+
+      <h1 class="govuk-heading-xl">
+
+        Departmental priorities
+
+      </h1>
+
+    </div>
+
+
+
+      <div class="govuk-grid-column-two-thirds">
+
+<h2 class="govuk-heading-m">1. More, better quality, safer, greener and more affordable homes</h2>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li><a href="service-info?numberOfService=2">Brownfield Fund</a></li>
+    <li><a href="service-info?numberOfService=4">Land Assembly Fund</a></li>
+    <li><a href="service-info?numberOfService=48">Statutory Right to Buy</a></li>
+  <li><a href="#service-info?numberOfService=46">Buy with Help to Buy</a></li>
+    <li><a href="service-info?numberOfService=9">Public Sector Land Programme</a></li>
+    <li><a href="service-info?numberOfService=5">Home Building Fund</a></li>
+    <li><a href="service-info?numberOfService=44">West Midlands Housing Package</a></li>
+</ul>
+
+<h2 class="govuk-heading-m">2. Building safety, Grenfell response and net zero</h2>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li><a href="service-info?numberOfService=7">Get your building tested for ACM cladding</a></li>
+</ul>
+
+<h2 class="govuk-heading-m">3. End rough sleeping through more effective prevention and crisis intervention services, and reduce Homelessness</h2>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li><a href="service-info?numberOfService=10">Move on Fund</a></li>
+  <li><a href="service-info?numberOfService=47">Rough Sleeping Navigators</a></li>
+  <li><a href="service-info?numberOfService=45">Somewhere Safe to Stay</a></li>
+</ul>
+
+<h2 class="govuk-heading-m">4. A sustainable and resilient local government sector that delivers priority services and empowers communities</h2>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li><a href="service-info?numberOfService=43">Get funding from the Bellwin Scheme</a></li>
+</ul>
+
+<h2 class="govuk-heading-m">5. Raise productivity and empower places so that everyone across the country can benefit from levelling up</h2>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li><a href="service-info?numberOfService=8">Shielding</a></li>
+  <li><a href="service-info?numberOfService=49">ECLAIMS</a></li>
+</ul>
+
+
+<h2 class="govuk-heading-m">Other services provided by the department not assigned a priority</h2>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li><a href="service-info?numberOfService=6">Respond to Government consultations</a></li>
+</ul>
+
+
+    </div>
+
+  </div>
+
+{% endblock %}

@@ -1,5 +1,5 @@
 
-{% extends "layout.html" %}
+{% extends "layout_with_banner.html" %}
 
 {% block pageTitle %}
   Services
@@ -120,7 +120,7 @@
 
     <div class="govuk-inset-text">
     <p>
-      This information has been provided by the service team
+      This information has been provided by the service team.
     </p>
     </div>
 
@@ -236,7 +236,13 @@
 
 
 
-    {% if user1.length == 0 and collatedEndUsers.length > 0 %}
+    {% if not user1 and collatedEndUsers.length > 0 %}
+
+    <div class="govuk-inset-text">
+    <p>
+      These are high level needs. We are looking for more granular service users and user needs information.
+    </p>
+    </div>
 
       <dl class="govuk-summary-list govuk-!-margin-bottom-8">
         <div class="govuk-summary-list__row">
@@ -267,7 +273,7 @@
 
         {% endif %}
 
-        {% if user1.length == 0 and collatedSupportingUsers.length > 0 %}
+        {% if not user1 and collatedSupportingUsers.length > 0 %}
 
         <div class="govuk-summary-list__row">
           <dd class="govuk-summary-list__value">
@@ -283,11 +289,11 @@
 
         {% endif %}
 
-        {% if user1.length == 0 and collatedEndUsers.length > 0 %}
+        {% if not user1 and collatedEndUsers.length > 0 %}
         </dl>
         {% endif %}
 
-        {% if collatedEndUsers.length == 0 and user1.length == 0 %}
+        {% if not user1 and not collatedEndUsers %}
 
         <p>
           No user information for this service.
@@ -432,7 +438,7 @@
         </dl>
         {% endif %}
 
-        {% if servicePhase1Providers.length == 0 and servicePatterns.length > 0 %}
+        {% if not servicePhase1Providers and servicePatterns.length > 0 %}
         <p>
         Service patterns: {{ servicePatterns }}
         </p>
@@ -440,7 +446,7 @@
         {% endif %}
 
 
-        {% if servicePhase1Providers.length == 0 and servicePatterns.length == 0 %}
+        {% if not servicePhase1Provider and not servicePatterns %}
         <p>
           No service information is recorded.
         </p>

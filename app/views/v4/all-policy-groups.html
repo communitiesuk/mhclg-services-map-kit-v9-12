@@ -1,5 +1,5 @@
 
-{% extends "layout_with_banner.html" %}
+{% extends "layout.html" %}
 
 {% block pageTitle %}
   Services
@@ -23,7 +23,7 @@
 
       <h1 class="govuk-heading-xl">
 
-        List of all services
+        All policy areas
 
       </h1>
 
@@ -38,10 +38,11 @@
         <p>
 
           <ol class="govuk-list govuk-list--number">
-            {% set count = 0 %}
-          {% for item in nameOfService %}
-            <li><a href="service-info?numberOfService={{ numberOfService[count] }}">{{item}}</a></li>
-            {% set count = count + 1 %}
+
+          {% set count = 0 %}
+          {% for item in groupName %}
+            <li><a href="policy-group-detail?groupName={{ item }}&groupID={{ groupID[count] }}">{{item}}</a></li>
+          {% set count = count + 1 %}
           {% endfor %}
           </ol>
 
