@@ -1,0 +1,47 @@
+
+{% extends "layout_with_banner_and_back.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+
+{% block content %}
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+
+      <h1 class="govuk-heading-xl">
+
+        Departmental priorities
+
+      </h1>
+
+    </div>
+
+
+
+      <div class="govuk-grid-column-two-thirds">
+
+{% set count = 0 %}
+        {% for item in priorityOutcome %}
+
+          <h2 class="govuk-heading-m">{{item}}</h2>
+
+
+          <ul class="govuk-list govuk-list--bullet">
+            <li><a href="service-info?numberOfService=2">{{ outcomeDirectorates[count] }}</a><li>
+          </ul>
+
+{% set count = count + 1 %}
+        {% endfor %}
+
+
+
+
+    </div>
+
+  </div>
+
+{% endblock %}

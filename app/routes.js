@@ -37,8 +37,12 @@ require('./views/v' + PrototypeVersion + '/routes/service-list-policy-delivery')
 
 require('./views/v' + PrototypeVersion + '/routes/policy-objectives')(router);
 require('./views/v' + PrototypeVersion + '/routes/policy-groups')(router);
+require('./views/v' + PrototypeVersion + '/routes/policy-group-detail')(router);
+
 require('./views/v' + PrototypeVersion + '/routes/policy-teams')(router);
 require('./views/v' + PrototypeVersion + '/routes/policy-team-services')(router);
+
+require('./views/v' + PrototypeVersion + '/routes/priority-outcomes')(router);
 
 require('./views/v' + PrototypeVersion + '/routes/end-users')(router);
 require('./views/v' + PrototypeVersion + '/routes/end-user-needs')(router);
