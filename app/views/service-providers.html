@@ -20,9 +20,15 @@
       <ol class="govuk-list govuk-list">
         {% set count = 0 %}
       {% for item in providerName %}
-        <li><a href="service-provider-detail?providerID={{ providerID[count] }}&providerName={{ providerName[count] }}">{{item}}</li>
+        <!--<li><a href="service-provider-detail?providerID={{ providerID[count] }}&providerName={{ providerName[count] }}">{{item}}</a></li>-->
         {% set count = count + 1 %}
       {% endfor %}
+
+      {% set count = 0 %}
+    {% for item in providerName %}
+      <li>{{item}}</li>
+      {% set count = count + 1 %}
+    {% endfor %}
       </ol>
 
 

@@ -33,10 +33,18 @@
 
           {% set count = 0 %}
           {% for item in groupName %}
-            <li><a href="policy-group-detail?groupName={{ item }}&groupID={{ groupID[count] }}">{{item}}</a></li>
+            <!--<li><a href="policy-group-detail?groupName={{ item }}&groupID={{ groupID[count] }}">{{item}}</a></li>-->
+          {% set count = count + 1 %}
+          {% endfor %}
+
+          
+          {% set count = 0 %}
+          {% for item in groupName %}
+            <li>{{item}}</li>
           {% set count = count + 1 %}
           {% endfor %}
           </ol>
+
 
         </p>
 
