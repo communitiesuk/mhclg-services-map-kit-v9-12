@@ -98,4 +98,8 @@ router.get('/feedback', function (req, res) {
   res.render('feedback-3')
 })
 
+router.get('/feedback-for-service', function (req, res) {
+  res.render('feedback-3')
+})
+
 module.exports = router
