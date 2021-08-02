@@ -1,0 +1,52 @@
+
+{% extends "layout_with_banner_and_back.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+
+{% block content %}
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+<span class="govuk-caption-xl">Service provider details</span>
+      <h1 class="govuk-heading-xl">
+
+         {{ providerName }}
+
+      </h1>
+
+    </div>
+
+  </div>
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-two-thirds">
+
+        <h2 class="govuk-heading-m">Services</h2>
+
+        <p>
+
+          <ol class="govuk-list govuk-list--number">
+
+          {% set count = 0 %}
+          {% for item in listOfService %}
+
+
+            <li><a href="service-info?numberOfService={{ numberOfService[count] }}">{{item}}</a></li>
+
+          {% set count = count + 1 %}
+          {% endfor %}
+          </ol>
+
+        </p>
+
+      </div>
+
+  </div>
+
+{% endblock %}

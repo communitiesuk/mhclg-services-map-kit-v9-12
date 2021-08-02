@@ -1,0 +1,62 @@
+
+{% extends "layout_with_banner_and_back.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+
+{% block content %}
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+
+        Policy team services for {{ focusTeam }}
+
+      </h1>
+
+    </div>
+
+  </div>
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-two-thirds">
+
+        <h2 class="govuk-heading-m">Services</h2>
+
+        <p>
+
+          <ol class="govuk-list govuk-list--number">
+
+          {% set count = 0 %}
+          {% for item in policyTeamServiceName %}
+
+            <li><a href="service-info?numberOfService={{ numberOfService[count] }}">{{item}}</a></li>
+
+          {% set count = count + 1 %}
+          {% endfor %}
+          </ol>
+
+        </p>
+
+      </div>
+
+      <div class="govuk-grid-column-one-third">
+
+<h2 class="govuk-heading-m">End users served</h2>
+
+<ol class="govuk-list govuk-list--number">
+
+  <li>{{ policyTeamUsers }}</li>
+
+</ol>
+
+      </div>
+
+  </div>
+
+{% endblock %}

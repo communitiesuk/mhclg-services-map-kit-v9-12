@@ -2,7 +2,7 @@ module.exports = function (router) {
 
 
 const fs = require('fs');
-const outcomesfileLocation = './app/views/v4/data/priority-outcomes.json';
+const outcomesfileLocation = './app/views/data/priority-outcomes.json';
 
 let rawoutcomesdata = fs.readFileSync(outcomesfileLocation);
 //let JSONdata = JSON.parse(rawoutcomesdata);
@@ -21,7 +21,7 @@ counter = 0;
 var priorityOutcome = [];
 var outcomeDirectorates = [];
 
-console.log("v4 priorities-outcomes.js data:\n");
+console.log("live priorities-outcomes.js data:\n");
 
 
 for (x of outcomesobj["records"]) {
@@ -36,7 +36,7 @@ for (x of outcomesobj["records"]) {
 // load service data
 
 const gs = require('fs');
-const servicesdatafileLocation = './app/views/v4/data/services-data.json';
+const servicesdatafileLocation = './app/views/data/services-data.json';
 
 let servicesdata = gs.readFileSync(servicesdatafileLocation);
 //let JSONdata = JSON.parse(servicesdata);
@@ -56,7 +56,7 @@ var serviceID = [];
 var nameOfService = [];
 var policyGroup = [];
 
-console.log("v4 priorities-outcomes.js data:\n");
+console.log("live priorities-outcomes.js data:\n");
 
 
 for (y of servicesobj["records"]) {
@@ -120,9 +120,9 @@ console.log("directorateServices = " + directorateServices + " \n");
 
 // the actual page bit
 
-router.get('/v4/priority-outcomes', function (req, res) {
+router.get('/priority-outcomes', function (req, res) {
 
-  res.render('v4/priority-outcomes', {
+  res.render('priority-outcomes', {
     priorityOutcome: priorityOutcome,
     outcomeDirectorates: outcomeDirectorates,
     directorateServices: directorateServices,

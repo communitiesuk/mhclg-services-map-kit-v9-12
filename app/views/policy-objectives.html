@@ -1,0 +1,46 @@
+
+{% extends "layout_with_banner_and_back.html" %}
+
+{% block pageTitle %}
+  Services
+{% endblock %}
+
+
+{% block content %}
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+
+        Policy objectives
+
+      </h1>
+
+    </div>
+
+  </div>
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-two-thirds">
+
+        <p>
+
+          <ol class="govuk-list govuk-list--number">
+            {% set count = 0 %}
+          {% for item in policyObjective %}
+            <li>{{item}}<br /><strong>{{ nameOfService[count] }}</strong></li>
+            {% set count = count + 1 %}
+          {% endfor %}
+          </ol>
+
+
+        </p>
+
+      </div>
+
+  </div>
+
+{% endblock %}

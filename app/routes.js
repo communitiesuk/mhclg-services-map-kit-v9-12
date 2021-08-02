@@ -35,6 +35,10 @@ require('./views/v' + PrototypeVersion + '/routes/service-list')(router);
 require('./views/v' + PrototypeVersion + '/routes/service-list-policy')(router);
 require('./views/v' + PrototypeVersion + '/routes/service-list-policy-delivery')(router);
 
+require('./views/v' + PrototypeVersion + '/routes/service-providers')(router);
+require('./views/v' + PrototypeVersion + '/routes/service-provider-detail')(router);
+
+
 require('./views/v' + PrototypeVersion + '/routes/policy-objectives')(router);
 require('./views/v' + PrototypeVersion + '/routes/policy-groups')(router);
 require('./views/v' + PrototypeVersion + '/routes/policy-group-detail')(router);
@@ -57,6 +61,41 @@ router.get('/v4/index', function (req, res) {
 
 router.get('/v4/feedback', function (req, res) {
   res.render('v4/feedback-3')
+})
+
+
+// "live" - copied from v4
+require('./views/routes/service-info')(router);
+require('./views/routes/service-list')(router);
+require('./views/routes/service-list-policy')(router);
+require('./views/routes/service-list-policy-delivery')(router);
+
+require('./views/routes/service-providers')(router);
+require('./views/routes/service-provider-detail')(router);
+
+
+require('./views/routes/policy-objectives')(router);
+require('./views/routes/policy-groups')(router);
+require('./views/routes/policy-group-detail')(router);
+
+require('./views/routes/policy-teams')(router);
+require('./views/routes/policy-team-services')(router);
+
+require('./views/routes/priority-outcomes')(router);
+
+require('./views/routes/end-users')(router);
+require('./views/routes/end-user-needs')(router);
+
+router.get('/', function (req, res) {
+  res.render('index-3')
+})
+
+router.get('/index', function (req, res) {
+  res.render('index-3')
+})
+
+router.get('/feedback', function (req, res) {
+  res.render('feedback-3')
 })
 
 module.exports = router
