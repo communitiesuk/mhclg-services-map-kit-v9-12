@@ -515,8 +515,8 @@
           Directorate
         </dt>
         <dd class="govuk-summary-list__value">
-          {% if directorate.length > 0 %}
-          {{ directorate }}
+          {% if serviceDirectorate.length > 0 %}
+          {{ serviceDirectorate }}
           {% else %}
 
             No directorate recorded.
@@ -531,7 +531,7 @@
         </dt>
         <dd class="govuk-summary-list__value">
           {% if policyTeam.length > 0 %}
-          <a href="#">{{ policyTeam }}</a>
+          {{ policyTeam }}
           {% else %}
 
             No policy team recorded.
@@ -539,21 +539,7 @@
           {% endif %}
         </dd>
       </div>
-      <div class="govuk-summary-list__row">
-        <dt class="govuk-summary-list__key">
-          Policy partners
-        </dt>
-        <dd class="govuk-summary-list__value">
-          {% if FTE.length > 0 %}
-          <a href="#">{{ policyPartners }}</a>
-          {% else %}
 
-            No policy partners  recorded.
-
-          {% endif %}
-
-        </dd>
-      </div>
       </dl>
 
 

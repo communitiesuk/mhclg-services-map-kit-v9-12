@@ -192,7 +192,7 @@ for (x of usersobj["records"]) {
 const hs = require('fs');
 const directoratefileLocation = './app/views/data/directorate-data.json';
 
-let directoraterawdata = gs.readFileSync(directoratefileLocation);
+let directoraterawdata = hs.readFileSync(directoratefileLocation);
 //console.log(JSONdata);
 
 // Converting JSON object to JS object
@@ -211,10 +211,10 @@ var directorateNameID = [];
 
 for (x of directorateobj["records"]) {
   //console.log(counter + ": " + obj["records"][counter]["fields"]["Service Name"]);
-  directorateName.push(usersobj["records"][counter]["fields"]["Name"]);
-  directorateNameID.push(usersobj["records"][counter]["id"]);
+  directorateNameID.push(directorateobj["records"][counter]["id"]);
+  directorateName.push(directorateobj["records"][counter]["fields"]["Name"]);
 
-  //console.log(counter + "   " + userName[counter]);
+  console.log("DAVE CHECK  " + counter + " " + directorateNameID[counter] + " " + directorateName[counter]);
   //req.session.data['serviceNames']['counter'] = serviceNames[counter];
   counter++;
 }
@@ -300,16 +300,18 @@ router.get('/service-info', function (req, res) {
 
   var u;
   var v;
+  var serviceDirectorate;
 
   for (v in directorateNameID) {
 
-    for (u in directorate[numberOfService]) {
+    console.log(v + " " + directorate[numberOfService] + " " + directorateNameID[v]) + " " + directorateName[v];
 
       if (directorate[numberOfService] == directorateNameID[v]) {
-        directorate[numberOfService][u] = directorateName[v];
+
+        console.log("DIRECTORATE MATCH!!  \n");
+        serviceDirectorate = directorateName[v];
       }
 
-    }
 
   }
 
@@ -361,6 +363,7 @@ router.get('/service-info', function (req, res) {
 
     policyTeam: policyTeam[numberOfService],
     directorate: directorate[numberOfService],
+    serviceDirectorate: serviceDirectorate,
     FTE: FTE[numberOfService],
 
     serviceBudget: serviceBudget[numberOfService],
