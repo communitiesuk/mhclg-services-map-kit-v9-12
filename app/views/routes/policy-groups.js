@@ -2,10 +2,10 @@ module.exports = function (router) {
 
 
 const fs = require('fs');
-const fileLocation = './app/views/data/policy-groups-data.json';
+const fileLocation = './app/views/data/directorate-data.json';
 
 let rawdata = fs.readFileSync(fileLocation);
-let JSONdata = JSON.parse(rawdata);
+//let JSONdata = JSON.parse(rawdata);
 //console.log(JSONdata);
 
 // Converting JSON object to JS object
@@ -36,7 +36,7 @@ for (x of obj["records"]) {
   counter++;
 }
 
-groupName.sort();
+// groupName.sort();
 
 
 router.get('/all-policy-groups', function (req, res) {
