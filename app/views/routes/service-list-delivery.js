@@ -2,7 +2,7 @@ module.exports = function (router) {
 
 
 const fs = require('fs');
-const fileLocation = './app/views/v4/data/services-data.json';
+const fileLocation = './app/views/data/services-data.json';
 
 let rawdata = fs.readFileSync(fileLocation);
 let JSONdata = JSON.parse(rawdata);
@@ -23,7 +23,7 @@ var nameOfService = [];
 var roleOfMHCLG = [];
 
 
-console.log("v4 service-list-policy-.js data:\n");
+//console.log("live service-list-policy-delivery.js data:\n");
 
 
 for (x of obj["records"]) {
@@ -32,8 +32,8 @@ for (x of obj["records"]) {
   nameOfService.push(obj["records"][counter]["fields"]["Service Name"]);
   roleOfMHCLG.push(obj["records"][counter]["fields"]["Role of MHCLG"]);
 
-  console.log(counter + "   " + nameOfService[counter]);
-  console.log("       " + roleOfMHCLG[counter]);
+  //console.log(counter + "   " + nameOfService[counter]);
+  //console.log("       " + roleOfMHCLG[counter]);
   //req.session.data['serviceNames']['counter'] = serviceNames[counter];
   counter++;
 }
@@ -41,7 +41,7 @@ for (x of obj["records"]) {
 
 
 
-router.get('/v4/service-list-policy', function (req, res) {
+router.get('/service-list-delivery', function (req, res) {
 
 
   //nameOfService.sort();
@@ -54,10 +54,10 @@ router.get('/v4/service-list-policy', function (req, res) {
 
   for (var i in roleOfMHCLG)
   {
-    var policyCheck = 0;
+
     var deliveryCheck = 0;
 
-     console.log("row " + i);
+     // console.log("row " + i);
      for (var j in roleOfMHCLG[i])
        {
 
@@ -65,19 +65,18 @@ router.get('/v4/service-list-policy', function (req, res) {
 
         console.log("     " + roleOfMHCLG[i][j]);
 
+        if (roleOfMHCLG[i][j].includes('Delivery')) {
 
-
-        if (roleOfMHCLG[i][j].includes('Policy')) {
-
-            policyCheck = 1;
-            console.log("          POLICY!" + " POL: " + policyCheck + " DEL: " + deliveryCheck);
+            deliveryCheck = 1;
+            // console.log("          DELVIRY!" + " POL: " + policyCheck + " DEL: " + deliveryCheck);
         }
 
-        if (policyCheck === 1) {
+
+        if (deliveryCheck === 1) {
 
 
 
-          console.log("**** YYYAAAASSSS! ****");
+          // console.log("**** YYYAAAASSSS! ****");
 
 
           y = parseInt(i) + 1;
@@ -85,7 +84,6 @@ router.get('/v4/service-list-policy', function (req, res) {
           matchingService.push(nameOfService[i]);
           count++;
 
-          policyCheck = 0;
           deliveryCheck = 0;
 
         }
@@ -97,7 +95,7 @@ router.get('/v4/service-list-policy', function (req, res) {
 //
 
 
-  res.render('v4/service-list-policy', {
+  res.render('service-list-delivery', {
     matchingService: matchingService,
     numberOfService: numberOfService
   })

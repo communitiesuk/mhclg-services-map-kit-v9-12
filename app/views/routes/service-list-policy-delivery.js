@@ -23,7 +23,7 @@ var nameOfService = [];
 var roleOfMHCLG = [];
 
 
-console.log("live service-list-policy-delivery.js data:\n");
+//console.log("live service-list-policy-delivery.js data:\n");
 
 
 for (x of obj["records"]) {
@@ -32,8 +32,8 @@ for (x of obj["records"]) {
   nameOfService.push(obj["records"][counter]["fields"]["Service Name"]);
   roleOfMHCLG.push(obj["records"][counter]["fields"]["Role of MHCLG"]);
 
-  console.log(counter + "   " + nameOfService[counter]);
-  console.log("       " + roleOfMHCLG[counter]);
+  //console.log(counter + "   " + nameOfService[counter]);
+  //console.log("       " + roleOfMHCLG[counter]);
   //req.session.data['serviceNames']['counter'] = serviceNames[counter];
   counter++;
 }
@@ -57,7 +57,7 @@ router.get('/service-list-policy-delivery', function (req, res) {
     var policyCheck = 0;
     var deliveryCheck = 0;
 
-     console.log("row " + i);
+     // console.log("row " + i);
      for (var j in roleOfMHCLG[i])
        {
 
@@ -68,20 +68,20 @@ router.get('/service-list-policy-delivery', function (req, res) {
         if (roleOfMHCLG[i][j].includes('Delivery')) {
 
             deliveryCheck = 1;
-            console.log("          DELVIRY!" + " POL: " + policyCheck + " DEL: " + deliveryCheck);
+            // console.log("          DELVIRY!" + " POL: " + policyCheck + " DEL: " + deliveryCheck);
         }
 
         if (roleOfMHCLG[i][j].includes('Policy')) {
 
             policyCheck = 1;
-            console.log("          POLICY!" + " POL: " + policyCheck + " DEL: " + deliveryCheck);
+            // console.log("          POLICY!" + " POL: " + policyCheck + " DEL: " + deliveryCheck);
         }
 
         if (policyCheck === 1 && deliveryCheck === 1) {
 
 
 
-          console.log("**** YYYAAAASSSS! ****");
+          // console.log("**** YYYAAAASSSS! ****");
 
 
           y = parseInt(i) + 1;

@@ -72,6 +72,10 @@ let servicePhase5 =[''];
 let servicePhase5Providers =[''];
 let servicePhase6 =[''];
 let servicePhase6Providers =[''];
+let servicePhase7 =[''];
+let servicePhase7Providers =[''];
+let servicePhase8 =[''];
+let servicePhase8Providers =[''];
 
 
 let departmentalPriority = [''];
@@ -81,6 +85,7 @@ let policyTeam = [''];
 let directorate = [''];
 let FTE = [''];
 let serviceBudget = [''];
+let connectedServices = [''];
 let levelOfFunding = [''];
 let fundName = [''];
 let validatedInformation = [''];
@@ -108,7 +113,6 @@ for (x of obj["records"]) {
   user1.push(obj["records"][counter]["fields"]["User 1"]);
   user1Needs.push(obj["records"][counter]["fields"]["User 1 Needs"]);
   user1Type.push(obj["records"][counter]["fields"]["User 1 Type"]);
-
   user2.push(obj["records"][counter]["fields"]["User 2"]);
   user2Needs.push(obj["records"][counter]["fields"]["User 2 Needs"]);
   user3.push(obj["records"][counter]["fields"]["User 3"]);
@@ -128,21 +132,37 @@ for (x of obj["records"]) {
 
   servicePhase1.push(obj["records"][counter]["fields"]["Service phase 1"]);
   servicePhase1Providers.push(obj["records"][counter]["fields"]["Service phase 1 delivery providers"]);
+  servicePhase2.push(obj["records"][counter]["fields"]["Service phase 2"]);
+  servicePhase2Providers.push(obj["records"][counter]["fields"]["Service phase 2 delivery providers"]);
+  servicePhase3.push(obj["records"][counter]["fields"]["Service phase 3"]);
+  servicePhase3Providers.push(obj["records"][counter]["fields"]["Service phase 3 delivery providers"]);
+  servicePhase4.push(obj["records"][counter]["fields"]["Service phase 4"]);
+  servicePhase4Providers.push(obj["records"][counter]["fields"]["Service phase 4 delivery providers"]);
+  servicePhase5.push(obj["records"][counter]["fields"]["Service phase 5"]);
+  servicePhase5Providers.push(obj["records"][counter]["fields"]["Service phase 5 delivery providers"]);
+  servicePhase6.push(obj["records"][counter]["fields"]["Service phase 6"]);
+  servicePhase6Providers.push(obj["records"][counter]["fields"]["Service phase 6 delivery providers"]);
+  servicePhase7.push(obj["records"][counter]["fields"]["Service phase 7"]);
+  servicePhase7Providers.push(obj["records"][counter]["fields"]["Service phase 7 delivery providers"]);
+  servicePhase8.push(obj["records"][counter]["fields"]["Service phase 8"]);
+  servicePhase8Providers.push(obj["records"][counter]["fields"]["Service phase 8 delivery providers"]);
 
   departmentalPriority.push(obj["records"][counter]["fields"]["Departmental Priority"]);
-  policyPartners.push(obj["records"][counter]["fields"]["Policy Partners"]);
+  policyPartners.push(obj["records"][counter]["fields"]["Policy partners"]);
   policyObjective.push(obj["records"][counter]["fields"]["Policy Objective"]);
   policyTeam.push(obj["records"][counter]["fields"]["Policy Team"]);
   directorate.push(obj["records"][counter]["fields"]["Policy Group"]);
   FTE.push(obj["records"][counter]["fields"]["FTE"]);
   serviceBudget.push(obj["records"][counter]["fields"]["Service budget"]);
 
+  connectedServices.push(obj["records"][counter]["fields"]["Connected services"]);
+
   levelOfFunding.push(obj["records"][counter]["fields"]["Level of Funding"]);
   fundName.push(obj["records"][counter]["fields"]["Fund Name"]);
 
   validatedInformation.push(obj["records"][counter]["fields"]["Validated information"]);
 
-  console.log(counter + "   " + nameOfService[counter]);
+  console.log("PP " + counter + "   " + policyPartners[counter]);
   //req.session.data['serviceNames']['counter'] = serviceNames[counter];
   counter++;
 }
@@ -171,7 +191,7 @@ counter = 0;
 var userName = [];
 var userNameID = [];
 
-console.log("live end-users.js data:\n");
+// console.log("live end-users.js data:\n");
 
 
 for (x of usersobj["records"]) {
@@ -214,7 +234,43 @@ for (x of directorateobj["records"]) {
   directorateNameID.push(directorateobj["records"][counter]["id"]);
   directorateName.push(directorateobj["records"][counter]["fields"]["Name"]);
 
-  console.log("DAVE CHECK  " + counter + " " + directorateNameID[counter] + " " + directorateName[counter]);
+  // console.log("DAVE CHECK  " + counter + " " + directorateNameID[counter] + " " + directorateName[counter]);
+  //req.session.data['serviceNames']['counter'] = serviceNames[counter];
+  counter++;
+}
+
+// ------- END import user data ---------
+
+
+
+
+// ------- START import provider/partners data ---------
+
+const js = require('fs');
+const providersfileLocation = './app/views/data/service-providers-data.json';
+
+let providersrawdata = js.readFileSync(providersfileLocation);
+//console.log(JSONdata);
+
+// Converting JSON object to JS object
+var providersobj = JSON.parse(providersrawdata);
+
+// test JSON by printing the service name of service "30"
+// console.log(obj["records"][30]["fields"]["Service Name"]);
+
+var z;
+counter = 0;
+
+var providersName = [];
+var providersNameID = [];
+
+
+for (z of providersobj["records"]) {
+  //console.log(counter + ": " + obj["records"][counter]["fields"]["Service Name"]);
+  providersNameID.push(providersobj["records"][counter]["id"]);
+  providersName.push(providersobj["records"][counter]["fields"]["Name"]);
+
+  // console.log("DAVE CHECK  " + counter + " " + directorateNameID[counter] + " " + directorateName[counter]);
   //req.session.data['serviceNames']['counter'] = serviceNames[counter];
   counter++;
 }
@@ -227,8 +283,8 @@ router.get('/service-info', function (req, res) {
 
 
   numberOfService = req.session.data['numberOfService'];
-  console.log("number of service  " + numberOfService);
-  console.log("service provider  " + serviceProvider);
+  // console.log("number of service  " + numberOfService);
+  // console.log("service provider  " + serviceProvider);
 
 
   if (!numberOfService) {
@@ -304,7 +360,7 @@ router.get('/service-info', function (req, res) {
 
   for (v in directorateNameID) {
 
-    console.log(v + " " + directorate[numberOfService] + " " + directorateNameID[v]) + " " + directorateName[v];
+    // console.log(v + " " + directorate[numberOfService] + " " + directorateNameID[v]) + " " + directorateName[v];
 
       if (directorate[numberOfService] == directorateNameID[v]) {
 
@@ -314,6 +370,32 @@ router.get('/service-info', function (req, res) {
 
 
   }
+
+
+  // replace policy partners ID codes with name of directorate
+
+
+    var w;
+
+    var policyPartnersName;
+
+    console.log("Policy partners " + policyPartners[numberOfService] + "  \n");
+
+
+    for (w in providersNameID) {
+
+      console.log("PEW!! " + providersName[w] + " " + providersNameID[w] + "  \n");
+
+      // console.log(v + " " + directorate[numberOfService] + " " + directorateNameID[v]) + " " + directorateName[v];
+
+        if (providersNameID[w] == policyPartners[numberOfService]) {
+
+          console.log("PARTNERS MATCH!!  \n");
+          policyPartnersName = providersName[w];
+        }
+
+
+    }
 
 
 
@@ -355,6 +437,18 @@ router.get('/service-info', function (req, res) {
     servicePhase2Providers: servicePhase2Providers[numberOfService],
     servicePhase3: servicePhase3[numberOfService],
     servicePhase3Providers: servicePhase3Providers[numberOfService],
+    servicePhase4: servicePhase4[numberOfService],
+    servicePhase4Providers: servicePhase4Providers[numberOfService],
+    servicePhase5: servicePhase5[numberOfService],
+    servicePhase5Providers: servicePhase5Providers[numberOfService],
+    servicePhase6: servicePhase6[numberOfService],
+    servicePhase6Providers: servicePhase6Providers[numberOfService],
+    servicePhase7: servicePhase7[numberOfService],
+    servicePhase7Providers: servicePhase7Providers[numberOfService],
+    servicePhase8: servicePhase8[numberOfService],
+    servicePhase8Providers: servicePhase8Providers[numberOfService],
+
+    policyPartnersName: policyPartnersName,
 
     departmentalPriority: departmentalPriority[numberOfService],
 

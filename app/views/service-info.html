@@ -75,7 +75,7 @@
 
         {% else %}
 
-          No service description recorded.
+          No information recorded.
 
         {% endif %}
       </p>
@@ -89,7 +89,7 @@
 
         {% else %}
 
-              No description of MHCLG's role in the service.
+        No information recorded.
 
         {% endif %}
         </p>
@@ -118,9 +118,9 @@
         <dd class="govuk-summary-list__key">
             User needs
         </dd>
-        <dd class="govuk-summary-list__key">
+        <!--<dd class="govuk-summary-list__key">
           User type
-        </dd>
+        </dd>-->
       </div>
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__value">
@@ -129,9 +129,9 @@
         <dd class="govuk-summary-list__value">
             {{user1Needs}}
         </dd>
-        <dd class="govuk-summary-list__value">
+        <!--<dd class="govuk-summary-list__value">
             {{user1Type}}
-        </dd>
+        </dd>-->
       </div>
 
     {% endif %}
@@ -145,9 +145,9 @@
       <dd class="govuk-summary-list__value">
           {{user2Needs}}
       </dd>
-      <dd class="govuk-summary-list__value">
+      <!--<dd class="govuk-summary-list__value">
           {{user2Type}}
-      </dd>
+      </dd>-->
     </div>
 
     {% endif %}
@@ -161,9 +161,9 @@
       <dd class="govuk-summary-list__value">
           {{user3Needs}}
       </dd>
-      <dd class="govuk-summary-list__value">
+      <!--<dd class="govuk-summary-list__value">
           {{user3Type}}
-      </dd>
+      </dd>-->
     </div>
 
     {% endif %}
@@ -177,9 +177,9 @@
       <dd class="govuk-summary-list__value">
           {{user4Needs}}
       </dd>
-      <dd class="govuk-summary-list__value">
+      <!--<dd class="govuk-summary-list__value">
           {{user4Type}}
-      </dd>
+      </dd>-->
     </div>
 
     {% endif %}
@@ -193,9 +193,9 @@
       <dd class="govuk-summary-list__value">
           {{user5Needs}}
       </dd>
-      <dd class="govuk-summary-list__value">
+      <!--<dd class="govuk-summary-list__value">
           {{user5Type}}
-      </dd>
+      </dd>-->
     </div>
 
     {% endif %}
@@ -209,9 +209,9 @@
       <dd class="govuk-summary-list__value">
           {{user6Needs}}
       </dd>
-      <dd class="govuk-summary-list__value">
+      <!--<dd class="govuk-summary-list__value">
           {{user6Type}}
-      </dd>
+      </dd>-->
     </div>
 
     {% endif %}
@@ -282,7 +282,7 @@
         {% if not user1 and not collatedEndUsers %}
 
         <p>
-          No user information for this service.
+          No information recorded.
         </p>
 
         {% endif %}
@@ -309,10 +309,10 @@
 
           {% else %}
 
-                Not linked to any priority.
+          No information recorded.
 
           {% endif %}<br />
-          <a href="ministerial-priorities">See all services for this departmental priority</a>
+          <!--<a href="ministerial-priorities">See all services for this departmental priority</a>-->
         </p>
 
 
@@ -420,11 +420,35 @@
         </div>
         {% endif %}
 
-        {% if servicePhase1Providers.length > 0 %}
+        {% if servicePhase7.length > 0 %}
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__value">
+            7. {{ servicePhase7 }}
+          </dt>
+          <dd class="govuk-summary-list__value">
+            {{ servicePhase7Providers }}
+
+          </dd>
+        </div>
+        {% endif %}
+
+        {% if servicePhase8.length > 0 %}
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__value">
+            8. {{ servicePhase8 }}
+          </dt>
+          <dd class="govuk-summary-list__value">
+            {{ servicePhase8Providers }}
+
+          </dd>
+        </div>
+        {% endif %}
+
+        {% if servicePhase1.length > 0 %}
         </dl>
         {% endif %}
 
-        {% if not servicePhase1Providers and servicePatterns.length > 0 %}
+        {% if not servicePhase1 and servicePatterns.length > 0 %}
         <p>
         Service patterns: {{ servicePatterns }}
         </p>
@@ -432,9 +456,9 @@
         {% endif %}
 
 
-        {% if not servicePhase1Provider and not servicePatterns %}
+        {% if not servicePhase1.length > 0 and not servicePatterns.length > 0  %}
         <p>
-          No service information is recorded.
+          No information recorded.
         </p>
         {% endif %}
 
@@ -443,7 +467,7 @@
     </h3>
 
     <p>
-      No funding is distributed by the service.
+      No information recorded.
     </p>
 
     <h3 class="govuk-heading-m">
@@ -457,7 +481,7 @@
 
       {% else %}
 
-      No services are recorded as connected to this service.
+      No information recorded.
 
       {% endif %}
     </p>
@@ -519,7 +543,7 @@
           {{ serviceDirectorate }}
           {% else %}
 
-            No directorate recorded.
+          No information recorded.
 
           {% endif %}
 
@@ -534,12 +558,26 @@
           {{ policyTeam }}
           {% else %}
 
-            No policy team recorded.
+          No information recorded.
 
           {% endif %}
         </dd>
       </div>
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Policy partners
+        </dt>
+        <dd class="govuk-summary-list__value">
+          {% if policyPartnersName.length > 0 %}
+          {{ policyPartnersName }}
+          {% else %}
 
+          No information recorded.
+
+          {% endif %}
+
+        </dd>
+      </div>
       </dl>
 
 
@@ -550,7 +588,7 @@
             {{ serviceBudget }}
             {% else %}
 
-              No budget information recorded.
+            No information recorded.
 
             {% endif %}
             </p>
@@ -565,7 +603,7 @@
             {% else %}
 
               <p>
-                No FTE information recorded.
+                No information recorded.
               </p>
 
             {% endif %}
@@ -579,7 +617,7 @@
             {% else %}
 
             <p>
-              No contact information recorded.
+              No information recorded.
             </p>
 
             {% endif %}

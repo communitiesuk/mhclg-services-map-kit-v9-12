@@ -69,6 +69,7 @@ require('./views/routes/service-info')(router);
 require('./views/routes/service-list')(router);
 require('./views/routes/service-list-policy')(router);
 require('./views/routes/service-list-policy-delivery')(router);
+require('./views/routes/service-list-delivery')(router);
 
 require('./views/routes/service-providers')(router);
 require('./views/routes/service-provider-detail')(router);
