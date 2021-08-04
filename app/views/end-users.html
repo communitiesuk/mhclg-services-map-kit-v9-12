@@ -16,38 +16,19 @@
       </h1>
 
 
-  <p>
-    Business owner<br>
-    Developer<br>
-    Disabled home occupant<br>
-    Ex-offender<br>
-    Grenfell survivor<br>
-    Home owner<br>
-    Interested party<br>
-    Leaseholder<br>
-    Local Authority<br>
-    Local Resident<br>
-Local taxpayer<br>
-Member of the public<br>
-Person who wants funding for their initiative<br>
-Potential home buyer<br>
-Public land owner<br>
-Rough Sleeper<br>
-Tenant<br>
-Troubled Family<br>
-Victim of domestic abuse<br>
-Vulnerable person<br>
+      <ol class="govuk-list govuk-list">
+
+      {% set count = 0 %}
+    {% for item in userName %}
+      <li>{{item}}</li>
+      {% set count = count + 1 %}
+    {% endfor %}
+      </ol>
 
 
   </p>
 
 
-
-<div class="govuk-inset-text">
-      <p>
-        <a href="feedback-for-service">Is something wrong with this information?</a>.
-        </p>
-</div>
     </div>
   </div>
 

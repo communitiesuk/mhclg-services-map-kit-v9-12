@@ -38,6 +38,8 @@ for (x of usersobj["records"]) {
 router.get('/end-users', function (req, res) {
 
 
+userName.sort();
+
   res.render('end-users', {
     userName: userName
   })
