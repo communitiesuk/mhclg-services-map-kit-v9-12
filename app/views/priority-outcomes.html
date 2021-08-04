@@ -26,13 +26,14 @@
 
         <!--TEST: {{ directorateServices[1][1]}}-->
 
-        {% set count = 0 %}
+        {% set count = 1 %}
+
+
 
         {% for item in priorityOutcome %}
 
-        {% set counttwo = 0 %}
 
-          <h2 class="govuk-heading-m">{{item}}</h2>
+          <h2 class="govuk-heading-m">{{ count }}. {{item}}</h2>
 
 
         <!--  <ul class="govuk-list govuk-list--bullet">

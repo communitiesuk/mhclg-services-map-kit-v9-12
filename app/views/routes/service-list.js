@@ -50,6 +50,8 @@ router.get('/service-list', function (req, res) {
 
     }
 
+// nameOfService.sort();
+
   res.render('service-list', {
     nameOfService: nameOfService,
     numberOfService: numberOfService

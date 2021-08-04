@@ -351,10 +351,101 @@ router.get('/service-info', function (req, res) {
   }
 
 
+  // replace service phase provider ID codes with names service provider
+
+    var w;
+    var y;
+
+    for (y in providersName) {
+
+      for (w in servicePhase1Providers[numberOfService]) {
+
+        //console.log([w] + " " + servicePhase1Providers[numberOfService][w] + "\n");
+
+        if (servicePhase1Providers[numberOfService][w] == providersNameID[y]) {
+          servicePhase1Providers[numberOfService][w] = providersName[y];
+        }
+
+      }
+
+      for (w in servicePhase2Providers[numberOfService]) {
+
+        //console.log([w] + " " + servicePhase1Providers[numberOfService][w] + "\n");
+
+        if (servicePhase2Providers[numberOfService][w] == providersNameID[y]) {
+          servicePhase2Providers[numberOfService][w] = providersName[y];
+        }
+
+      }
+
+      for (w in servicePhase3Providers[numberOfService]) {
+
+        //console.log([w] + " " + servicePhase1Providers[numberOfService][w] + "\n");
+
+        if (servicePhase3Providers[numberOfService][w] == providersNameID[y]) {
+          servicePhase3Providers[numberOfService][w] = providersName[y];
+        }
+
+      }
+
+      for (w in servicePhase4Providers[numberOfService]) {
+
+        //console.log([w] + " " + servicePhase1Providers[numberOfService][w] + "\n");
+
+        if (servicePhase4Providers[numberOfService][w] == providersNameID[y]) {
+          servicePhase4Providers[numberOfService][w] = providersName[y];
+        }
+
+      }
+
+      for (w in servicePhase5Providers[numberOfService]) {
+
+        //console.log([w] + " " + servicePhase1Providers[numberOfService][w] + "\n");
+
+        if (servicePhase5Providers[numberOfService][w] == providersNameID[y]) {
+          servicePhase5Providers[numberOfService][w] = providersName[y];
+        }
+
+      }
+
+      for (w in servicePhase6Providers[numberOfService]) {
+
+        //console.log([w] + " " + servicePhase1Providers[numberOfService][w] + "\n");
+
+        if (servicePhase6Providers[numberOfService][w] == providersNameID[y]) {
+          servicePhase6Providers[numberOfService][w] = providersName[y];
+        }
+
+      }
+
+      for (w in servicePhase7Providers[numberOfService]) {
+
+        //console.log([w] + " " + servicePhase1Providers[numberOfService][w] + "\n");
+
+        if (servicePhase7Providers[numberOfService][w] == providersNameID[y]) {
+          servicePhase7Providers[numberOfService][w] = providersName[y];
+        }
+
+      }
+
+      for (w in servicePhase8Providers[numberOfService]) {
+
+        //console.log([w] + " " + servicePhase1Providers[numberOfService][w] + "\n");
+
+        if (servicePhase8Providers[numberOfService][w] == providersNameID[y]) {
+          servicePhase8Providers[numberOfService][w] = providersName[y];
+        }
+
+      }
+
+    }
+
+
+
+
 // replace directorate ID codes with name of directorate
 
 
-  var u;
   var v;
   var serviceDirectorate;
 
@@ -364,7 +455,7 @@ router.get('/service-info', function (req, res) {
 
       if (directorate[numberOfService] == directorateNameID[v]) {
 
-        console.log("DIRECTORATE MATCH!!  \n");
+        //console.log("DIRECTORATE MATCH!!  \n");
         serviceDirectorate = directorateName[v];
       }
 
@@ -379,18 +470,18 @@ router.get('/service-info', function (req, res) {
 
     var policyPartnersName;
 
-    console.log("Policy partners " + policyPartners[numberOfService] + "  \n");
+    //console.log("Policy partners " + policyPartners[numberOfService] + "  \n");
 
 
     for (w in providersNameID) {
 
-      console.log("PEW!! " + providersName[w] + " " + providersNameID[w] + "  \n");
+      //console.log("PEW!! " + providersName[w] + " " + providersNameID[w] + "  \n");
 
       // console.log(v + " " + directorate[numberOfService] + " " + directorateNameID[v]) + " " + directorateName[v];
 
         if (providersNameID[w] == policyPartners[numberOfService]) {
 
-          console.log("PARTNERS MATCH!!  \n");
+          //console.log("PARTNERS MATCH!!  \n");
           policyPartnersName = providersName[w];
         }
 
