@@ -12,7 +12,7 @@
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
 
-<span class="govuk-caption-xl">Service provider details</span>
+<span class="govuk-caption-xl">Service partner details</span>
       <h1 class="govuk-heading-xl">
 
          {{ namedProvider }}
@@ -29,7 +29,14 @@
 
         <h2 class="govuk-heading-m">Services</h2>
 
-        <p>
+
+          {% if directorateServices.length == 0 %}
+
+          <p>
+            No services recorded for this service partner.
+          </p>
+
+          {% endif %}
 
           <ol class="govuk-list govuk-list--number">
 
@@ -43,7 +50,6 @@
           {% endfor %}
           </ol>
 
-        </p>
 
       </div>
 
