@@ -10,88 +10,128 @@ let servicesdata = fs.readFileSync(servicesdatafileLocation);
 //console.log(JSONdata);
 
 // Converting JSON object to JS object
-var obj = JSON.parse(servicesdata);
+var servicesobj = JSON.parse(servicesdata);
 
 // test JSON by printing the service name of service "30"
 //console.log("$$$$$ " + servicesobj["records"][30]["fields"]["Service Name"]);
 
 var x;
-var kounter;
-kounter = 0;
+var counter;
+counter = 0;
 
 var serviceID = [];
-var namesOfService = [];
+var namesOfServices = [];
 var serviceProviderID = [];
+var numberOfService = [];
 
 console.log("live services-provider-detail.js data:\n");
 
 
-for (x of obj["records"]) {
-  serviceID.push(obj["records"][kounter]["id"]);
-  namesOfService.push(obj["records"][kounter]["fields"]["Service Name"]);
-  serviceProviderID.push(obj["records"][kounter]["fields"]["Service Provider"]);
-  kounter++;
+for (x of servicesobj["records"]) {
+  serviceID.push(servicesobj["records"][counter]["id"]);
+  namesOfServices.push(servicesobj["records"][counter]["fields"]["Service Name"]);
+  serviceProviderID.push(servicesobj["records"][counter]["fields"]["Service Provider"]);
+  counter++;
+  numberOfService.push(counter);
 
-  //console.log("FRANK namesOfService[" + kounter + "] = " + namesOfService[kounter] + " \n");
-
-  //console.log("!!!!!!!!! serviceProviderID[" + kounter + "] = " + serviceID[kounter] + " \n");
 }
 
+
+
+// load partners data
+
+const gs = require('fs');
+const providersdatafileLocation = './app/views/data/service-providers-data.json';
+
+let providersdata = gs.readFileSync(providersdatafileLocation);
+//console.log(JSONdata);
+
+// Converting JSON object to JS object
+var providersobj = JSON.parse(providersdata);
+
+// test JSON by printing the service name of service "30"
+//console.log("$$$$$ " + servicesobj["records"][30]["fields"]["Service Name"]);
+
+var y;
+counter = 0;
+
+var providerID = [];
+var providerName = [];
+
+
+console.log("live services-provider-detail.js data:\n");
+
+
+for (y of providersobj["records"]) {
+  providerID.push(providersobj["records"][counter]["id"]);
+  providerName.push(providersobj["records"][counter]["fields"]["Name"]);
+  //console.log("providerName: " + providerName[counter] + "\n");
+  counter++;
+
+}
 
 
 
 
 router.get('/service-provider-detail', function (req, res) {
 
-  var providerID;
-  var providerName;
-  var listOfServices = [];
-  var numberOfService = [];
+  // Get provider name from the provided code
 
-  providerID = req.session.data['providerID'];
-  providerName = req.session.data['providerName'];
+  var provider;
+  provider = req.session.data['provider'];
 
-  //console.log("providerName = " + providerName + "\n");
-  //console.log("providerID = " + providerID + "\n");
-
-  // need to run through and match the services against the intended
-
-  var count = 0;
-
-  for (var i in namesOfService) {
-
-    console.log("count = " + count + " \n");
-
-    console.log("ARSE namesOfService[count] = " + namesOfService[count] + " \n");
-
-    console.log("ENOR " + serviceProviderID[count] + "    " + providerID + "\n");
+  var z = 0;
+  var namedProvider;
+  counter = 0;
 
 
-      if (serviceProviderID[count].includes(providerID)) {
+  for (z of providerID) {
 
-        console.log("ENOR " + serviceProviderID[count] + "    " + providerID + "\n");
-        listOfServices.push(namesOfService[count]);
-        numberOfService.push(count);
 
-        //listOfServices.push(namesOfService[count]);
-        //console.log("MATCH! \n");
+    if (z == provider) {
+      namedProvider = providerName[counter];
+    }
 
-      }
-
-      count++;
+    counter++;
 
   }
 
 
+  // Make a list of services for this provider
+  // Loop throuhg the services - if the provider matches this one, add to the list
 
-  // end of that run through
+  var a = 0;
+  var b = 0;
+  var providerServiceListName = [];
+  counter = 0;
+
+  for (a of namesOfServices) {
+
+    for (b in serviceProviderID[counter]) {
+
+    // console.log("**" + serviceProviderID[counter] + "** **" + provider + "**");
+    console.log("b: " + b + "/n");
+    console.log("serviceProviderID[counter][b]: " + serviceProviderID[counter][b] + "/n");
+    if (serviceProviderID[counter][b] == provider) {
+
+      providerServiceListName.push(namesOfServices[counter]);
+      console.log("\n\nBINGO!!!!  \n\n");
+    }
+
+  }
+
+    counter++;
+
+  }
 
 
-  res.render('v4/service-provider-detail', {
+  res.render('service-provider-detail', {
+    provider: provider,
     providerID: providerID,
     providerName: providerName,
     numberOfService: numberOfService,
-    listOfServices: listOfServices,
+    namedProvider: namedProvider,
+    providerServiceListName: providerServiceListName
 
   })
 

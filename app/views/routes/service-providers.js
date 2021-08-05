@@ -40,7 +40,7 @@ for (x of obj["records"]) {
 
 router.get('/service-providers', function (req, res) {
 
-  providerName.sort();
+  //providerName.sort();
 
   res.render('service-providers', {
     providerID: providerID,
