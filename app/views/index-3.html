@@ -17,6 +17,18 @@
 
       </h1>
 
+      {% from "govuk/components/notification-banner/macro.njk" import govukNotificationBanner %}
+
+      {% set html %}
+        <p class="govuk-notification-banner__heading">
+          Updates on this service map are currently paused. The last update was in November 2021. For more information, <a class="govuk-notification-banner__link" href="/feedback">please contact us</a>.
+        </p>
+      {% endset %}
+
+      {{ govukNotificationBanner({
+        html: html
+      }) }}
+
       <p class="govuk-body-l govuk-!-margin-bottom-9">
         Browse services associated with the Ministry for Housing, Communities and Local Government. This is an internal service.
       </p>
